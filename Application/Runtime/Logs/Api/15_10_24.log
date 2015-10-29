@@ -1,0 +1,1767 @@
+[ 2015-10-24T08:51:36+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Addtiku
+
+[ 2015-10-24T08:52:51+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Addtiku
+
+[ 2015-10-24T08:53:30+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Addtiku
+
+[ 2015-10-24T08:53:56+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Addtiku
+
+[ 2015-10-24T08:53:56+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Addtiku
+
+[ 2015-10-24T08:53:56+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Addtiku
+
+[ 2015-10-24T08:53:57+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Addtiku
+
+[ 2015-10-24T08:53:57+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Addtiku
+
+[ 2015-10-24T08:54:13+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T08:54:32+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T08:58:04+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T09:01:11+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T09:41:01+08:00 ] 127.0.0.1 /index.php/api/addtiku/addpoint
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T09:41:17+08:00 ] 127.0.0.1 /index.php/api/addtiku/addpoint
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T09:41:56+08:00 ] 127.0.0.1 /index.php/api/addtiku/addpoint
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T09:44:37+08:00 ] 127.0.0.1 /index.php/api/addtiku/addpoint
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T10:07:35+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-10-24T10:07:37+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T10:07:37+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T10:07:38+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T10:07:38+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T10:07:38+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T10:07:38+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T10:07:38+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T10:07:39+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T10:21:05+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T10:21:20+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T10:26:37+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: pattern D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 22 行.
+NOTIC: [2] preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Empty regular expression D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T10:26:43+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: pattern D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 21 行.
+NOTIC: [2] preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Empty regular expression D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T10:26:52+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: pattern D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 21 行.
+NOTIC: [2] preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Empty regular expression D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T10:26:52+08:00 ] 127.0.0.1 /index.php/api/addtiku/060cfa9c7418c3496215e69518513a3b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T10:26:52+08:00 ] 127.0.0.1 /index.php/api/addtiku/03598a0fdc0bbfb772c817c289310e4a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T10:26:52+08:00 ] 127.0.0.1 /index.php/api/addtiku/0e5e6fe9ab59cf7293c79efbad0f3321.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T10:27:29+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: pattern D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 21 行.
+NOTIC: [2] preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Empty regular expression D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T10:27:50+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T10:28:07+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T10:28:07+08:00 ] 127.0.0.1 /index.php/api/addtiku/20151024/0e5e6fe9ab59cf7293c79efbad0f3321.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T10:28:07+08:00 ] 127.0.0.1 /index.php/api/addtiku/20151024/03598a0fdc0bbfb772c817c289310e4a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T10:28:07+08:00 ] 127.0.0.1 /index.php/api/addtiku/20151024/060cfa9c7418c3496215e69518513a3b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T10:32:29+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tiku` (`answer`,`analysis`,`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`) VALUES (NULL,NULL,'3','1','2','2','1445653949','1445653949','①对任意两向量a,b,均有:|a|-|b|&lt;|a|+|b|;<br />②对任意两向量a,b,a-b与b-a是相反向量;<br />③在△ABC中,<img src=\"20151024/0e5e6fe9ab59cf7293c79efbad0f3321.png\" style=\"vertical-align:middle;\" />+<img src=\"20151024/060cfa9c7418c3496215e69518513a3b.png\" style=\"vertical-align:middle;\" />-<img src=\"20151024/03598a0fdc0bbfb772c817c289310e4a.png\" style=\"vertical-align:middle;\" />=0') [ RunTime:0.0420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-10-24T10:51:33+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+
+[ 2015-10-24T10:52:02+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+
+[ 2015-10-24T10:52:10+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+
+[ 2015-10-24T10:52:16+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+
+[ 2015-10-24T10:52:24+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+
+[ 2015-10-24T10:52:31+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+
+[ 2015-10-24T10:52:36+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+
+[ 2015-10-24T10:52:53+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 24 行.
+
+[ 2015-10-24T10:52:59+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+
+[ 2015-10-24T10:53:03+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+
+[ 2015-10-24T10:53:20+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 7 行.
+NOTIC: [8] Undefined index: answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+
+[ 2015-10-24T11:04:55+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','2','2','1445655895','1445655895','①对任意两向量a,b,均有:|a|-|b|&lt;|a|+|b|;<br />②对任意两向量a,b,a-b与b-a是相反向量;<br />③在△ABC中,<img src=\"20151024/0e5e6fe9ab59cf7293c79efbad0f3321.png\" style=\"vertical-align:middle;\" />+<img src=\"20151024/060cfa9c7418c3496215e69518513a3b.png\" style=\"vertical-align:middle;\" />-<img src=\"20151024/03598a0fdc0bbfb772c817c289310e4a.png\" style=\"vertical-align:middle;\" />=0','','') [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('27','17') [ RunTime:0.0270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-10-24T11:06:44+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:06:46+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:06:46+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:06:46+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:06:47+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:06:47+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:06:48+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:06:48+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:06:49+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:06:49+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:08:49+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','2','2','1445656129','1445656129','','','') [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('11','15') [ RunTime:0.0190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:10:08+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:10:08+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:10:09+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:10:09+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:10:10+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:10:10+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:10:11+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:10:11+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:10:12+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:10:12+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:11:21+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445656281','1445656281','','','') [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('1','16') [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:11:32+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445656292','1445656292','','','') [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('2','12') [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:12:45+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:13:10+08:00 ] 127.0.0.1 /index.php/api/addtiku/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:add
+
+[ 2015-10-24T11:14:36+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','3','2','1445656476','1445656476','
+ &lt;p&gt;一个算法的程序框图如下图所示，若该程序输出的结果为&lt;img src=&quot;a534e047be6d862efaa391812b1280c9.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;，则判断框中应填入的条件是 （&amp;nbsp;&amp;nbsp;&amp;nbsp;）&lt;br /&gt;&lt;img src=&quot;77e2833e8d7dda7d09a65b7ae0148a61.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;25%&quot;&gt;A．&lt;img src=&quot;6698921622a8e6c4b3a598c5201760a1.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;address class=&quot;this_jammer&quot;  alt=\'免费中小学题库\'&gt;, d&quot; ?8 h% W( g  ?, R&lt;/address&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;B．&lt;img src=&quot;2ef14b9a6a8a7222a43a021594f123a3.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;i class=&quot;this_jammer&quot;  alt=\'21题库\'&gt;. A\' V$ O9 D; g&lt;/i&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;C．&lt;img src=&quot;ca615a02e1756b9ec64f002c043facf3.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;font class=&quot;this_jammer&quot;  alt=\'21题库\'&gt;&amp; ^% [1 N: b4 U6 Z) N, g: H5 _0 \\&lt;/font&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;D．&lt;img src=&quot;449b695dfb8b0b9f0dca3d8077bdaaa9.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;code class=&quot;this_jammer&quot;  alt=\'免费中小学题库\'&gt;9 j, W: h3 I/ Z; A. Z8 ^7 a0 Q5 \\* [&lt;/code&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','D','') [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('3','16') [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:14:37+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445656477','1445656477','
+ &lt;p&gt;从装有除颜色外完全相同的2个红球和2个白球的口袋内任取2个球，那么互斥而不对立的两个事件是(&amp;nbsp;&amp;nbsp;&amp;nbsp; )．&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;100%&quot;&gt;A．至少有1个白球，都是白球&lt;i  alt=\'免费中小学题库\'  class=&quot;hidejammersa&quot; &gt;4 N% K0 K6 V- g, _5 M&lt;/i&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;100%&quot;&gt;B．至少有1个白球，至少有1个红球&lt;span  alt=\'21题库\'  class=&quot;hidejammersa&quot; &gt;$ A4 h/ H- \\1 P3 Y&lt;/span&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;100%&quot;&gt;C．恰有1个白球，恰有2个白球&lt;font  alt=\'21题库\'  class=&quot;hidejammersa&quot; &gt;) F&amp; d+ [9 e; F5 c, T&lt;/font&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;100%&quot;&gt;D．至少有1个白球，都是红球&lt;i  title=\'tiku.21cnjy.com\'  class=&quot;hidejammersa&quot; &gt;4 V( ]&quot; b9 _, f! d+ _. ^3 S0 N5 F&lt;/i&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','C','') [ RunTime:0.0910s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0060s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('5','13') [ RunTime:0.0590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-10-24T11:14:37+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0080s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','2','2','1445656477','1445656477','
+ &lt;p&gt;已知&lt;img src=&quot;68412f98a01aa4058e7db88f447d59aa.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;是坐标原点，点&lt;img src=&quot;4e6f58bbd5259e936a3bceab1daf0977.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;，若点&lt;img src=&quot;4e6f58bbd5259e936a3bceab1daf0977.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;为平面区域&lt;img src=&quot;22f0af6d5ecc0aa2df3ead71e7f32457.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;上的一个动点，则&lt;img src=&quot;6045be612880ef23dd9e3e23308d3860.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;的取值范围是（&amp;nbsp;&amp;nbsp;&amp;nbsp;）&amp;nbsp;&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;25%&quot;&gt;A．&lt;img src=&quot;84c232e83da7f00e3a71e6e0ae57ae0d.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;b class=&quot;jammerd42&quot;  alt=\'21题库\'&gt;. e+ Y* N$ E! N&lt;/b&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;B．&lt;img src=&quot;e7511578a8e5e41714862dcbd9f50bc8.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;span class=&quot;jammerd42&quot;  title=\'中小学题库\'&gt;. X&quot; c# K0 E# N1 f( \\&lt;/span&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;C．&lt;img src=&quot;f6b90f8c46e56f021ade82d454f28ea2.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;i class=&quot;jammerd42&quot;  alt=\'21题库\'&gt;5 X% C% d&amp; ^+ J3 V6 S4 Z% S8 Q) K&lt;/i&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;D．&lt;img src=&quot;17f4bbcc8e7290e8a3e15c951d75b0a0.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;code class=&quot;jammerd42&quot;  title=\'中小学题库\'&gt;  `( _# F0 d\' \\/ F) h&lt;/code&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','C','') [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('7','12') [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:14:38+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','3','2','1445656478','1445656478','
+ &lt;p&gt;定义：若数列&lt;img src=&quot;651794c5cfe0e9742931ff758c3c321f.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;对任意的正整数&lt;i&gt;n&lt;/i&gt;，都有&lt;img src=&quot;77fad3b35809820ee23532ce77517e05.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;（&lt;i&gt;d&lt;/i&gt;为常数），则称&lt;img src=&quot;651794c5cfe0e9742931ff758c3c321f.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;为“绝对和数列”，&lt;i&gt;d&lt;/i&gt;叫做“绝对公和”，已知“绝对和数列”&lt;img src=&quot;7a64e088d6f42869cb9470891b2261c5.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;，“绝对公和”&lt;img src=&quot;68ef1371484f0dffb393f3cd6d120017.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;，则其前2012项和&lt;img src=&quot;01b55adc781c86ac1187267ed0de892e.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;的最小值为 &lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;25%&quot;&gt;A．-2008&lt;i  alt=\'21题库\'  class=&quot;hidejammersa&quot; &gt;# E&amp; G3 Q- X, g2 c% H&lt;/i&gt;&amp;nbsp;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;B．-2010&lt;span  title=\'中小学题库\'  class=&quot;hidejammersa&quot; &gt;7 F4 V8 Q! j( h; c, I/ \\( C5 W&lt;/span&gt;&amp;nbsp;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;C．-2011&lt;font  title=\'tiku.21cnjy.com\'  class=&quot;hidejammersa&quot; &gt;! d+ j# Z( b1 T( M&lt;/font&gt;&amp;nbsp;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;D．-2012&lt;span  title=\'tiku.21cnjy.com\'  class=&quot;hidejammersa&quot; &gt;7 _* D2 F7 I* @* V, [7 K&lt;/span&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','A','') [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('9','15') [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:14:39+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','3','2','1445656479','1445656479','
+ &lt;p&gt;已知实数&lt;img src=&quot;d4de80ec6c3704522dad5745fe4d713f.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;，函数&lt;img src=&quot;a0056f36636569c84f430e7a0412a9fd.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;上是减函数，函数&lt;img src=&quot;a4824f02c7e987b96d210a05e6b900f6.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;，则下列选项正确的是&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;50%&quot;&gt;A．&lt;img src=&quot;c1e8f06fb6434e1c8e3e3c1396dc912a.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;font class=&quot;hidejammersa&quot;  alt=\'免费中小学题库\'&gt;# A* H- X\' d9 F&lt;/font&gt;&lt;/td&gt;&lt;td width=&quot;50%&quot;&gt;B．&lt;img src=&quot;efdde3a55b9d1a2378aa06537056eb89.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;address class=&quot;hidejammersa&quot;  alt=\'免费中小学题库\'&gt;, i: G8 E&quot; N, \\5 ^% G/ P( K&lt;/address&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;50%&quot;&gt;C．&lt;img src=&quot;284bd4805bc36d706d991dd807afbf8a.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;u class=&quot;hidejammersa&quot;  alt=\'免费中小学题库\'&gt;* e. i&amp; ?% N) d7 H. B&lt;/u&gt;&lt;/td&gt;&lt;td width=&quot;50%&quot;&gt;D．&lt;img src=&quot;4f3e8c0ce860bea8e0ae4395fa08e803.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;b class=&quot;hidejammersa&quot;  alt=\'免费中小学题库\'&gt;- Q1 G- T3 M3 T; @&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','D','') [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0120s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('11','17') [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-10-24T11:14:39+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445656479','1445656479','
+ &lt;p&gt;已知三次函数&lt;img src=&quot;a6570fcc3ef551f1998ced171af97cf7.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;在&lt;img src=&quot;c7ae64bf964f4e9a39d4855d4cf96000.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;存在极大值点，则&lt;img src=&quot;5e01c9dccfa083b47ae6f5e9d33fe3c0.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;的范围是&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;25%&quot;&gt;A．&lt;img src=&quot;7c20d8e5fb57dca2404d3fff61f7a5de.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;i class=&quot;this_jammer&quot;  alt=\'免费中小学题库\'&gt;9 ?9 g* U$ X2 D5 Z\' P8 ^&lt;/i&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;B．&lt;img src=&quot;7c6187397e8585cbc549dc97c17c4b69.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;font class=&quot;this_jammer&quot;  title=\'中小学题库\'&gt;; g! a\' i&amp; D5 Y&amp; ]7 Z% Q&lt;/font&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;C．&lt;img src=&quot;db838ec6288cca8b7b45d03a954ae88e.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;font class=&quot;this_jammer&quot;  alt=\'免费中小学题库\'&gt;8 ?6 T% g&quot; Z: I: T4 G; Q- ]( d, \\&lt;/font&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;D．&lt;img src=&quot;c16aae315121079ab0f93a352b9e8391.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;b class=&quot;this_jammer&quot;  alt=\'免费中小学题库\'&gt;&amp; ^0 P3 h2 W7 c+ V&lt;/b&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','D','') [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('13','17') [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:14:40+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0060s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','2','2','1445656480','1445656480','
+ &lt;p&gt;已知△&lt;i&gt;ABC&lt;/i&gt;的顶点&lt;i&gt;B&lt;/i&gt;、&lt;i&gt;C&lt;/i&gt;在椭圆&lt;img src=&quot;a2dfa94527cec1df7a1ba3e6dcd95845.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;上，顶点&lt;i&gt;A&lt;/i&gt;是椭圆的一个焦点，且椭圆的另外一个焦点在&lt;i&gt;BC&lt;/i&gt;边上，则△&lt;i&gt;ABC&lt;/i&gt;的周长是（&amp;nbsp;&amp;nbsp;&amp;nbsp;）&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;25%&quot;&gt;A．2&lt;i class=&quot;hidejammersa&quot;  alt=\'21题库\'&gt;0 O* P1 P+ c  J\' f$ X2 E! Q&lt;/i&gt;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;B．6&lt;i class=&quot;hidejammersa&quot;  alt=\'免费中小学题库\'&gt;, H8 A2 N9 h+ d/ D2 `&lt;/i&gt;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;C．4&lt;code class=&quot;hidejammersa&quot;  alt=\'免费中小学题库\'&gt;8 T&amp; X&amp; M\' a/ J* A+ ]\' d5 i&lt;/code&gt;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;D．12&lt;code class=&quot;hidejammersa&quot;  alt=\'免费中小学题库\'&gt;1 a4 a/ L% j$ F: `8 H) b9 U&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','C','') [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0060s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('15','17') [ RunTime:0.0190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:14:41+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','2','2','1445656481','1445656481','
+ &lt;p&gt;已知M(-2,0),N(2,0)，|PM|-|PN|=4，则动点P的轨迹是&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;25%&quot;&gt;A．双曲线&lt;code  title=\'tiku.21cnjy.com\' class=&quot;this_jammer&quot;&gt;$ I4 J. G8 a, O( ^* B&lt;/code&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;B．双曲线左支&lt;u  alt=\'21题库\' class=&quot;this_jammer&quot;&gt;2 D) N! W7 d8 I% T: @7 X, D&lt;/u&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;C．双曲线右支&lt;font  title=\'中小学题库\' class=&quot;this_jammer&quot;&gt;/ J  P; i/ b% D3 d9 P! Z&lt;/font&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;D．一条射线&lt;span  title=\'中小学题库\' class=&quot;this_jammer&quot;&gt;- D&quot; G# F+ B* ]&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','D','') [ RunTime:0.0960s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0120s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('17','12') [ RunTime:0.0960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-10-24T11:14:41+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','3','2','1445656481','1445656481','
+ &lt;p&gt;设椭圆&lt;img src=&quot;113d869da854db1a7259a55cc894c873.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;和双曲线&lt;img src=&quot;1fa0e79a7f2383207d7acc1387ee315d.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;的公共焦点为&lt;img src=&quot;277caa419038b52ee838789b0a9906e1.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;，&lt;img src=&quot;72182996a317feaf12f39be96928b604.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;是两曲线的一个公共点，则&lt;br /&gt;cos&lt;img src=&quot;1d8b79ef7a7053d2f3bde2bd3ccd3658.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;的值等于&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;25%&quot;&gt;A．&lt;img src=&quot;79fe7b00e1651db2048ea7ddea212c63.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;i class=&quot;hidejammersa&quot;  alt=\'免费中小学题库\'&gt;0 i) j$ i0 U) G  b. B) i&lt;/i&gt;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;B．&lt;img src=&quot;29ce03d15e1aaad0cb92e0798a90e682.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;font class=&quot;hidejammersa&quot;  alt=\'21题库\'&gt;! `! P3 L) P! ^0 j&lt;/font&gt;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;C．&lt;img src=&quot;4e5fca32456a3a9d1e32cec4006fdb08.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;u class=&quot;hidejammersa&quot;  title=\'tiku.21cnjy.com\'&gt;: Q&quot; ?: c4 S3 D$ K7 J\' A&lt;/u&gt;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;D．&lt;img src=&quot;344ebf1728322ce01a0dd91f208ca767.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;span class=&quot;hidejammersa&quot;  title=\'中小学题库\'&gt;; f\' T. ], g  G\' ^&quot; Q&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','B','') [ RunTime:0.0570s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('19','18') [ RunTime:0.0190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-10-24T11:14:42+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445656482','1445656482','
+ &lt;p&gt;某程序的框图如图所示，则运行该程序后输出的&lt;img src=&quot;c619938e0c51ca45839a792cf0731d0b.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;的值是 (&amp;nbsp;&amp;nbsp;&amp;nbsp; )&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;25%&quot;&gt;A．&lt;img src=&quot;7931483021e4cfed0ee3e48733047c42.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;code class=&quot;this_jammer&quot;  title=\'tiku.21cnjy.com\'&gt;( j9 \\! c; g; i. G! M8 M/ d&lt;/code&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;B．&lt;img src=&quot;8b01299fb78f23d2ccc3a61892947c84.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;address class=&quot;this_jammer&quot;  title=\'tiku.21cnjy.com\'&gt;9 `6 i# W&amp; C! f, V  Y- d&lt;/address&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;C．&lt;img src=&quot;3390043b8b66bed3265330a09f756f3f.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;address class=&quot;this_jammer&quot;  title=\'tiku.21cnjy.com\'&gt;3 i. R/ ]# T1 f/ X&lt;/address&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;D．&lt;img src=&quot;4499e367ba47d7a75cb776c406a825fd.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;code class=&quot;this_jammer&quot;  alt=\'免费中小学题库\'&gt;$ R* G. [/ d3 G: Y! c\' C+ b/ V( V&lt;/code&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;img src=&quot;2004bf80f383ed58eaacf001b9a7cc6e.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;/p&gt;
+','A','') [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('21','13') [ RunTime:0.0450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-10-24T11:18:53+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','3','2','1445656733','1445656733','
+ &lt;p&gt;一个算法的程序框图如下图所示，若该程序输出的结果为&lt;img src=&quot;20151024/a534e047be6d862efaa391812b1280c9.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;，则判断框中应填入的条件是 （&amp;nbsp;&amp;nbsp;&amp;nbsp;）&lt;br /&gt;&lt;img src=&quot;20151024/77e2833e8d7dda7d09a65b7ae0148a61.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;25%&quot;&gt;A．&lt;img src=&quot;20151024/6698921622a8e6c4b3a598c5201760a1.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;b class=&quot;this_jammer&quot;  alt=\'21题库\'&gt;4 g&quot; G+ h  H; M* Z2 a4 b&lt;/b&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;B．&lt;img src=&quot;20151024/2ef14b9a6a8a7222a43a021594f123a3.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;b class=&quot;this_jammer&quot;  alt=\'21题库\'&gt;3 S% h( ]( D1 Q4 f4 K8 d&lt;/b&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;C．&lt;img src=&quot;20151024/ca615a02e1756b9ec64f002c043facf3.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;u class=&quot;this_jammer&quot;  title=\'中小学题库\'&gt;, C8 V3 b8 [, ^&amp; `6 O( N2 c&lt;/u&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;D．&lt;img src=&quot;20151024/449b695dfb8b0b9f0dca3d8077bdaaa9.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;i class=&quot;this_jammer&quot;  title=\'tiku.21cnjy.com\'&gt;  E3 j&amp; Y: D! `  K( _&lt;/i&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','','') [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('1','12') [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:18:54+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0080s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','2','2','1445656734','1445656734','
+ &lt;p&gt;从装有除颜色外完全相同的2个红球和2个白球的口袋内任取2个球，那么互斥而不对立的两个事件是(&amp;nbsp;&amp;nbsp;&amp;nbsp; )．&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;100%&quot;&gt;A．至少有1个白球，都是白球&lt;i  alt=\'21题库\'  class=&quot;hidejammersa&quot; &gt;# G. R\' D. @# K* R6 I\' @&lt;/i&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;100%&quot;&gt;B．至少有1个白球，至少有1个红球&lt;address  title=\'tiku.21cnjy.com\'  class=&quot;hidejammersa&quot; &gt;\' Z: L5 a4 ]+ H  W, H$ f9 [( c&lt;/address&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;100%&quot;&gt;C．恰有1个白球，恰有2个白球&lt;b  title=\'tiku.21cnjy.com\'  class=&quot;hidejammersa&quot; &gt;9 @* K1 O( V1 _4 a; O4 T# Z# A0 Q&lt;/b&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;100%&quot;&gt;D．至少有1个白球，都是红球&lt;i  title=\'中小学题库\'  class=&quot;hidejammersa&quot; &gt;, E; `/ _( @7 R: E0 @&lt;/i&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','','') [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('3','15') [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:18:54+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445656734','1445656734','
+ &lt;p&gt;已知&lt;img src=&quot;20151024/68412f98a01aa4058e7db88f447d59aa.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;是坐标原点，点&lt;img src=&quot;20151024/4e6f58bbd5259e936a3bceab1daf0977.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;，若点&lt;img src=&quot;20151024/4e6f58bbd5259e936a3bceab1daf0977.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;为平面区域&lt;img src=&quot;20151024/22f0af6d5ecc0aa2df3ead71e7f32457.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;上的一个动点，则&lt;img src=&quot;20151024/6045be612880ef23dd9e3e23308d3860.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;的取值范围是（&amp;nbsp;&amp;nbsp;&amp;nbsp;）&amp;nbsp;&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;25%&quot;&gt;A．&lt;img src=&quot;20151024/84c232e83da7f00e3a71e6e0ae57ae0d.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;font class=&quot;jammerd42&quot;  title=\'中小学题库\'&gt;; C&amp; G&quot; Y+ d! X1 e  P% K&lt;/font&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;B．&lt;img src=&quot;20151024/e7511578a8e5e41714862dcbd9f50bc8.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;code class=&quot;jammerd42&quot;  title=\'tiku.21cnjy.com\'&gt;  U! c5 I\' S5 \\8 _/ e&lt;/code&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;C．&lt;img src=&quot;20151024/f6b90f8c46e56f021ade82d454f28ea2.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;code class=&quot;jammerd42&quot;  alt=\'免费中小学题库\'&gt;8 j4 L: R( J4 ], c&quot; O. ^&lt;/code&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;D．&lt;img src=&quot;20151024/17f4bbcc8e7290e8a3e15c951d75b0a0.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;font class=&quot;jammerd42&quot;  title=\'中小学题库\'&gt;6 H* d7 ^4 N1 @&quot; j* j* V&lt;/font&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','','') [ RunTime:0.0460s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('5','17') [ RunTime:0.0290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:18:55+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','2','2','1445656735','1445656735','
+ &lt;p&gt;定义：若数列&lt;img src=&quot;20151024/651794c5cfe0e9742931ff758c3c321f.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;对任意的正整数&lt;i&gt;n&lt;/i&gt;，都有&lt;img src=&quot;20151024/77fad3b35809820ee23532ce77517e05.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;（&lt;i&gt;d&lt;/i&gt;为常数），则称&lt;img src=&quot;20151024/651794c5cfe0e9742931ff758c3c321f.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;为“绝对和数列”，&lt;i&gt;d&lt;/i&gt;叫做“绝对公和”，已知“绝对和数列”&lt;img src=&quot;20151024/7a64e088d6f42869cb9470891b2261c5.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;，“绝对公和”&lt;img src=&quot;20151024/68ef1371484f0dffb393f3cd6d120017.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;，则其前2012项和&lt;img src=&quot;20151024/01b55adc781c86ac1187267ed0de892e.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;的最小值为 &lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;25%&quot;&gt;A．-2008&lt;span  title=\'中小学题库\'  class=&quot;hidejammersa&quot; &gt;8 F/ Q# B2 c; ], Y# A# T9 G&lt;/span&gt;&amp;nbsp;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;B．-2010&lt;span  alt=\'21题库\'  class=&quot;hidejammersa&quot; &gt;! c- I&amp; L: ]( R7 S1 C0 I&lt;/span&gt;&amp;nbsp;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;C．-2011&lt;i  alt=\'免费中小学题库\'  class=&quot;hidejammersa&quot; &gt;$ S4 h9 ^9 i1 S$ f! H9 G&lt;/i&gt;&amp;nbsp;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;D．-2012&lt;i  title=\'tiku.21cnjy.com\'  class=&quot;hidejammersa&quot; &gt;! `$ H\' ]( Z; A9 V( i1 \\, D1 b&lt;/i&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','','') [ RunTime:0.0640s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('7','18') [ RunTime:0.0190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-10-24T11:18:55+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0080s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445656735','1445656735','
+ &lt;p&gt;已知实数&lt;img src=&quot;20151024/d4de80ec6c3704522dad5745fe4d713f.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;，函数&lt;img src=&quot;20151024/a0056f36636569c84f430e7a0412a9fd.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;上是减函数，函数&lt;img src=&quot;20151024/a4824f02c7e987b96d210a05e6b900f6.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;，则下列选项正确的是&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;50%&quot;&gt;A．&lt;img src=&quot;20151024/c1e8f06fb6434e1c8e3e3c1396dc912a.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;address class=&quot;hidejammersa&quot;  alt=\'免费中小学题库\'&gt;7 M9 L, F9 J; W&amp; `0 G; g: j&lt;/address&gt;&lt;/td&gt;&lt;td width=&quot;50%&quot;&gt;B．&lt;img src=&quot;20151024/efdde3a55b9d1a2378aa06537056eb89.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;i class=&quot;hidejammersa&quot;  alt=\'免费中小学题库\'&gt;\' K  K! R5 Y4 P5 E$ \\3 Z&lt;/i&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;50%&quot;&gt;C．&lt;img src=&quot;20151024/284bd4805bc36d706d991dd807afbf8a.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;code class=&quot;hidejammersa&quot;  alt=\'免费中小学题库\'&gt;) `; h; A8 `% \\3 j&amp; @! @. M&lt;/code&gt;&lt;/td&gt;&lt;td width=&quot;50%&quot;&gt;D．&lt;img src=&quot;20151024/4f3e8c0ce860bea8e0ae4395fa08e803.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;span class=&quot;hidejammersa&quot;  alt=\'免费中小学题库\'&gt;\' b, g7 @; ]- K, P&amp; E&amp; B5 _5 H&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','','') [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0060s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('9','12') [ RunTime:0.0170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:18:56+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','2','2','1445656736','1445656736','
+ &lt;p&gt;已知三次函数&lt;img src=&quot;20151024/a6570fcc3ef551f1998ced171af97cf7.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;在&lt;img src=&quot;20151024/c7ae64bf964f4e9a39d4855d4cf96000.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;存在极大值点，则&lt;img src=&quot;20151024/5e01c9dccfa083b47ae6f5e9d33fe3c0.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;的范围是&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;25%&quot;&gt;A．&lt;img src=&quot;20151024/7c20d8e5fb57dca2404d3fff61f7a5de.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;i class=&quot;this_jammer&quot;  title=\'tiku.21cnjy.com\'&gt;&amp; @/ Y) b4 J8 K! j* G# ^$ @; A, V+ H&lt;/i&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;B．&lt;img src=&quot;20151024/7c6187397e8585cbc549dc97c17c4b69.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;b class=&quot;this_jammer&quot;  alt=\'免费中小学题库\'&gt;- M3 ?; M3 O1 F) F/ ]/ U  M&lt;/b&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;C．&lt;img src=&quot;20151024/db838ec6288cca8b7b45d03a954ae88e.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;address class=&quot;this_jammer&quot;  alt=\'免费中小学题库\'&gt;/ F5 e4 F6 g- ]% N&lt;/address&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;D．&lt;img src=&quot;20151024/c16aae315121079ab0f93a352b9e8391.png&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;span class=&quot;this_jammer&quot;  alt=\'免费中小学题库\'&gt;+ Z) ^; P, Y$ O5 b0 \\+ ]&lt;/span&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','','') [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('11','13') [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:18:57+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445656736','1445656736','
+ &lt;p&gt;已知△&lt;i&gt;ABC&lt;/i&gt;的顶点&lt;i&gt;B&lt;/i&gt;、&lt;i&gt;C&lt;/i&gt;在椭圆&lt;img src=&quot;20151024/a2dfa94527cec1df7a1ba3e6dcd95845.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;上，顶点&lt;i&gt;A&lt;/i&gt;是椭圆的一个焦点，且椭圆的另外一个焦点在&lt;i&gt;BC&lt;/i&gt;边上，则△&lt;i&gt;ABC&lt;/i&gt;的周长是（&amp;nbsp;&amp;nbsp;&amp;nbsp;）&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;25%&quot;&gt;A．2&lt;u class=&quot;hidejammersa&quot;  alt=\'21题库\'&gt;3 H5 a\' M% @; A; E/ N&lt;/u&gt;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;B．6&lt;address class=&quot;hidejammersa&quot;  alt=\'免费中小学题库\'&gt;  c6 P6 d/ c: I&lt;/address&gt;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;C．4&lt;address class=&quot;hidejammersa&quot;  alt=\'21题库\'&gt;&amp; \\&amp; E  V% U: f&lt;/address&gt;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;D．12&lt;b class=&quot;hidejammersa&quot;  title=\'tiku.21cnjy.com\'&gt;  X) E5 A&quot; ]6 T&quot; c  a# d&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','','') [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0090s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('13','18') [ RunTime:0.2290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:18:57+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445656737','1445656737','
+ &lt;p&gt;已知M(-2,0),N(2,0)，|PM|-|PN|=4，则动点P的轨迹是&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;25%&quot;&gt;A．双曲线&lt;b  alt=\'21题库\' class=&quot;this_jammer&quot;&gt;4 O% \\&amp; O8 ?1 ]/ _/ b&lt;/b&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;B．双曲线左支&lt;b  alt=\'21题库\' class=&quot;this_jammer&quot;&gt;4 T8 g% L. K8 V3 d4 C&lt;/b&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;C．双曲线右支&lt;code  title=\'中小学题库\' class=&quot;this_jammer&quot;&gt;$ g+ Y9 h: N4 C! Z&lt;/code&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;D．一条射线&lt;u  title=\'中小学题库\' class=&quot;this_jammer&quot;&gt;( a) Q3 A&amp; C( ^1 E8 [5 E+ R, S+ T&lt;/u&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','','') [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0060s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('15','17') [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:18:58+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','3','2','1445656738','1445656738','
+ &lt;p&gt;设椭圆&lt;img src=&quot;20151024/113d869da854db1a7259a55cc894c873.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;和双曲线&lt;img src=&quot;20151024/1fa0e79a7f2383207d7acc1387ee315d.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;的公共焦点为&lt;img src=&quot;20151024/277caa419038b52ee838789b0a9906e1.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;，&lt;img src=&quot;20151024/72182996a317feaf12f39be96928b604.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;是两曲线的一个公共点，则&lt;br /&gt;cos&lt;img src=&quot;20151024/1d8b79ef7a7053d2f3bde2bd3ccd3658.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;的值等于&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;25%&quot;&gt;A．&lt;img src=&quot;20151024/79fe7b00e1651db2048ea7ddea212c63.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;i class=&quot;hidejammersa&quot;  alt=\'免费中小学题库\'&gt;6 K3 g3 L( h2 Z% R&lt;/i&gt;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;B．&lt;img src=&quot;20151024/29ce03d15e1aaad0cb92e0798a90e682.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;font class=&quot;hidejammersa&quot;  alt=\'免费中小学题库\'&gt;&amp; ?\' [8 S\' b  ?&lt;/font&gt;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;C．&lt;img src=&quot;20151024/4e5fca32456a3a9d1e32cec4006fdb08.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;u class=&quot;hidejammersa&quot;  title=\'中小学题库\'&gt;. c, e3 b7 ^, e% N: H&quot; i8 Y&lt;/u&gt;&lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;D．&lt;img src=&quot;20151024/344ebf1728322ce01a0dd91f208ca767.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;address class=&quot;hidejammersa&quot;  alt=\'免费中小学题库\'&gt;&amp; ^9 [&quot; e4 S\' h6 c1 e&lt;/address&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/p&gt;
+','','') [ RunTime:0.0460s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('17','12') [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:18:58+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','2','2','1445656738','1445656738','
+ &lt;p&gt;某程序的框图如图所示，则运行该程序后输出的&lt;img src=&quot;20151024/c619938e0c51ca45839a792cf0731d0b.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;的值是 (&amp;nbsp;&amp;nbsp;&amp;nbsp; )&lt;table name=&quot;optionsTable&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td width=&quot;25%&quot;&gt;A．&lt;img src=&quot;20151024/7931483021e4cfed0ee3e48733047c42.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;font class=&quot;this_jammer&quot;  title=\'中小学题库\'&gt;$ g$ a4 d1 E\' ]&lt;/font&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;B．&lt;img src=&quot;20151024/8b01299fb78f23d2ccc3a61892947c84.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;u class=&quot;this_jammer&quot;  title=\'中小学题库\'&gt;, J9 I% j4 Z9 H2 S8 W6 O&lt;/u&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;C．&lt;img src=&quot;20151024/3390043b8b66bed3265330a09f756f3f.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;code class=&quot;this_jammer&quot;  title=\'中小学题库\'&gt;9 X  b* V\' [\' Q% A6 _&lt;/code&gt; &lt;/td&gt;&lt;td width=&quot;25%&quot;&gt;D．&lt;img src=&quot;20151024/4499e367ba47d7a75cb776c406a825fd.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;code class=&quot;this_jammer&quot;  alt=\'免费中小学题库\'&gt;&quot; \\&amp; V+ M  Z6 a1 ^1 X&lt;/code&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;img src=&quot;20151024/2004bf80f383ed58eaacf001b9a7cc6e.gif&quot; style=&quot;vertical-align:middle;&quot; /&gt;&lt;/p&gt;
+','','') [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0070s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('19','12') [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:23:33+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','2','2','1445657013','1445657013','
+ <p>一个算法的程序框图如下图所示，若该程序输出的结果为<img src=\"20151024/a534e047be6d862efaa391812b1280c9.gif\" style=\"vertical-align:middle;\" />，则判断框中应填入的条件是 （&nbsp;&nbsp;&nbsp;）<br /><img src=\"20151024/77e2833e8d7dda7d09a65b7ae0148a61.gif\" style=\"vertical-align:middle;\" /><table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．<img src=\"20151024/6698921622a8e6c4b3a598c5201760a1.gif\" style=\"vertical-align:middle;\" /><i class=\"this_jammer\"  title=\'tiku.21cnjy.com\'>! M3 M1 Z1 f0 D3 Y% H0 a</i> </td><td width=\"25%\">B．<img src=\"20151024/2ef14b9a6a8a7222a43a021594f123a3.gif\" style=\"vertical-align:middle;\" /><u class=\"this_jammer\"  alt=\'免费中小学题库\'>+ Z7 X8 g0 X\' K# j/ e, D</u> </td><td width=\"25%\">C．<img src=\"20151024/ca615a02e1756b9ec64f002c043facf3.gif\" style=\"vertical-align:middle;\" /><i class=\"this_jammer\"  alt=\'21题库\'>\' O; `1 K1 b\' ?, i& I</i> </td><td width=\"25%\">D．<img src=\"20151024/449b695dfb8b0b9f0dca3d8077bdaaa9.gif\" style=\"vertical-align:middle;\" /><font class=\"this_jammer\"  title=\'中小学题库\'>\' d1 A6 g: E; ^\" `4 W) @  G! B5 b% i</font> </td></tr></table></p>
+','','') [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('1','16') [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:23:34+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','3','2','1445657013','1445657013','
+ <p>从装有除颜色外完全相同的2个红球和2个白球的口袋内任取2个球，那么互斥而不对立的两个事件是(&nbsp;&nbsp;&nbsp; )．<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"100%\">A．至少有1个白球，都是白球<span  alt=\'免费中小学题库\'  class=\"hidejammersa\" >! @# Q; f* Y4 S5 B, K# F- H/ S</span>&nbsp;</td></tr><tr><td width=\"100%\">B．至少有1个白球，至少有1个红球<span  title=\'中小学题库\'  class=\"hidejammersa\" >9 \\0 h  X$ D\" U: @  i</span>&nbsp;</td></tr><tr><td width=\"100%\">C．恰有1个白球，恰有2个白球<b  alt=\'21题库\'  class=\"hidejammersa\" >1 N0 E% W, U# [: d- ]</b>&nbsp;</td></tr><tr><td width=\"100%\">D．至少有1个白球，都是红球<code  title=\'tiku.21cnjy.com\'  class=\"hidejammersa\" >\' T: H4 W+ S0 c</code>&nbsp;</td></tr></table></p>
+','','') [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('3','12') [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:23:34+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445657014','1445657014','
+ <p>已知<img src=\"20151024/68412f98a01aa4058e7db88f447d59aa.gif\" style=\"vertical-align:middle;\" />是坐标原点，点<img src=\"20151024/4e6f58bbd5259e936a3bceab1daf0977.gif\" style=\"vertical-align:middle;\" />，若点<img src=\"20151024/4e6f58bbd5259e936a3bceab1daf0977.gif\" style=\"vertical-align:middle;\" />为平面区域<img src=\"20151024/22f0af6d5ecc0aa2df3ead71e7f32457.gif\" style=\"vertical-align:middle;\" />上的一个动点，则<img src=\"20151024/6045be612880ef23dd9e3e23308d3860.gif\" style=\"vertical-align:middle;\" />的取值范围是（&nbsp;&nbsp;&nbsp;）&nbsp;<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．<img src=\"20151024/84c232e83da7f00e3a71e6e0ae57ae0d.gif\" style=\"vertical-align:middle;\" /><b class=\"jammerd42\"  alt=\'21题库\'>5 U; Z, R\' D+ O</b> </td><td width=\"25%\">B．<img src=\"20151024/e7511578a8e5e41714862dcbd9f50bc8.gif\" style=\"vertical-align:middle;\" /><b class=\"jammerd42\"  alt=\'21题库\'>+ E1 H3 J( @+ e( J: O$ ]# @* T</b> </td><td width=\"25%\">C．<img src=\"20151024/f6b90f8c46e56f021ade82d454f28ea2.gif\" style=\"vertical-align:middle;\" /><address class=\"jammerd42\"  title=\'中小学题库\'>2 H- e& I3 c1 a$ T$ ^</address> </td><td width=\"25%\">D．<img src=\"20151024/17f4bbcc8e7290e8a3e15c951d75b0a0.gif\" style=\"vertical-align:middle;\" /><u class=\"jammerd42\"  alt=\'免费中小学题库\'>) O0 j; @) R, H9 M- S1 R</u> </td></tr></table></p>
+','','') [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('5','12') [ RunTime:0.0290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:23:35+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','3','2','1445657015','1445657015','
+ <p>定义：若数列<img src=\"20151024/651794c5cfe0e9742931ff758c3c321f.png\" style=\"vertical-align:middle;\" />对任意的正整数<i>n</i>，都有<img src=\"20151024/77fad3b35809820ee23532ce77517e05.png\" style=\"vertical-align:middle;\" />（<i>d</i>为常数），则称<img src=\"20151024/651794c5cfe0e9742931ff758c3c321f.png\" style=\"vertical-align:middle;\" />为“绝对和数列”，<i>d</i>叫做“绝对公和”，已知“绝对和数列”<img src=\"20151024/7a64e088d6f42869cb9470891b2261c5.png\" style=\"vertical-align:middle;\" />，“绝对公和”<img src=\"20151024/68ef1371484f0dffb393f3cd6d120017.png\" style=\"vertical-align:middle;\" />，则其前2012项和<img src=\"20151024/01b55adc781c86ac1187267ed0de892e.png\" style=\"vertical-align:middle;\" />的最小值为 <table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．-2008<code  alt=\'21题库\'  class=\"hidejammersa\" >6 S: j1 @1 K& L3 j1 A</code>&nbsp;</td><td width=\"25%\">B．-2010<u  alt=\'免费中小学题库\'  class=\"hidejammersa\" >\' B) ^6 B3 i4 I( G2 D</u>&nbsp;</td><td width=\"25%\">C．-2011<i  title=\'tiku.21cnjy.com\'  class=\"hidejammersa\" >\" S$ a. ]$ H, P2 D, b</i>&nbsp;</td><td width=\"25%\">D．-2012<b  title=\'中小学题库\'  class=\"hidejammersa\" >& H\' R% H\' Z% d: Q- ^$ R  C</b>&nbsp;</td></tr></table></p>
+','','') [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('7','18') [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:23:35+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','2','2','1445657015','1445657015','
+ <p>已知实数<img src=\"20151024/d4de80ec6c3704522dad5745fe4d713f.gif\" style=\"vertical-align:middle;\" />，函数<img src=\"20151024/a0056f36636569c84f430e7a0412a9fd.gif\" style=\"vertical-align:middle;\" />上是减函数，函数<img src=\"20151024/a4824f02c7e987b96d210a05e6b900f6.gif\" style=\"vertical-align:middle;\" />，则下列选项正确的是<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"50%\">A．<img src=\"20151024/c1e8f06fb6434e1c8e3e3c1396dc912a.gif\" style=\"vertical-align:middle;\" /><b class=\"hidejammersa\"  alt=\'免费中小学题库\'>! P1 H+ Y3 c\" U* i6 T. P3 S3 c</b></td><td width=\"50%\">B．<img src=\"20151024/efdde3a55b9d1a2378aa06537056eb89.gif\" style=\"vertical-align:middle;\" /><b class=\"hidejammersa\"  alt=\'免费中小学题库\'>4 f6 N; j2 J2 B8 W</b></td></tr><tr><td width=\"50%\">C．<img src=\"20151024/284bd4805bc36d706d991dd807afbf8a.gif\" style=\"vertical-align:middle;\" /><font class=\"hidejammersa\"  alt=\'免费中小学题库\'>& f$ G5 \\. \\  M7 J</font></td><td width=\"50%\">D．<img src=\"20151024/4f3e8c0ce860bea8e0ae4395fa08e803.gif\" style=\"vertical-align:middle;\" /><b class=\"hidejammersa\"  alt=\'免费中小学题库\'>% P4 U2 V! Q; L5 c) f</b></td></tr></table></p>
+','','') [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('9','13') [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:23:36+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445657016','1445657016','
+ <p>已知三次函数<img src=\"20151024/a6570fcc3ef551f1998ced171af97cf7.png\" style=\"vertical-align:middle;\" />在<img src=\"20151024/c7ae64bf964f4e9a39d4855d4cf96000.png\" style=\"vertical-align:middle;\" />存在极大值点，则<img src=\"20151024/5e01c9dccfa083b47ae6f5e9d33fe3c0.png\" style=\"vertical-align:middle;\" />的范围是<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．<img src=\"20151024/7c20d8e5fb57dca2404d3fff61f7a5de.png\" style=\"vertical-align:middle;\" /><code class=\"this_jammer\"  alt=\'21题库\'>9 ?0 h. e\" h( B8 T8 b* @4 I! e+ I</code> </td><td width=\"25%\">B．<img src=\"20151024/7c6187397e8585cbc549dc97c17c4b69.png\" style=\"vertical-align:middle;\" /><i class=\"this_jammer\"  title=\'中小学题库\'>% R8 E\' [- U+ h$ ]  d</i> </td><td width=\"25%\">C．<img src=\"20151024/db838ec6288cca8b7b45d03a954ae88e.png\" style=\"vertical-align:middle;\" /><address class=\"this_jammer\"  alt=\'免费中小学题库\'>\" b3 ?) R\" P+ `9 J$ P\" Q% U* j) I7 ^* C</address> </td><td width=\"25%\">D．<img src=\"20151024/c16aae315121079ab0f93a352b9e8391.png\" style=\"vertical-align:middle;\" /><code class=\"this_jammer\"  alt=\'21题库\'># c8 i\" E; A/ Q, `. N</code> </td></tr></table></p>
+','','') [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0020s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('11','13') [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-10-24T11:23:36+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445657016','1445657016','
+ <p>已知△<i>ABC</i>的顶点<i>B</i>、<i>C</i>在椭圆<img src=\"20151024/a2dfa94527cec1df7a1ba3e6dcd95845.gif\" style=\"vertical-align:middle;\" />上，顶点<i>A</i>是椭圆的一个焦点，且椭圆的另外一个焦点在<i>BC</i>边上，则△<i>ABC</i>的周长是（&nbsp;&nbsp;&nbsp;）<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．2<code class=\"hidejammersa\"  alt=\'免费中小学题库\'>\' J8 Z4 N8 @3 ?; N) `8 M8 N</code></td><td width=\"25%\">B．6<b class=\"hidejammersa\"  alt=\'免费中小学题库\'>  M+ h\' Q, B% F9 i</b></td><td width=\"25%\">C．4<u class=\"hidejammersa\"  alt=\'免费中小学题库\'>% a. @$ V$ R\" [4 ]</u></td><td width=\"25%\">D．12<i class=\"hidejammersa\"  title=\'中小学题库\'>/ ?6 \\, d9 e\' C- O$ P& _; ^</i></td></tr></table></p>
+','','') [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('13','17') [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:23:37+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','3','2','1445657017','1445657017','
+ <p>已知M(-2,0),N(2,0)，|PM|-|PN|=4，则动点P的轨迹是<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．双曲线<code  alt=\'21题库\' class=\"this_jammer\">0 J4 P# ], W) M% h\" b9 V% ^</code> </td><td width=\"25%\">B．双曲线左支<font  alt=\'21题库\' class=\"this_jammer\"># j9 `! P( ]5 E# c% \\</font> </td><td width=\"25%\">C．双曲线右支<i  alt=\'21题库\' class=\"this_jammer\">6 g- S2 C3 i- R! U/ i* j\' O. i) Z</i> </td><td width=\"25%\">D．一条射线<u  alt=\'免费中小学题库\' class=\"this_jammer\">0 ?. X$ F5 e8 _) T</u> </td></tr></table></p>
+','','') [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('15','15') [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:23:38+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','2','2','1445657018','1445657018','
+ <p>设椭圆<img src=\"20151024/113d869da854db1a7259a55cc894c873.gif\" style=\"vertical-align:middle;\" />和双曲线<img src=\"20151024/1fa0e79a7f2383207d7acc1387ee315d.gif\" style=\"vertical-align:middle;\" />的公共焦点为<img src=\"20151024/277caa419038b52ee838789b0a9906e1.gif\" style=\"vertical-align:middle;\" />，<img src=\"20151024/72182996a317feaf12f39be96928b604.gif\" style=\"vertical-align:middle;\" />是两曲线的一个公共点，则<br />cos<img src=\"20151024/1d8b79ef7a7053d2f3bde2bd3ccd3658.gif\" style=\"vertical-align:middle;\" />的值等于<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．<img src=\"20151024/79fe7b00e1651db2048ea7ddea212c63.gif\" style=\"vertical-align:middle;\" /><i class=\"hidejammersa\"  alt=\'21题库\'>- c2 M5 i2 b2 H  J/ K- O6 a5 W: F0 j</i></td><td width=\"25%\">B．<img src=\"20151024/29ce03d15e1aaad0cb92e0798a90e682.gif\" style=\"vertical-align:middle;\" /><i class=\"hidejammersa\"  title=\'tiku.21cnjy.com\'>$ E/ T: c\' Y- Q8 X0 f</i></td><td width=\"25%\">C．<img src=\"20151024/4e5fca32456a3a9d1e32cec4006fdb08.gif\" style=\"vertical-align:middle;\" /><code class=\"hidejammersa\"  title=\'tiku.21cnjy.com\'>+ ^2 S3 e# K2 P\" N: @% h3 J</code></td><td width=\"25%\">D．<img src=\"20151024/344ebf1728322ce01a0dd91f208ca767.gif\" style=\"vertical-align:middle;\" /><i class=\"hidejammersa\"  title=\'中小学题库\'>6 O) Q) a) I4 V, ]; b* F/ c5 Q</i></td></tr></table></p>
+','','') [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('17','17') [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:23:38+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445657018','1445657018','
+ <p>某程序的框图如图所示，则运行该程序后输出的<img src=\"20151024/c619938e0c51ca45839a792cf0731d0b.gif\" style=\"vertical-align:middle;\" />的值是 (&nbsp;&nbsp;&nbsp; )<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．<img src=\"20151024/7931483021e4cfed0ee3e48733047c42.gif\" style=\"vertical-align:middle;\" /><font class=\"this_jammer\"  alt=\'免费中小学题库\'>: Z  W7 Y* A. `/ D</font> </td><td width=\"25%\">B．<img src=\"20151024/8b01299fb78f23d2ccc3a61892947c84.gif\" style=\"vertical-align:middle;\" /><address class=\"this_jammer\"  title=\'中小学题库\'>. a& Y9 V3 A/ Z9 `9 S7 V4 E* H4 ?- S</address> </td><td width=\"25%\">C．<img src=\"20151024/3390043b8b66bed3265330a09f756f3f.gif\" style=\"vertical-align:middle;\" /><b class=\"this_jammer\"  alt=\'21题库\'>5 S9 j3 d\' V: E, ^8 T</b> </td><td width=\"25%\">D．<img src=\"20151024/4499e367ba47d7a75cb776c406a825fd.gif\" style=\"vertical-align:middle;\" /><span class=\"this_jammer\"  title=\'tiku.21cnjy.com\'>3 F8 _; i. [  G) Z2 N</span> </td></tr></table><img src=\"20151024/2004bf80f383ed58eaacf001b9a7cc6e.gif\" style=\"vertical-align:middle;\" /></p>
+','','') [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('19','15') [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:27:33+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','3','2','1445657253','1445657253','
+ <p>一个算法的程序框图如下图所示，若该程序输出的结果为<img src=\"Files/images/20151024/a534e047be6d862efaa391812b1280c9.gif\" style=\"vertical-align:middle;\" />，则判断框中应填入的条件是 （&nbsp;&nbsp;&nbsp;）<br /><img src=\"Files/images/20151024/77e2833e8d7dda7d09a65b7ae0148a61.gif\" style=\"vertical-align:middle;\" /><table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．<img src=\"Files/images/20151024/6698921622a8e6c4b3a598c5201760a1.gif\" style=\"vertical-align:middle;\" /><code class=\"this_jammer\"  title=\'tiku.21cnjy.com\'>6 e) g* [\' S; a, Y# M</code> </td><td width=\"25%\">B．<img src=\"Files/images/20151024/2ef14b9a6a8a7222a43a021594f123a3.gif\" style=\"vertical-align:middle;\" /><u class=\"this_jammer\"  alt=\'21题库\'>2 g\" M9 f\' F9 L1 a\" ?- e\" [1 [7 g</u> </td><td width=\"25%\">C．<img src=\"Files/images/20151024/ca615a02e1756b9ec64f002c043facf3.gif\" style=\"vertical-align:middle;\" /><i class=\"this_jammer\"  alt=\'21题库\'>/ W; W& \\; E) j</i> </td><td width=\"25%\">D．<img src=\"Files/images/20151024/449b695dfb8b0b9f0dca3d8077bdaaa9.gif\" style=\"vertical-align:middle;\" /><span class=\"this_jammer\"  alt=\'21题库\'>7 T! J/ _, _7 a8 c8 X\' J3 T</span> </td></tr></table></p>
+','','') [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('1','17') [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:27:34+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','2','2','1445657254','1445657254','
+ <p>从装有除颜色外完全相同的2个红球和2个白球的口袋内任取2个球，那么互斥而不对立的两个事件是(&nbsp;&nbsp;&nbsp; )．<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"100%\">A．至少有1个白球，都是白球<address  title=\'中小学题库\'  class=\"hidejammersa\" >9 ^& W. V5 f( \\. W& a</address>&nbsp;</td></tr><tr><td width=\"100%\">B．至少有1个白球，至少有1个红球<address  alt=\'21题库\'  class=\"hidejammersa\" >3 g  Y: b# @% I6 R- Y</address>&nbsp;</td></tr><tr><td width=\"100%\">C．恰有1个白球，恰有2个白球<span  title=\'中小学题库\'  class=\"hidejammersa\" >  g$ I/ J8 V\' X% Y$ \\, _\' Q</span>&nbsp;</td></tr><tr><td width=\"100%\">D．至少有1个白球，都是红球<i  title=\'tiku.21cnjy.com\'  class=\"hidejammersa\" ># ?8 @% J* j! X* H</i>&nbsp;</td></tr></table></p>
+','','') [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('3','17') [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:27:34+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445657254','1445657254','
+ <p>已知<img src=\"Files/images/20151024/68412f98a01aa4058e7db88f447d59aa.gif\" style=\"vertical-align:middle;\" />是坐标原点，点<img src=\"Files/images/20151024/4e6f58bbd5259e936a3bceab1daf0977.gif\" style=\"vertical-align:middle;\" />，若点<img src=\"Files/images/20151024/4e6f58bbd5259e936a3bceab1daf0977.gif\" style=\"vertical-align:middle;\" />为平面区域<img src=\"Files/images/20151024/22f0af6d5ecc0aa2df3ead71e7f32457.gif\" style=\"vertical-align:middle;\" />上的一个动点，则<img src=\"Files/images/20151024/6045be612880ef23dd9e3e23308d3860.gif\" style=\"vertical-align:middle;\" />的取值范围是（&nbsp;&nbsp;&nbsp;）&nbsp;<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．<img src=\"Files/images/20151024/84c232e83da7f00e3a71e6e0ae57ae0d.gif\" style=\"vertical-align:middle;\" /><span class=\"jammerd42\"  title=\'tiku.21cnjy.com\'># ?5 T\" N7 F4 ^- O2 j* B7 V2 C# @</span> </td><td width=\"25%\">B．<img src=\"Files/images/20151024/e7511578a8e5e41714862dcbd9f50bc8.gif\" style=\"vertical-align:middle;\" /><span class=\"jammerd42\"  title=\'tiku.21cnjy.com\'>* S8 E, H- ]\" j! D</span> </td><td width=\"25%\">C．<img src=\"Files/images/20151024/f6b90f8c46e56f021ade82d454f28ea2.gif\" style=\"vertical-align:middle;\" /><address class=\"jammerd42\"  alt=\'免费中小学题库\'>9 F. U3 `+ j5 Z& g4 j, ?, K</address> </td><td width=\"25%\">D．<img src=\"Files/images/20151024/17f4bbcc8e7290e8a3e15c951d75b0a0.gif\" style=\"vertical-align:middle;\" /><font class=\"jammerd42\"  alt=\'21题库\'>2 j/ L6 R3 i7 ]  _\" Q</font> </td></tr></table></p>
+','','') [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('5','16') [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:27:35+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','2','2','1445657255','1445657255','
+ <p>定义：若数列<img src=\"Files/images/20151024/651794c5cfe0e9742931ff758c3c321f.png\" style=\"vertical-align:middle;\" />对任意的正整数<i>n</i>，都有<img src=\"Files/images/20151024/77fad3b35809820ee23532ce77517e05.png\" style=\"vertical-align:middle;\" />（<i>d</i>为常数），则称<img src=\"Files/images/20151024/651794c5cfe0e9742931ff758c3c321f.png\" style=\"vertical-align:middle;\" />为“绝对和数列”，<i>d</i>叫做“绝对公和”，已知“绝对和数列”<img src=\"Files/images/20151024/7a64e088d6f42869cb9470891b2261c5.png\" style=\"vertical-align:middle;\" />，“绝对公和”<img src=\"Files/images/20151024/68ef1371484f0dffb393f3cd6d120017.png\" style=\"vertical-align:middle;\" />，则其前2012项和<img src=\"Files/images/20151024/01b55adc781c86ac1187267ed0de892e.png\" style=\"vertical-align:middle;\" />的最小值为 <table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．-2008<span  title=\'tiku.21cnjy.com\'  class=\"hidejammersa\" >& ^1 N/ C9 V; C\' O8 I. R  a, Z</span>&nbsp;</td><td width=\"25%\">B．-2010<b  alt=\'免费中小学题库\'  class=\"hidejammersa\" >* C2 f9 E1 b( _8 h: i</b>&nbsp;</td><td width=\"25%\">C．-2011<u  title=\'中小学题库\'  class=\"hidejammersa\" >\' X6 S8 b1 ]& X- Y2 g6 b  X</u>&nbsp;</td><td width=\"25%\">D．-2012<address  title=\'tiku.21cnjy.com\'  class=\"hidejammersa\" >2 H. F0 e: a+ f) ]/ @; G</address>&nbsp;</td></tr></table></p>
+','','') [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('7','16') [ RunTime:0.0190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:27:35+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445657255','1445657255','
+ <p>已知实数<img src=\"Files/images/20151024/d4de80ec6c3704522dad5745fe4d713f.gif\" style=\"vertical-align:middle;\" />，函数<img src=\"Files/images/20151024/a0056f36636569c84f430e7a0412a9fd.gif\" style=\"vertical-align:middle;\" />上是减函数，函数<img src=\"Files/images/20151024/a4824f02c7e987b96d210a05e6b900f6.gif\" style=\"vertical-align:middle;\" />，则下列选项正确的是<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"50%\">A．<img src=\"Files/images/20151024/c1e8f06fb6434e1c8e3e3c1396dc912a.gif\" style=\"vertical-align:middle;\" /><font class=\"hidejammersa\"  alt=\'21题库\'>, j7 Y! W8 F) K1 Q% a</font></td><td width=\"50%\">B．<img src=\"Files/images/20151024/efdde3a55b9d1a2378aa06537056eb89.gif\" style=\"vertical-align:middle;\" /><span class=\"hidejammersa\"  title=\'中小学题库\'>2 W\' e; Y0 i( N  \\</span></td></tr><tr><td width=\"50%\">C．<img src=\"Files/images/20151024/284bd4805bc36d706d991dd807afbf8a.gif\" style=\"vertical-align:middle;\" /><address class=\"hidejammersa\"  title=\'tiku.21cnjy.com\'>  f8 O& V6 L# _6 R</address></td><td width=\"50%\">D．<img src=\"Files/images/20151024/4f3e8c0ce860bea8e0ae4395fa08e803.gif\" style=\"vertical-align:middle;\" /><b class=\"hidejammersa\"  title=\'中小学题库\'>4 ?! e\' L: c+ a7 `</b></td></tr></table></p>
+','','') [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('9','12') [ RunTime:0.0270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:27:36+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445657256','1445657256','
+ <p>已知三次函数<img src=\"Files/images/20151024/a6570fcc3ef551f1998ced171af97cf7.png\" style=\"vertical-align:middle;\" />在<img src=\"Files/images/20151024/c7ae64bf964f4e9a39d4855d4cf96000.png\" style=\"vertical-align:middle;\" />存在极大值点，则<img src=\"Files/images/20151024/5e01c9dccfa083b47ae6f5e9d33fe3c0.png\" style=\"vertical-align:middle;\" />的范围是<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．<img src=\"Files/images/20151024/7c20d8e5fb57dca2404d3fff61f7a5de.png\" style=\"vertical-align:middle;\" /><address class=\"this_jammer\"  alt=\'21题库\'>9 f3 g( Z3 e5 L</address> </td><td width=\"25%\">B．<img src=\"Files/images/20151024/7c6187397e8585cbc549dc97c17c4b69.png\" style=\"vertical-align:middle;\" /><u class=\"this_jammer\"  alt=\'21题库\'>0 A* C  H; E. [* N</u> </td><td width=\"25%\">C．<img src=\"Files/images/20151024/db838ec6288cca8b7b45d03a954ae88e.png\" style=\"vertical-align:middle;\" /><span class=\"this_jammer\"  title=\'tiku.21cnjy.com\'>4 F+ W& P- R& S* g( N3 K\' j</span> </td><td width=\"25%\">D．<img src=\"Files/images/20151024/c16aae315121079ab0f93a352b9e8391.png\" style=\"vertical-align:middle;\" /><i class=\"this_jammer\"  title=\'tiku.21cnjy.com\'>) K, E! @; ]; E. M</i> </td></tr></table></p>
+','','') [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('11','17') [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:27:37+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445657256','1445657256','
+ <p>已知△<i>ABC</i>的顶点<i>B</i>、<i>C</i>在椭圆<img src=\"Files/images/20151024/a2dfa94527cec1df7a1ba3e6dcd95845.gif\" style=\"vertical-align:middle;\" />上，顶点<i>A</i>是椭圆的一个焦点，且椭圆的另外一个焦点在<i>BC</i>边上，则△<i>ABC</i>的周长是（&nbsp;&nbsp;&nbsp;）<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．2<font class=\"hidejammersa\"  title=\'中小学题库\'>0 F+ b/ _+ H$ J8 f$ Z</font></td><td width=\"25%\">B．6<code class=\"hidejammersa\"  alt=\'21题库\'>; U, C) _+ B- C/ h; T</code></td><td width=\"25%\">C．4<span class=\"hidejammersa\"  alt=\'免费中小学题库\'>9 Z- A# Q: N- j, B8 g# ?</span></td><td width=\"25%\">D．12<address class=\"hidejammersa\"  alt=\'21题库\'>% B% D( h4 c$ h</address></td></tr></table></p>
+','','') [ RunTime:0.0790s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('13','16') [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:27:37+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0100s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','2','2','1445657257','1445657257','
+ <p>已知M(-2,0),N(2,0)，|PM|-|PN|=4，则动点P的轨迹是<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．双曲线<b  alt=\'免费中小学题库\' class=\"this_jammer\">/ K+ U; L; U# ]+ \\</b> </td><td width=\"25%\">B．双曲线左支<font  title=\'中小学题库\' class=\"this_jammer\">5 f* U, i4 K\' a+ f\" D</font> </td><td width=\"25%\">C．双曲线右支<span  alt=\'免费中小学题库\' class=\"this_jammer\">/ h1 U& A3 g; X</span> </td><td width=\"25%\">D．一条射线<address  title=\'tiku.21cnjy.com\' class=\"this_jammer\">9 O; ?7 d9 X; R, M# ]- M</address> </td></tr></table></p>
+','','') [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0070s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('15','15') [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-10-24T11:27:38+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','2','2','1445657258','1445657258','
+ <p>设椭圆<img src=\"Files/images/20151024/113d869da854db1a7259a55cc894c873.gif\" style=\"vertical-align:middle;\" />和双曲线<img src=\"Files/images/20151024/1fa0e79a7f2383207d7acc1387ee315d.gif\" style=\"vertical-align:middle;\" />的公共焦点为<img src=\"Files/images/20151024/277caa419038b52ee838789b0a9906e1.gif\" style=\"vertical-align:middle;\" />，<img src=\"Files/images/20151024/72182996a317feaf12f39be96928b604.gif\" style=\"vertical-align:middle;\" />是两曲线的一个公共点，则<br />cos<img src=\"Files/images/20151024/1d8b79ef7a7053d2f3bde2bd3ccd3658.gif\" style=\"vertical-align:middle;\" />的值等于<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．<img src=\"Files/images/20151024/79fe7b00e1651db2048ea7ddea212c63.gif\" style=\"vertical-align:middle;\" /><b class=\"hidejammersa\"  title=\'tiku.21cnjy.com\'>8 c: V) Q) ]# Y# Y) H4 M</b></td><td width=\"25%\">B．<img src=\"Files/images/20151024/29ce03d15e1aaad0cb92e0798a90e682.gif\" style=\"vertical-align:middle;\" /><address class=\"hidejammersa\"  title=\'中小学题库\'>- f/ ?$ C9 B0 K# `; F</address></td><td width=\"25%\">C．<img src=\"Files/images/20151024/4e5fca32456a3a9d1e32cec4006fdb08.gif\" style=\"vertical-align:middle;\" /><u class=\"hidejammersa\"  alt=\'免费中小学题库\'>6 I7 ]4 `& \\/ O\' f\" _. D4 P1 T4 U1 d</u></td><td width=\"25%\">D．<img src=\"Files/images/20151024/344ebf1728322ce01a0dd91f208ca767.gif\" style=\"vertical-align:middle;\" /><i class=\"hidejammersa\"  title=\'tiku.21cnjy.com\'>2 R( W: a  Z* Y( K</i></td></tr></table></p>
+','','') [ RunTime:0.1020s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0020s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('17','13') [ RunTime:0.0820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-10-24T11:27:38+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445657258','1445657258','
+ <p>某程序的框图如图所示，则运行该程序后输出的<img src=\"Files/images/20151024/c619938e0c51ca45839a792cf0731d0b.gif\" style=\"vertical-align:middle;\" />的值是 (&nbsp;&nbsp;&nbsp; )<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．<img src=\"Files/images/20151024/7931483021e4cfed0ee3e48733047c42.gif\" style=\"vertical-align:middle;\" /><span class=\"this_jammer\"  title=\'tiku.21cnjy.com\'>\' c6 h. Y; X, K/ G$ D</span> </td><td width=\"25%\">B．<img src=\"Files/images/20151024/8b01299fb78f23d2ccc3a61892947c84.gif\" style=\"vertical-align:middle;\" /><u class=\"this_jammer\"  title=\'中小学题库\'>$ H+ i\' d$ O; Y4 @6 f0 H</u> </td><td width=\"25%\">C．<img src=\"Files/images/20151024/3390043b8b66bed3265330a09f756f3f.gif\" style=\"vertical-align:middle;\" /><span class=\"this_jammer\"  title=\'中小学题库\'>+ c# H* N  f* L</span> </td><td width=\"25%\">D．<img src=\"Files/images/20151024/4499e367ba47d7a75cb776c406a825fd.gif\" style=\"vertical-align:middle;\" /><font class=\"this_jammer\"  title=\'中小学题库\'>- [\' A% W0 h! K* F, ?# P\" K. ?</font> </td></tr></table><img src=\"Files/images/20151024/2004bf80f383ed58eaacf001b9a7cc6e.gif\" style=\"vertical-align:middle;\" /></p>
+','','') [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('19','16') [ RunTime:0.0090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:29:15+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445657355','1445657355','
+ <p>一个算法的程序框图如下图所示，若该程序输出的结果为<img src=\"/Files/images/20151024/a534e047be6d862efaa391812b1280c9.gif\" style=\"vertical-align:middle;\" />，则判断框中应填入的条件是 （&nbsp;&nbsp;&nbsp;）<br /><img src=\"/Files/images/20151024/77e2833e8d7dda7d09a65b7ae0148a61.gif\" style=\"vertical-align:middle;\" /><table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．<img src=\"/Files/images/20151024/6698921622a8e6c4b3a598c5201760a1.gif\" style=\"vertical-align:middle;\" /><font class=\"this_jammer\"  alt=\'免费中小学题库\'>) A% `+ c7 f8 N5 U</font> </td><td width=\"25%\">B．<img src=\"/Files/images/20151024/2ef14b9a6a8a7222a43a021594f123a3.gif\" style=\"vertical-align:middle;\" /><address class=\"this_jammer\"  title=\'中小学题库\'>6 d4 J: N1 [  ^$ D9 L2 P# a</address> </td><td width=\"25%\">C．<img src=\"/Files/images/20151024/ca615a02e1756b9ec64f002c043facf3.gif\" style=\"vertical-align:middle;\" /><address class=\"this_jammer\"  alt=\'免费中小学题库\'>+ ]8 K9 ]  H/ J+ V  @. h0 L</address> </td><td width=\"25%\">D．<img src=\"/Files/images/20151024/449b695dfb8b0b9f0dca3d8077bdaaa9.gif\" style=\"vertical-align:middle;\" /><font class=\"this_jammer\"  alt=\'21题库\'>% B9 ?\" C/ Z1 I\" M  U\' K</font> </td></tr></table></p>
+','','') [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('1','16') [ RunTime:0.0130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:29:16+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0080s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','3','2','1445657356','1445657356','
+ <p>从装有除颜色外完全相同的2个红球和2个白球的口袋内任取2个球，那么互斥而不对立的两个事件是(&nbsp;&nbsp;&nbsp; )．<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"100%\">A．至少有1个白球，都是白球<font  alt=\'21题库\'  class=\"hidejammersa\" >1 [* g+ a- H0 G& g9 G</font>&nbsp;</td></tr><tr><td width=\"100%\">B．至少有1个白球，至少有1个红球<font  title=\'tiku.21cnjy.com\'  class=\"hidejammersa\" >$ S; K7 g: X/ Z( E4 H</font>&nbsp;</td></tr><tr><td width=\"100%\">C．恰有1个白球，恰有2个白球<code  title=\'tiku.21cnjy.com\'  class=\"hidejammersa\" >5 D. f- J1 W) X9 `4 `8 Y( A</code>&nbsp;</td></tr><tr><td width=\"100%\">D．至少有1个白球，都是红球<i  title=\'tiku.21cnjy.com\'  class=\"hidejammersa\" >\' O  M2 ?: c, T- ?5 ?+ A</i>&nbsp;</td></tr></table></p>
+','','') [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('3','15') [ RunTime:0.0240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:29:17+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445657357','1445657357','
+ <p>已知<img src=\"/Files/images/20151024/68412f98a01aa4058e7db88f447d59aa.gif\" style=\"vertical-align:middle;\" />是坐标原点，点<img src=\"/Files/images/20151024/4e6f58bbd5259e936a3bceab1daf0977.gif\" style=\"vertical-align:middle;\" />，若点<img src=\"/Files/images/20151024/4e6f58bbd5259e936a3bceab1daf0977.gif\" style=\"vertical-align:middle;\" />为平面区域<img src=\"/Files/images/20151024/22f0af6d5ecc0aa2df3ead71e7f32457.gif\" style=\"vertical-align:middle;\" />上的一个动点，则<img src=\"/Files/images/20151024/6045be612880ef23dd9e3e23308d3860.gif\" style=\"vertical-align:middle;\" />的取值范围是（&nbsp;&nbsp;&nbsp;）&nbsp;<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．<img src=\"/Files/images/20151024/84c232e83da7f00e3a71e6e0ae57ae0d.gif\" style=\"vertical-align:middle;\" /><b class=\"jammerd42\"  alt=\'21题库\'>6 L$ c/ B. L. E\' S4 L; d</b> </td><td width=\"25%\">B．<img src=\"/Files/images/20151024/e7511578a8e5e41714862dcbd9f50bc8.gif\" style=\"vertical-align:middle;\" /><span class=\"jammerd42\"  alt=\'免费中小学题库\'>4 b8 D( f& h4 I9 P! R5 M</span> </td><td width=\"25%\">C．<img src=\"/Files/images/20151024/f6b90f8c46e56f021ade82d454f28ea2.gif\" style=\"vertical-align:middle;\" /><code class=\"jammerd42\"  alt=\'免费中小学题库\'>\" j8 H\' E3 V) A& S5 g1 ?4 V</code> </td><td width=\"25%\">D．<img src=\"/Files/images/20151024/17f4bbcc8e7290e8a3e15c951d75b0a0.gif\" style=\"vertical-align:middle;\" /><font class=\"jammerd42\"  alt=\'21题库\'>\" \\4 \\, d0 E  Y5 R. F, R6 U</font> </td></tr></table></p>
+','','') [ RunTime:0.0930s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0080s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('5','17') [ RunTime:0.0230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:29:17+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','3','2','1445657357','1445657357','
+ <p>定义：若数列<img src=\"/Files/images/20151024/651794c5cfe0e9742931ff758c3c321f.png\" style=\"vertical-align:middle;\" />对任意的正整数<i>n</i>，都有<img src=\"/Files/images/20151024/77fad3b35809820ee23532ce77517e05.png\" style=\"vertical-align:middle;\" />（<i>d</i>为常数），则称<img src=\"/Files/images/20151024/651794c5cfe0e9742931ff758c3c321f.png\" style=\"vertical-align:middle;\" />为“绝对和数列”，<i>d</i>叫做“绝对公和”，已知“绝对和数列”<img src=\"/Files/images/20151024/7a64e088d6f42869cb9470891b2261c5.png\" style=\"vertical-align:middle;\" />，“绝对公和”<img src=\"/Files/images/20151024/68ef1371484f0dffb393f3cd6d120017.png\" style=\"vertical-align:middle;\" />，则其前2012项和<img src=\"/Files/images/20151024/01b55adc781c86ac1187267ed0de892e.png\" style=\"vertical-align:middle;\" />的最小值为 <table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．-2008<font  alt=\'免费中小学题库\'  class=\"hidejammersa\" >3 c2 X4 I& G$ V* R: X</font>&nbsp;</td><td width=\"25%\">B．-2010<b  title=\'中小学题库\'  class=\"hidejammersa\" >- S% a$ R3 h9 J  a% @3 X</b>&nbsp;</td><td width=\"25%\">C．-2011<u  alt=\'21题库\'  class=\"hidejammersa\" >6 j1 P7 H2 C# M- G6 D+ V</u>&nbsp;</td><td width=\"25%\">D．-2012<code  alt=\'免费中小学题库\'  class=\"hidejammersa\" >. U; g) L+ `3 N& d- M</code>&nbsp;</td></tr></table></p>
+','','') [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('7','16') [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:29:18+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445657358','1445657358','
+ <p>已知实数<img src=\"/Files/images/20151024/d4de80ec6c3704522dad5745fe4d713f.gif\" style=\"vertical-align:middle;\" />，函数<img src=\"/Files/images/20151024/a0056f36636569c84f430e7a0412a9fd.gif\" style=\"vertical-align:middle;\" />上是减函数，函数<img src=\"/Files/images/20151024/a4824f02c7e987b96d210a05e6b900f6.gif\" style=\"vertical-align:middle;\" />，则下列选项正确的是<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"50%\">A．<img src=\"/Files/images/20151024/c1e8f06fb6434e1c8e3e3c1396dc912a.gif\" style=\"vertical-align:middle;\" /><i class=\"hidejammersa\"  alt=\'21题库\'>% h) G  ^0 G, L2 M\' V; C</i></td><td width=\"50%\">B．<img src=\"/Files/images/20151024/efdde3a55b9d1a2378aa06537056eb89.gif\" style=\"vertical-align:middle;\" /><span class=\"hidejammersa\"  title=\'tiku.21cnjy.com\'>\' j. a2 K\" T  \\</span></td></tr><tr><td width=\"50%\">C．<img src=\"/Files/images/20151024/284bd4805bc36d706d991dd807afbf8a.gif\" style=\"vertical-align:middle;\" /><u class=\"hidejammersa\"  title=\'中小学题库\'>. J, U- R8 @\" C8 X7 C% a! W- \\+ Q</u></td><td width=\"50%\">D．<img src=\"/Files/images/20151024/4f3e8c0ce860bea8e0ae4395fa08e803.gif\" style=\"vertical-align:middle;\" /><u class=\"hidejammersa\"  alt=\'免费中小学题库\'>( f6 \\. f% W5 S</u></td></tr></table></p>
+','','') [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('9','15') [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-10-24T11:29:18+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445657358','1445657358','
+ <p>已知三次函数<img src=\"/Files/images/20151024/a6570fcc3ef551f1998ced171af97cf7.png\" style=\"vertical-align:middle;\" />在<img src=\"/Files/images/20151024/c7ae64bf964f4e9a39d4855d4cf96000.png\" style=\"vertical-align:middle;\" />存在极大值点，则<img src=\"/Files/images/20151024/5e01c9dccfa083b47ae6f5e9d33fe3c0.png\" style=\"vertical-align:middle;\" />的范围是<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．<img src=\"/Files/images/20151024/7c20d8e5fb57dca2404d3fff61f7a5de.png\" style=\"vertical-align:middle;\" /><span class=\"this_jammer\"  title=\'中小学题库\'>! M. Y- \\9 K% \\! Y</span> </td><td width=\"25%\">B．<img src=\"/Files/images/20151024/7c6187397e8585cbc549dc97c17c4b69.png\" style=\"vertical-align:middle;\" /><address class=\"this_jammer\"  title=\'中小学题库\'>\" ?& E* O$ W& _4 ]5 `6 ^( C\" L: h\' Y</address> </td><td width=\"25%\">C．<img src=\"/Files/images/20151024/db838ec6288cca8b7b45d03a954ae88e.png\" style=\"vertical-align:middle;\" /><address class=\"this_jammer\"  title=\'tiku.21cnjy.com\'>4 Q4 E/ Q2 f, ?1 D0 A\" T6 I! M</address> </td><td width=\"25%\">D．<img src=\"/Files/images/20151024/c16aae315121079ab0f93a352b9e8391.png\" style=\"vertical-align:middle;\" /><font class=\"this_jammer\"  alt=\'免费中小学题库\'>. L! d4 c3 W9 C</font> </td></tr></table></p>
+','','') [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('11','12') [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:29:19+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0080s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','3','2','1445657359','1445657359','
+ <p>已知△<i>ABC</i>的顶点<i>B</i>、<i>C</i>在椭圆<img src=\"/Files/images/20151024/a2dfa94527cec1df7a1ba3e6dcd95845.gif\" style=\"vertical-align:middle;\" />上，顶点<i>A</i>是椭圆的一个焦点，且椭圆的另外一个焦点在<i>BC</i>边上，则△<i>ABC</i>的周长是（&nbsp;&nbsp;&nbsp;）<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．2<u class=\"hidejammersa\"  title=\'tiku.21cnjy.com\'>- C- R# ^; h% T, M3 Q8 F\" ?4 d</u></td><td width=\"25%\">B．6<i class=\"hidejammersa\"  title=\'tiku.21cnjy.com\'>  Q2 A1 P9 J1 S% j- H8 j</i></td><td width=\"25%\">C．4<span class=\"hidejammersa\"  alt=\'21题库\'>9 i! E$ R9 f2 N3 f\' @( O7 S</span></td><td width=\"25%\">D．12<i class=\"hidejammersa\"  title=\'中小学题库\'>) H, ^% [/ ]% I3 h, N- X</i></td></tr></table></p>
+','','') [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0060s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('13','13') [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:29:19+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0080s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','3','2','1445657359','1445657359','
+ <p>已知M(-2,0),N(2,0)，|PM|-|PN|=4，则动点P的轨迹是<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．双曲线<b  title=\'tiku.21cnjy.com\' class=\"this_jammer\">7 W6 @8 C% G7 Q- B# g  K</b> </td><td width=\"25%\">B．双曲线左支<address  alt=\'21题库\' class=\"this_jammer\">! D4 ?$ F\' [, b\' G</address> </td><td width=\"25%\">C．双曲线右支<code  alt=\'免费中小学题库\' class=\"this_jammer\">: W( i3 j- K\" _# H3 J8 L, M% Y</code> </td><td width=\"25%\">D．一条射线<code  title=\'中小学题库\' class=\"this_jammer\">/ V$ D, e! O3 D</code> </td></tr></table></p>
+','','') [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('15','15') [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:29:20+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445657360','1445657360','
+ <p>设椭圆<img src=\"/Files/images/20151024/113d869da854db1a7259a55cc894c873.gif\" style=\"vertical-align:middle;\" />和双曲线<img src=\"/Files/images/20151024/1fa0e79a7f2383207d7acc1387ee315d.gif\" style=\"vertical-align:middle;\" />的公共焦点为<img src=\"/Files/images/20151024/277caa419038b52ee838789b0a9906e1.gif\" style=\"vertical-align:middle;\" />，<img src=\"/Files/images/20151024/72182996a317feaf12f39be96928b604.gif\" style=\"vertical-align:middle;\" />是两曲线的一个公共点，则<br />cos<img src=\"/Files/images/20151024/1d8b79ef7a7053d2f3bde2bd3ccd3658.gif\" style=\"vertical-align:middle;\" />的值等于<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．<img src=\"/Files/images/20151024/79fe7b00e1651db2048ea7ddea212c63.gif\" style=\"vertical-align:middle;\" /><b class=\"hidejammersa\"  title=\'中小学题库\'>0 C0 T! Q# ]- H: K9 O& b</b></td><td width=\"25%\">B．<img src=\"/Files/images/20151024/29ce03d15e1aaad0cb92e0798a90e682.gif\" style=\"vertical-align:middle;\" /><b class=\"hidejammersa\"  alt=\'免费中小学题库\'>& @7 A/ I! i; ^& G, E( ]0 K</b></td><td width=\"25%\">C．<img src=\"/Files/images/20151024/4e5fca32456a3a9d1e32cec4006fdb08.gif\" style=\"vertical-align:middle;\" /><b class=\"hidejammersa\"  alt=\'21题库\'>3 E/ a( S; c1 S) L$ h</b></td><td width=\"25%\">D．<img src=\"/Files/images/20151024/344ebf1728322ce01a0dd91f208ca767.gif\" style=\"vertical-align:middle;\" /><u class=\"hidejammersa\"  alt=\'21题库\'>( D3 P3 X\' P* P: b* Q$ @7 I</u></td></tr></table></p>
+','','') [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('17','16') [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-24T11:29:21+08:00 ] 127.0.0.1 /index.php/api/addtiku/addtiku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: post.answer D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 8 行.
+NOTIC: [8] Undefined index: post.analysis D:\xampp\htdocs\tiku\Application\Api\Controller\AddtikuController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tiku` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tiku` (`course_id`,`difficulty_id`,`feature_id`,`source_id`,`update_time`,`create_time`,`content`,`answer`,`analysis`) VALUES ('3','1','1','2','1445657361','1445657361','
+ <p>某程序的框图如图所示，则运行该程序后输出的<img src=\"/Files/images/20151024/c619938e0c51ca45839a792cf0731d0b.gif\" style=\"vertical-align:middle;\" />的值是 (&nbsp;&nbsp;&nbsp; )<table name=\"optionsTable\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td width=\"25%\">A．<img src=\"/Files/images/20151024/7931483021e4cfed0ee3e48733047c42.gif\" style=\"vertical-align:middle;\" /><font class=\"this_jammer\"  title=\'tiku.21cnjy.com\'>4 `) b$ Q2 E. U6 B& f</font> </td><td width=\"25%\">B．<img src=\"/Files/images/20151024/8b01299fb78f23d2ccc3a61892947c84.gif\" style=\"vertical-align:middle;\" /><code class=\"this_jammer\"  title=\'中小学题库\'>1 G2 d\' ^7 F( A$ E$ H</code> </td><td width=\"25%\">C．<img src=\"/Files/images/20151024/3390043b8b66bed3265330a09f756f3f.gif\" style=\"vertical-align:middle;\" /><b class=\"this_jammer\"  title=\'tiku.21cnjy.com\'>, g! [/ B/ \\# R- S8 e\' D</b> </td><td width=\"25%\">D．<img src=\"/Files/images/20151024/4499e367ba47d7a75cb776c406a825fd.gif\" style=\"vertical-align:middle;\" /><address class=\"this_jammer\"  title=\'tiku.21cnjy.com\'>9 M% [/ I\' h# O6 h  h9 ^</address> </td></tr></table><img src=\"/Files/images/20151024/2004bf80f383ed58eaacf001b9a7cc6e.gif\" style=\"vertical-align:middle;\" /></p>
+','','') [ RunTime:0.0990s ]
+SQL: SHOW COLUMNS FROM `tiku_to_point` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tiku_to_point` (`tiku_id`,`point_id`) VALUES ('19','17') [ RunTime:0.0410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>哈学库（在线练习）</title>
+<link href="css/public.css" rel="stylesheet" type="text/css" />
+<link href="css/home.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script>
+$(function(){
+	//subnav
+	$(".menu li").hover(function(){
+		$(".subnav",this).css("display","block");
+		$(this).addClass("hover");
+	},function(){
+		$(".subnav",this).css("display","none");
+		$(this).removeClass("hover");
+	});
+	//
+})
+</script>
+</head>
+
+<body>
+<!--topbar-->
+<div id="topbar">
+    <div class="width">
+        <div class="right">
+        	<a href="">设为首页</a> |
+            <a href="">收藏网站</a> |
+            <a href="">登录</a> |
+            <a href="">注册</a>
+         </div> 
+     </div>
+</div>
+
+<!--header-->
+<div id="header">
+	<div class="width">
+    	<div class="left logo"><a href=""></a></div>
+        <ul class="left menu">
+        		<li class="mid">|</li>
+            	<li><a href="">首页</a></li>
+                <li class="mid">|</li>
+                <li><a href="">题库</a>
+                <div class="subnav">
+                	<a href="">精品试卷</a> <a href="">试卷题目</a> <a href="">知识点选题</a> <a href="">我的题库</a>
+                </div>
+                </li>
+                <li class="mid">|</li>
+                <li><a href="">组卷</a></li>
+                <li class="mid">|</li>
+                <li><a href="">在线考试</a></li>
+                <li class="mid">|</li>
+                <li  class="hover"><a href="">在线练习</a></li>
+               	<li class="mid">|</li>
+                <li><a href="">产品</a></li>
+                <li class="mid">|</li>
+                <li><a href="">论坛</a></li>
+         </ul>
+    </div>
+</div>
+
+<!--main-->
+<div class="width">
+    	
+        <div class="p10"> <h2>选择科目</h2><div class="line"></div></div>
+        <div class="clear"></div>
+        
+        <div class="mt20">
+        	<div class="p10"><select class="sel"><option>高中语文</option></select></div>
+        </div>
+        
+        <div class="clear"></div>
+        <div class="p10"> <h2>设置试题数量</h2><div class="line"></div></div>
+        <div class="clear"></div>
+        
+        <div class="mt20">
+        	<div class="p10">
+            	<ul class="ch_ul">
+                	<li>单项选择</li>
+                    <li>多项选择</li>
+                    <li>填空题</li>
+                    <li>计算题</li>
+                    <li>实验题</li>
+                    <li>实验探究题</li>
+                 </ul>
+            	
+                <ul class="ch_ul">
+                	<li>
+
+
+<select id="select"  class="sel_1"  onkeydown="Select.del(this,event)" onkeypress="Select.write(this,event)">
+<option value=""></option>
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+</select>
+
+<script>
+var Select = {
+del : function(obj,e){
+if((e.keyCode||e.which||e.charCode) == 8){
+var opt = obj.options[0];
+opt.text = opt.value = opt.value.substring(0, opt.value.length>0?opt.value.length-1:0);
+}
+},
+write : function(obj,e){
+if((e.keyCode||e.which||e.charCode) == 8)return ;
+var opt = obj.options[0];
+opt.selected = "selected";
+opt.text = opt.value += String.fromCharCode(e.charCode||e.which||e.keyCode);
+}
+}
+function test(){
+alert(document.getElementById("select").value);
+}
+</script>
+
+
+                    </li>
+                    <li>
+                    <select id="select"  class="sel_1"  onkeydown="Select.del(this,event)" onkeypress="Select.write(this,event)">
+<option value=""></option>
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+</select>
+                    </li>
+                    
+                     <li>
+                    <select id="select"  class="sel_1"  onkeydown="Select.del(this,event)" onkeypress="Select.write(this,event)">
+<option value=""></option>
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+</select>
+                    </li>
+                     <li>
+                    <select id="select"  class="sel_1"  onkeydown="Select.del(this,event)" onkeypress="Select.write(this,event)">
+<option value=""></option>
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+</select>
+                    </li>
+                     <li>
+                    <select id="select"  class="sel_1"  onkeydown="Select.del(this,event)" onkeypress="Select.write(this,event)">
+<option value=""></option>
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+</select>
+                    </li>
+                     <li>
+                    <select id="select"  class="sel_1"  onkeydown="Select.del(this,event)" onkeypress="Select.write(this,event)">
+<option value=""></option>
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+</select>
+                    </li>
+                 </ul>
+                 
+            </div>
+        </div>
+        
+        <div class="clear"></div>
+        <div class="mt10">
+        	<div class="p10"> <h2>设置考卷难度</h2><div class="line"></div></div>	
+        </div>
+
+		<div class="clear"></div>
+         
+        <div class="mt20">
+        	<h3 class="p10"><a href="" class="c_z mr10">容易</a>  丨  
+            <a href="" class="mr10">较易</a>   丨 
+            <a href="" class="mr10">一般</a>   丨  
+            <a href="" class="mr10">较难</a>   丨  
+            <a href="" class="mr10">困难</a>
+            </h3>	
+        </div>
+        
+        <div class="clear"></div>
+        <div class="mt10">
+        	<div class="p10"> <h2>选择考查范围</h2><div class="line"></div></div>	
+        </div>
+        
+        <div class="clear"></div>
+        <div class="mt10">
+        	<div class="p10"> 
+            	<select class="left sel mr10"><option>按章节查找</option></select>
+            	<select class="left sel mr10"><option>人教版</option></select>
+                <input type="submit" value="搜索" class="mr10 button_2" style="border:none;" />
+                <input type="checkbox" class="mr10" />全选
+                
+            </div>	
+        </div>
+        
+        <div class="clear"></div>
+        <div class="mt20">
+        	<div class="p10">
+                <ul class="ks_ul">
+                    <li><dl>
+                        <dt><input type="checkbox" class="mr10" />必修一</dt>
+                            <dd><input type="checkbox" class="mr10" />第一章《运动的轨迹》</dd>
+                            <dd><input type="checkbox" class="mr10" />第一章《运动的轨迹》</dd>
+                            <dd><input type="checkbox" class="mr10" />第一章《运动的轨迹》</dd>
+                            <dd><input type="checkbox" class="mr10" />第一章《运动的轨迹》</dd>
+                        </dl>
+                    </li>
+                    
+                    <li><dl>
+                        <dt><input type="checkbox" class="mr10" />必修一</dt>
+                            <dd><input type="checkbox" class="mr10" />第一章《运动的轨迹》</dd>
+                            <dd><input type="checkbox" class="mr10" />第一章《运动的轨迹》</dd>
+                            <dd><input type="checkbox" class="mr10" />第一章《运动的轨迹》</dd>
+                            <dd><input type="checkbox" class="mr10" />第一章《运动的轨迹》</dd>
+                        </dl>
+                    </li>
+                    
+                    
+                    <li><dl>
+                        <dt><input type="checkbox" class="mr10" />必修一</dt>
+                            <dd><input type="checkbox" class="mr10" />第一章《运动的轨迹》</dd>
+                            <dd><input type="checkbox" class="mr10" />第一章《运动的轨迹》</dd>
+                            <dd><input type="checkbox" class="mr10" />第一章《运动的轨迹》</dd>
+                            <dd><input type="checkbox" class="mr10" />第一章《运动的轨迹》</dd>
+                        </dl>
+                    </li>
+                    
+                 </ul>
+             </div>
+             
+             <div class="zj_tit">开始考试</div>
+             
+         </div>
+
+</div>
+
+<!--footer-->
+<div id="footer">
+	<div class="footer">
+    	<div class="left"><a href="">关于我们</a> 丨 <a href="">隐私保护政策</a>  丨  <a href="">服务条款</a> 丨 <a href="">联系我们</a>   丨  
+        <br />
+        COPYRIGHT 2015  哈学库  版权所有   www.haxueku.com</div>
+        <div class="right"></div>
+    </div>
+</div>
+
+</body>
+</html>

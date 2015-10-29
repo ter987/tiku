@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>哈学库（选择知识点）</title>
+<link href="css/public.css" rel="stylesheet" type="text/css" />
+<link href="css/home.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script>
+$(function(){
+	//subnav
+	$(".menu li").hover(function(){
+		$(".subnav",this).css("display","block");
+		$(this).addClass("hover");
+	},function(){
+		$(".subnav",this).css("display","none");
+		$(this).removeClass("hover");
+	});
+	//
+})
+</script>
+</head>
+
+<body>
+<!--topbar-->
+<div id="topbar">
+    <div class="width">
+        <div class="right">
+        	<a href="">设为首页</a> |
+            <a href="">收藏网站</a> |
+            <a href="">登录</a> |
+            <a href="">注册</a>
+         </div> 
+     </div>
+</div>
+
+<!--header-->
+<div id="header">
+	<div class="width">
+    	<div class="left logo"><a href=""></a></div>
+        <ul class="left menu">
+        		<li class="mid">|</li>
+            	<li><a href="">首页</a></li>
+                <li class="mid">|</li>
+                <li><a href="">题库</a>
+                <div class="subnav">
+                	<a href="">精品试卷</a> <a href="">试卷题目</a> <a href="">知识点选题</a> <a href="">我的题库</a>
+                </div>
+                </li>
+                <li class="mid">|</li>
+                <li><a href="">组卷</a>
+                <li class="mid">|</li>
+                <li><a href="">在线考试</a>
+                <li class="mid">|</li>
+                <li class="hover"><a href="">在线练习</a>
+               	<li class="mid">|</li>
+                <li><a href="">产品</a>
+                <li class="mid">|</li>
+                <li><a href="">论坛</a>
+         </ul>
+    </div>
+</div>
+
+<!--main-->
+<div class="width">
+	<div class="tk_bg">
+		<!--标题-->
+        <div class="tit"><a href="">组卷</a> 〉<a href="">在线练习</a> </div>
+        
+        <div class="p10"> <h2>知识点版本</h2><div class="line"></div></div>
+                
+        <div class="p10">
+        <select class="sel"><option>综合知识点</option></select>
+        </div>
+        
+        <div class="p10"> <h2>请选择要考查的知识点</h2><div class="line"></div></div>
+        <div class="clear"></div>
+        
+        <!--left-->
+        <div id="z_left">
+        	<ul class="zsd_left_ul">
+            	<li class="hover"><a href="">基础知识及语言表达</a></li>
+                <li><a href="">诗歌鉴赏</a></li>
+                <li><a href="">文言文阅读</a></li>
+                <li><a href="">现代文阅读</a></li>
+                <li><a href="">作文及写作</a></li>
+                <li><a href="">名句默写</a></li>
+                <li><a href="">其他</a></li>
+            </ul>
+        </div>
+        
+        <!--right-->
+        <div id="z_right">
+        	<div class="b_4">
+            	<div class="p10">
+                	<div class="zsd_tit"><span class="button_2">选择全部知识点</span>
+                    您已经选择了<font size="4" class="c_z"> 0</font> 个知识点。</div>
+                
+                <div class="clear"></div>
+                	<h4 class="mt10"><input type="checkbox" />常用字的字音</h4>
+                
+                <div class="clear"></div> 
+                <div class="mt10">
+                <ul class="zsd_c_ul">
+                	<li><span><input type="checkbox" /></span>常用字的字音</li>
+                    <li><span><input type="checkbox" /></span>常用字的字音</li>
+                    <li><span><input type="checkbox" /></span>常用字的字音</li>
+                    <li><span><input type="checkbox" /></span>常用字的字音</li>
+                    <li><span><input type="checkbox" /></span>常用字的字音</li>
+                    <li><span><input type="checkbox" /></span>常用字的字音</li>
+                    <li><span><input type="checkbox" /></span>常用字的字音</li>
+                    <li><span><input type="checkbox" /></span>常用字的字音</li>
+                    <li><span><input type="checkbox" /></span>常用字的字音</li>
+                    <li><span><input type="checkbox" /></span>常用字的字音</li>
+                    <li><span><input type="checkbox" /></span>常用字的字音</li>
+                    <li><span><input type="checkbox" /></span>常用字的字音</li>
+                    <li><span><input type="checkbox" /></span>常用字的字音</li>
+                    <li><span><input type="checkbox" /></span>常用字的字音</li>
+                </ul>
+                </div>
+                 <h4>已选知识点（共<font size="4" class="c_z"> 0</font> 个）：</h4>
+                 <div class="zj_tit">开始试题</div>
+               </div>
+                
+                  
+            </div>
+        </div>
+        <div class="clear"></div>
+        
+        
+     
+    </div>
+</div>
+
+<!--footer-->
+<div id="footer">
+	<div class="footer">
+    	<div class="left"><a href="">关于我们</a> 丨 <a href="">隐私保护政策</a>  丨  <a href="">服务条款</a> 丨 <a href="">联系我们</a>   丨  
+        <br />
+        COPYRIGHT 2015  哈学库  版权所有   www.haxueku.com</div>
+        <div class="right"></div>
+    </div>
+</div>
+
+</body>
+</html>
