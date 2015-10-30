@@ -3,32 +3,112 @@ namespace Admin\Controller;
 use Admin\Controller\GlobalController;
 class TikuController extends GlobalController {
 	var $parent_id;
+	var $points ;
 	/**
 	 * 初始化
 	 */
 	function _initialize()
 	{
 		$course_data = parent::getCourse();
+		$this->getAllTypes();
 		$this->assign('course_data',$course_data);
 	}
 	
     public function index(){
     	
-        $this->display();
+		$course_id = $_REQUEST['course_id'];
+		$type_id = $_REQUEST['type_id'];;//题型id
+		$source_name = $_REQUEST['source_name'];
+		$content = $_REQUEST['content'];
+		$status = $_REQUEST['status'];
+		
+		$this->assign('course_id',$course_id);
+		$this->assign('type_id',$type_id);
+		$this->assign('source_name',$source_name);
+		$this->assign('content',$content);
+		$this->assign('status',$status);
+		$where = '1=1';
+		if($course_id){
+			$where = "tiku.course_id=$course_id ";
+		}
+		if($type_id){
+			$where .= " && tiku.type_id=$type_id ";
+		}
+		if($status){
+			$where .= " && tiku.status=$status ";
+		}
+		if($content){
+			$where .= " && tiku.content like '%".$content."%'";
+		}
+		if($source_name){
+			$where .= " && tiku_source.source_name like '%".$source_name."%'";
+		}
+			
+	
+		//获取题库数据
+		$Model = M('tiku');
+		$count = $Model->join("tiku_source on tiku.source_id = tiku_source.id")->where($where)->count();
+		//echo $Model->getLastSql();exit;
+		$Page = new \Think\Page($count,5);
+		$Page->parameter['course_id'] = $course_id;
+		$Page->parameter['type_id'] = $type_id;
+		$Page->parameter['content'] = $content;
+		$Page->parameter['source_name'] = $source_name;
+		$Page->setConfig('first','第一页');
+		$Page->setConfig('prev','上一页');
+		$Page->setConfig('next','下一页');
+		$page_show = $Page->show();
+		$this->assign('page_show',$page_show);
+		$tiku_data = $Model->field(" tiku.`id`,tiku.`content`,tiku.`clicks`,tiku.`status`,tiku.`create_time`,tiku_source.`source_name`")
+		->join("tiku_source on tiku.`source_id`=tiku_source.id")
+		->where($where)->limit($Page->firstRow.','.$Page->listRows)->select();
+		//var_dump($tiku_data);
+		$this->assign('tiku_data',$tiku_data);
+		$this->display();
+		
+        
+	}
+	public function edit(){
+		if($_POST){
+			var_dump($_POST);
+		}else{
+			$tiku_id = $_GET['id'];
+			$Model = M('tiku');
+			$tiku_data = $Model->field(" tiku.`id`,tiku.`content`,tiku.`course_id`,tiku.`clicks`,tiku.`status`,tiku.`answer`,tiku.`analysis`,tiku.`create_time`,tiku_source.`source_name`")
+			->join("tiku_source on tiku.`source_id`=tiku_source.id")
+			->where("tiku.id=$tiku_id")->find();
+			//var_dump($tiku_data['course_id']);exit;
+			$point_html = $this->getAllChildrenPointId(0,$tiku_data['course_id']);
+			$this->assign('point_html',$point_html);
+			$this->assign('tiku_data',$tiku_data);
+		}
+		$difficulty_data = $this->getTikuDifficulty();
+		$this->assign('difficulty_data',$difficulty_data);
+		
+		$this->display();
 	}
 	/**
 	 * 获取题型
 	 * 单选题、多选题。。。
 	 */
-	public function getTikuType($course_id){
-		$data = S('tiku_type_'.$course_id);
-		if(!$data){
-			$Model = M('tiku_type');
+	public function getTikuType(){
+		$course_id = $_GET['course_id'];
+		$Model = M('tiku_type');
+		if($course_id==0){
+			$data = $Model->field("tiku_type.`type_name`,tiku_type.`id`")->select();
+		}else{
 			$data = $Model->field("tiku_type.`type_name`,tiku_type.`id`")->join("course_to_type on tiku_type.id=course_to_type.type_id")->where("course_to_type.course_id=$course_id")->select();
-
-			S('tiku_type_'.$course_id,$data,array('type'=>'file','expire'=>FILE_CACHE_TIME));
 		}
-		return $data;
+
+		$this->ajaxReturn($data);
+	}
+	/**
+	 * 获取所有题型
+	 */
+	public function getAllTypes(){
+		$Model = M('tiku_type');
+		$data = $Model->select();
+		$this->assign('tiku_type',$data);
 	}
 	/**
 	 * 获取题库难度数据
@@ -42,67 +122,24 @@ class TikuController extends GlobalController {
 		}
 		return $data;
 	}
-	/**
-	 * 获取题目特点
-	 * 历年高考真题、名校模拟题。。。
-	 */
-	public function getTikuFeature($feature_type){
-		$data = S('tiku_feature');
-		if(!$data){
-			$Model = M('tiku_feature');
-			$data = $Model->where("feature_type=$feature_type")->select();
-			S('tiku_feature',$data,array('type'=>'file','expire'=>FILE_CACHE_TIME));
-		}
-		return $data;
-	}
-	/**
-	 * 判断是否名校模拟题
-	 */
-	public function isMingXiao($feature_id){
-		$Model = M('tiku_feature');
-		$data = $Model->where("id=$feature_id")->find();
-		if(trim($data['feature_name'])=='名校模拟题'){
-			$Model = M('tiku_feature_type');
-			$data = $Model->where("feature_id=$feature_id")->select();
-			return $data;
-		}else{
-			return false;
-		}
-	}
-	/**
-	 * 判断选择的课程是否数学并且选择的题目特点是否
-	 * 历年高考真题或名校模拟题或原创
-	 * 只有高中数学题目有分文理科
-	 */
-	public function isShuxue($course_id,$feature_id){
-		$Model = M('tiku_course');
-		$data_1 = $Model->where("id=$course_id")->find();
-		
-		$Model = M('tiku_feature');
-		$data_2 = $Model->where("id=$feature_id")->find();
-		
-		if($data_1['course_name']=='数学' && $data_2['is_wenli']==1){
-			return true;
-		}else{
-			return false;
-		}
-		
-	}
+
 	/**
 	 * 获取子节点ID
 	 */
-	public function getAllChildrenPointId($parent_point_id){
+	public function getAllChildrenPointId($parent_point_id,$course_id){
 		$Model = M('tiku_point');
-		$child_data = $Model->where("parent_id=$parent_point_id")->select();
+		$child_data = $Model->where("parent_id=$parent_point_id AND course_id=$course_id")->select();
 		if($child_data){//如果存在子节点
 			foreach($child_data as $val){
-				$GLOBALS['str'] .= ','.$val['id'];
+				
+				$this->getAllChildrenPointId($val['id'],$course_id);
+				$GLOBALS['str'] .= '<option value="'.$val['id'].'">'.$val['point_name'].'</option>';
 			}
-			$this->getAllChildrenPointId($val['id']);
+			
 		}else{
 			return false;
 		}
-		return $this->parent_id.$GLOBALS['str'];
+		return $GLOBALS['str'];
 	}
 	/**
 	 * 格式化参数

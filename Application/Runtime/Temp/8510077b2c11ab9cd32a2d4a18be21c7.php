@@ -1,3 +1,0 @@
-<?php
-//000000000000a:5:{i:0;a:4:{s:2:"id";s:1:"1";s:7:"degreen";s:1:"1";s:11:"description";s:6:"容易";s:7:"section";s:9:"1.00-0.86";}i:1;a:4:{s:2:"id";s:1:"2";s:7:"degreen";s:1:"1";s:11:"description";s:6:"较易";s:7:"section";s:9:"0.85-0.71";}i:2;a:4:{s:2:"id";s:1:"3";s:7:"degreen";s:1:"1";s:11:"description";s:6:"中等";s:7:"section";s:8:"0.7-0.56";}i:3;a:4:{s:2:"id";s:1:"4";s:7:"degreen";s:1:"1";s:11:"description";s:6:"较难";s:7:"section";s:9:"0.55-0.41";}i:4;a:4:{s:2:"id";s:1:"5";s:7:"degreen";s:1:"0";s:11:"description";s:6:"困难";s:7:"section";s:9:"0.40-0.26";}}
-?>
