@@ -131,9 +131,9 @@ class TikuController extends GlobalController {
 		$child_data = $Model->where("parent_id=$parent_point_id AND course_id=$course_id")->select();
 		if($child_data){//如果存在子节点
 			foreach($child_data as $val){
-				
-				$this->getAllChildrenPointId($val['id'],$course_id);
 				$GLOBALS['str'] .= '<option value="'.$val['id'].'">'.$val['point_name'].'</option>';
+				$this->getAllChildrenPointId($val['id'],$course_id);
+				
 			}
 			
 		}else{
