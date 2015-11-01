@@ -4,11 +4,13 @@ use Admin\Controller\GlobalController;
 class TikuController extends GlobalController {
 	var $parent_id;
 	var $points ;
+	var $i;
 	/**
 	 * 初始化
 	 */
 	function _initialize()
 	{
+		$i = 0;
 		$course_data = parent::getCourse();
 		$this->getAllTypes();
 		$this->assign('course_data',$course_data);
@@ -126,21 +128,43 @@ class TikuController extends GlobalController {
 	/**
 	 * 获取子节点ID
 	 */
-	public function getAllChildrenPointId($parent_point_id,$course_id){
+	public function getAllChildrenPointId(){
 		$Model = M('tiku_point');
-		$child_data = $Model->where("parent_id=$parent_point_id AND course_id=$course_id")->select();
-		if($child_data){//如果存在子节点
-			foreach($child_data as $val){
-				$GLOBALS['str'] .= '<option value="'.$val['id'].'">'.$val['point_name'].'</option>';
-				$this->getAllChildrenPointId($val['id'],$course_id);
-				
-			}
-			
-		}else{
-			return false;
-		}
-		return $GLOBALS['str'];
+		$child_data = $Model->where("course_id=3")->select();
+		$data = $this->getTree($child_data,$pid = 0);
+		var_dump($data);exit;
 	}
+	public function findChild(&$data, $parent_id = 0) {
+        $rootList = array();
+        foreach ($data as $key => $val) {
+            if ($val['parent_id'] == $parent_id) {
+                $rootList[]   = $val;
+                unset($data[$key]);
+            }
+        }
+        return $rootList;
+    }
+
+    public function getTree(&$data, $parent_id = 0) {
+        $Model = M('tiku_point');
+        $childs = $this->findChild($data, $parent_id);
+		
+        if (empty($childs)) {
+            return null;
+        }
+        foreach ($childs as $key => $val) {
+        	$result = $Model->where("parent_id=".$val['id'])->find();
+            if ($result) {
+                $treeList = $this->getTree($data, $val['id']);
+                if ($treeList !== null) {
+                    $childs[$key]['childs'] = $treeList;
+                }
+            }
+        }
+
+        return $childs;
+    }
+
 	/**
 	 * 格式化参数
 	 */
