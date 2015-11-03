@@ -128,9 +128,9 @@ class GlobalController extends Controller{
      * @param $time
      * @param $ajax
      */
-    protected function _message($type = 'success', $content = '更新成功', $jumpUrl = __URL__, $time = 3, $ajax = false)
+    protected function _message($type = 'success', $content = '更新成功', $jumpUrl, $time = 3, $ajax = false)
     {
-        $jumpUrl = empty($jumpUrl) ? __URL__ : $jumpUrl ;
+        //$jumpUrl = empty($jumpUrl) ? __URL__ : $jumpUrl ;
 		$this->assign('type',$type);
 		$this->assign('head_title','跳转提示');
         switch ($type){

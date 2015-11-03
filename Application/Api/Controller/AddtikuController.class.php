@@ -14,7 +14,7 @@ class AddtikuController extends Controller {
 		$this->dir_path = 'Public/tikupics/';
 		$this->date = date('Ymd');
 		$this->course_id = 3;//数学
-		$this->cookies = 'jsessionid=76D2F8ABD2853030DF18A9913520C600';
+		$this->cookies = 'jsessionid=5B1D310DA8D283BD5A1B1FB9E811DD67';
 	}
     public function addtiku(){
         $content = $_POST['content'];
@@ -255,7 +255,7 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 		$sourceModel = M('tiku_source');
 		$provinceModel = M('province');
 		$page = 1;
-		while($page<=2){
+		while($page<=10){
 			$tikus = array();
 			$ch = curl_init();
 			curl_setopt($ch, CURLOPT_HTTPHEADER, array("Cookie:$this->cookies"));
@@ -269,7 +269,7 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 			$tikus = $data['data']['questionList']['rows'];
 			foreach($tikus as $val){
 				$tiku['type_id'] = 1;
-				$tiku['course_id'] = $this->course_id;
+				
 				$tiku['difficulty_id'] = $val['difficult'];
 				$source_name = trim($val['queSource']);
 				$result = $sourceModel->where("source_name='$source_name'")->find();
@@ -325,6 +325,8 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 					}
 					$source_data['source_type_id'] = $source_type_id;
 					$source_data['source_name'] = $source_name;
+					$source_data['course_id'] = $this->course_id;
+					$source_data['update_time'] = time();
 					$source_id = $sourceModel->data($source_data)->add();
 					$tiku['source_id'] = $source_id;
 				}else{
@@ -424,11 +426,12 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 				$c_point['course_id'] = $this->course_id;
 				$_result = $Model->where("point_name='".$c_point['point_name']."' AND parent_id=$point_id")->find();
 				if(!$_result){
-					$point_id = $Model->add($c_point);
+					$_point_id = $Model->add($c_point);
 				}
 				
 			}
 		}
+		
 		echo 'Spider Sucess!';
 	}
 	/**

@@ -155,6 +155,7 @@ class GlobalController extends Controller{
                 die('error type');
                 break;
         }
+		exit;
     }
 	/**
 	 * 获取省份
@@ -194,6 +195,10 @@ class GlobalController extends Controller{
 			return $upload->getErrorMsg();
 		}
 	}
+	// public function ajaxReturn($status){
+		// $data['status'] = $status;
+		// $this->ajaxReturn($data);
+	// }
 	/**
 	 * 设置、获取数据缓存
 	 */

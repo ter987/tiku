@@ -30,23 +30,31 @@ class TikuController extends GlobalController {
 		$this->assign('content',$content);
 		$this->assign('status',$status);
 		$where = '1=1';
+		$jump_url = '/index.php?m=Admin&c='.CONTROLLER_NAME.'&a='.ACTION_NAME.'&';
 		if($course_id){
-			$where = "tiku.course_id=$course_id ";
+			$where = "tiku_source.course_id=$course_id ";
+			$jump_url .= 'course_id='.$course_id.'&';
 		}
 		if($type_id){
 			$where .= " && tiku.type_id=$type_id ";
+			$jump_url .= 'type_id='.$type_id.'&';
 		}
 		if($status){
 			$where .= " && tiku.status=$status ";
+			$jump_url .= 'status='.$status.'&';
 		}
 		if($content){
 			$where .= " && tiku.content like '%".$content."%'";
+			$jump_url .= 'content='.$content.'&';
 		}
 		if($source_name){
 			$where .= " && tiku_source.source_name like '%".$source_name."%'";
+			$jump_url .= 'type_id='.$type_id.'&';
 		}
-			
-	
+		if($_GET['p']){
+			$jump_url .= 'p='.$_GET['p'];
+		}	
+		$_SESSION['jump_url'] = $jump_url;
 		//获取题库数据
 		$Model = M('tiku');
 		$count = $Model->join("tiku_source on tiku.source_id = tiku_source.id")->where($where)->count();
@@ -64,23 +72,47 @@ class TikuController extends GlobalController {
 		$tiku_data = $Model->field(" tiku.`id`,tiku.`content`,tiku.`clicks`,tiku.`status`,tiku.`create_time`,tiku_source.`source_name`")
 		->join("tiku_source on tiku.`source_id`=tiku_source.id")
 		->where($where)->limit($Page->firstRow.','.$Page->listRows)->select();
+		//echo $Model->getLastSql();
 		//var_dump($tiku_data);
 		$this->assign('tiku_data',$tiku_data);
+		$this->assign('count',$count);
 		$this->display();
 		
         
 	}
 	public function edit(){
 		if($_POST){
-			var_dump($_POST);
+			$data['id'] = $_POST['id'];
+			$data['difficulty_id'] = $_POST['difficulty_id'];
+			$data['content'] = I('post.content');
+			$data['answer'] = I('post.answer');
+			$data['analysis'] = I('post.analysis');
+			$data['status'] = $_POST['status'];
+			$data['course_id'] = $_POST['course_id'];
+			$data['update_time'] = time();
+			$Model = M('tiku');
+			$result = $Model->save($data);
+			//echo $Model->getLastSql();exit;
+			//var_dump($_SERVER);exit;
+			if($result){
+				$pointModel = M('tiku_to_point');
+				$point_data['point_id'] = $_POST['point_id'];
+				$pointModel->data($point_data)->where("tiku_id=".$data['id'])->save();
+				//echo $pointModel->getLastSql();exit;
+				$this->_message('success','更新成功',$_SESSION['jump_url']);exit;
+			}else{
+				$this->_message('error','更新失败',$_SERVER['HTTP_REFERER']);exit;
+			}
 		}else{
 			$tiku_id = $_GET['id'];
 			$Model = M('tiku');
-			$tiku_data = $Model->field(" tiku.`id`,tiku.`content`,tiku.`course_id`,tiku.`clicks`,tiku.`status`,tiku.`answer`,tiku.`analysis`,tiku.`create_time`,tiku_source.`source_name`")
+			$tiku_data = $Model->field(" tiku.`id`,tiku.difficulty_id,tiku_to_point.point_id,province.province_name,tiku.`content`,tiku.`clicks`,tiku.`status`,tiku.`answer`,tiku.`analysis`,tiku.`create_time`,tiku_source.course_id,tiku_source.source_name,tiku_source.course_id,year,tiku_source.grade,tiku_source.source_type_id,tiku_source.id as sid,tiku_source.wen_li")
 			->join("tiku_source on tiku.`source_id`=tiku_source.id")
+			->join("province on tiku_source.province_id=province.id")
+			->join("tiku_to_point on tiku_to_point.tiku_id=tiku.id")
 			->where("tiku.id=$tiku_id")->find();
-			//var_dump($tiku_data['course_id']);exit;
-			$point_html = $this->getAllChildrenPointId(0,$tiku_data['course_id']);
+			//var_dump($tiku_data);exit;
+			$point_html = $this->getAllChildrenPointId(0,$tiku_data['course_id'],$tiku_data['point_id']);
 			$this->assign('point_html',$point_html);
 			$this->assign('tiku_data',$tiku_data);
 		}
@@ -124,15 +156,41 @@ class TikuController extends GlobalController {
 		}
 		return $data;
 	}
-
+	public function getPointsByCouresId(){
+		$course_id = $_GET['course_id'];
+		$html = $this->getAllChildrenPointId(0, $course_id, 0);
+		$this->ajaxReturn($html);
+	}
 	/**
 	 * 获取子节点ID
 	 */
-	public function getAllChildrenPointId(){
+	public function getAllChildrenPointId($parent_id,$course_id,$current_id){
 		$Model = M('tiku_point');
-		$child_data = $Model->where("course_id=3")->select();
-		$data = $this->getTree($child_data,$pid = 0);
-		var_dump($data);exit;
+		$child_data = $Model->where("course_id=$course_id")->select();
+		$data = $this->getTree($child_data,$parent_id);
+		//var_dump($data);exit;
+		$html = '';
+		$select = '';
+		foreach($data as $key=>$val){
+			if($val['id']==$current_id) $select = 'selected';
+			$html .= '<option value="'.$val['id'].'" '.$select.'>'.$val['point_name'].'</option>';
+			$select = '';
+			if($childs = $val['childs']){
+				foreach($childs as $v){
+					if($v['id']==$current_id) $select = 'selected';
+					$html .= '<option value="'.$v['id'].'" '.$select.'>├'.$v['point_name'].'</option>';
+					$select = '';
+					if($childss = $v['childs']){
+						foreach($childss as $vs){
+							if($vs['id']==$current_id) $select = 'selected';
+							$html .= '<option value="'.$vs['id'].'" '.$select.'>├├'.$vs['point_name'].'</option>';
+							$select = '';
+						}
+					}
+				}
+			}
+		}
+		return $html;
 	}
 	public function findChild(&$data, $parent_id = 0) {
         $rootList = array();
@@ -164,7 +222,48 @@ class TikuController extends GlobalController {
 
         return $childs;
     }
-
+	/**
+	 * 删除
+	 */
+	public function delete(){
+		$id = $_GET['id'];
+		$Model = M('tiku');
+		$Model->startTrans();
+		$result = $Model->where("id=$id")->delete();
+		$pointModel = M('tiku_to_point');
+		$result_2 = $pointModel->where("tiku_id=$id")->delete();
+		if($result && $result_2){
+			$Model->commit();
+			$this->ajaxReturn(array('status'=>'success'));
+		}else{
+			$Model->rollback();
+			$this->ajaxReturn(array('status'=>'error'));
+		}
+		
+	}
+	public function deleteAll(){
+		$ids = $_GET['ids'];
+		$Model = M('tiku');
+		$Model->startTrans();
+		$result = $Model->where("id IN ($ids)")->delete();
+		$pointModel = M('tiku_to_point');
+		$result_2 = $pointModel->where("tiku_id IN ($ids)")->delete();
+		if($result && $result_2){
+			$Model->commit();
+			$this->_message('success','删除成功！',$_SESSION['jump_url']);
+		}else{
+			$Model->rollback();
+			$this->_message('error','删除失败！',$_SESSION['jump_url']);
+		}
+	}
+	public function shenheAll(){
+		$ids = $_GET['ids'];
+		$Model = M('tiku');
+		$result = $Model->where("id IN ($ids)")->data(array('status'=>1))->save();
+		if($result){
+			$this->_message('success','审核成功！',$_SESSION['jump_url']);
+		}
+	}
 	/**
 	 * 格式化参数
 	 */
