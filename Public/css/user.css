@@ -56,7 +56,8 @@
 #user li{clear:both;padding:4px 0;margin:0;line-height:35px;font-size:14px;}
 #user li span{float:left;width:120px;text-align:right;padding:0 10px 0 0;color:#666;line-height:35px;}
 #user .cline{border-bottom:1px solid #dcdcdc;margin:10px 0;}
-
+#user input {width:210px;height:30px;line-height:30px;border:1px solid #e1e1e1;padding:5px 10px;}
+#user select {width:210px;height:40px;line-height:40px;border:1px solid #e1e1e1;padding:5px 10px;}
 /*纠错集*/
 .jcj{padding:10px;overflow:hidden;clear:both;}
 .jcj .sel{border:1px solid #d2d2d2;height:35px;font-size:14px;width:200px;line-height:35px;}

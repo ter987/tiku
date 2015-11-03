@@ -26,7 +26,7 @@ class TikuController extends GlobalController {
 		$point_id = $new_params['p'];//知识点ID
 		$wenli_id = $new_params['w'];//知识点ID
 		$year = $new_params['y'];//年份
-		$province_id = $new_params['a'];//年份
+		$province_id = $new_params['a'];//省份
 		$this->parent_id = $point_id;
 		
 		$this->assign('type_id',$type_id);
@@ -58,18 +58,24 @@ class TikuController extends GlobalController {
 		$tiku_feature = $this->getTikuFeature(1);
 		$this->assign('tiku_feature',$tiku_feature);
 		
-		$where = "tiku.course_id=$course_id ";
+		$where = "tiku_source.course_id=$course_id ";
+		$join ="tiku_source on tiku_source.id=tiku.source_id";
 		if($type_id){
 			$where .= " && tiku.type_id=$type_id ";
 		}
 		if($difficulty_id){
 			$where .= " && tiku.difficulty_id=$difficulty_id ";
 		}
-		if($feature_id){
-			$where .= " && tiku.feature_id=$feature_id";
+		if($feature_type_id){
+			$where .= " && tiku_source.source_type_id=$feature_type_id";
+		}elseif($feature_id){
+			$where .= " && tiku_source.source_type_id=$feature_id";
+		}
+		if($province_id){
+			$where .= " && tiku_source.province_id=$province_id";
 		}
 		if($wenli_id){
-			$where .= " && tiku.wenli_id=wenli_id";
+			$where .= " && tiku_source.wen_li=$wenli_id";
 		}
 		if($point_id){
 			$child_ids = $this->getAllChildrenPointId($point_id);
@@ -81,7 +87,7 @@ class TikuController extends GlobalController {
 		if($feature_id){
 			$year_data = S('tiku_year_'.$where);
 			if(!$year_data){
-				$year_data = $Model->field("distinct tiku_source.year")->join("tiku_source on tiku.source_id=tiku_source.id ")->join($join)->where($where)->order("tiku_source.year desc")->select();
+				$year_data = $Model->field("distinct tiku_source.year")->join($join)->where($where)->order("tiku_source.year desc")->select();
 				S('tiku_year_'.$where,$year_data,array('type'=>'file','expire'=>FILE_CACHE_TIME));
 			}
 			
@@ -89,7 +95,7 @@ class TikuController extends GlobalController {
 			
 			$province_data = S('province_data_'.$where);
 			if(!$province_data){
-				$province_data = $Model->field("distinct province.id,province.province_name")->join("tiku_source on tiku.source_id=tiku_source.id")->join("province on tiku_source.province_id=province.id")->join($join)->where($where)->order("tiku_source.year desc")->select();
+				$province_data = $Model->field("distinct province.id,province.province_name")->join($join)->join("province on tiku_source.province_id=province.id")->where($where)->order("tiku_source.year desc")->select();
 				//var_dump($province_data);exit;
 				S('province_data_'.$where,$province_data,array('type'=>'file','expire'=>FILE_CACHE_TIME));
 			}
@@ -97,15 +103,19 @@ class TikuController extends GlobalController {
 			$this->assign('province_data',$province_data);
 		}
 		//获取题库数据
-		$result = $Model->field("COUNT(DISTINCT tiku.id) AS tp_count")->join($join)->where($where)->find();
-		$count = $result['tp_count'];
-		$Page = new \Think\Page($count,20);
-		$page_show = $Page->show();
+		$count = $Model->join($join)->where($where)->count();
+		//echo $Model->getLastSql();exit;
+		$Page = new \Think\Page($count,10);
+		$Page->setConfig('prev','上一页');
+		$Page->setConfig('next','下一页');
+		$Page->setConfig('first','首页');
+		$Page->setConfig('first','末页');
+		$page_show = $Page->_show($params);
 		$this->assign('page_show',$page_show);
-		$tiku_data = $Model->field("DISTINCT tiku.`id`,tiku.`content`,tiku.`clicks`,tiku_source.`source_name`,tiku_difficulty.section")
-		->join($join)->join("tiku_source on tiku.`source_id`=tiku_source.id")
-		->join("tiku_difficulty on tiku.difficulty_id=tiku_difficulty.id")->where($where)->limit($page->firstRow.','.$Page->listRows)->select();
-		//echo $Model->getLastSql();
+		$tiku_data = $Model->field(" tiku.`id`,tiku.`content`,tiku.`clicks`,tiku_source.`source_name`,tiku_difficulty.section")
+		->join($join)
+		->join("tiku_difficulty on tiku.difficulty_id=tiku_difficulty.id")->where($where)->limit($Page->firstRow.','.$Page->listRows)->select();
+		echo $Model->getLastSql();
 		//var_dump($tiku_data);
 		$this->assign('tiku_data',$tiku_data);
         $this->display();
@@ -153,11 +163,9 @@ class TikuController extends GlobalController {
 	 * 判断是否名校模拟题
 	 */
 	public function isMingXiao($feature_id){
-		$Model = M('tiku_feature');
-		$data = $Model->where("id=$feature_id")->find();
-		if(trim($data['feature_name'])=='名校模拟题'){
-			$Model = M('tiku_feature_type');
-			$data = $Model->where("feature_id=$feature_id")->select();
+		if($feature_id==2){
+			$data = array(array('type_name'=>'高考模拟','id'=>2),array('type_name'=>'月考试卷','id'=>3),array('type_name'=>'期中试卷','id'=>4),array('type_name'=>'期末试卷','id'=>5));
+			
 			return $data;
 		}else{
 			return false;
