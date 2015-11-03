@@ -192,36 +192,7 @@ class TikuController extends GlobalController {
 		}
 		return $html;
 	}
-	public function findChild(&$data, $parent_id = 0) {
-        $rootList = array();
-        foreach ($data as $key => $val) {
-            if ($val['parent_id'] == $parent_id) {
-                $rootList[]   = $val;
-                unset($data[$key]);
-            }
-        }
-        return $rootList;
-    }
-
-    public function getTree(&$data, $parent_id = 0) {
-        $Model = M('tiku_point');
-        $childs = $this->findChild($data, $parent_id);
-		
-        if (empty($childs)) {
-            return null;
-        }
-        foreach ($childs as $key => $val) {
-        	$result = $Model->where("parent_id=".$val['id'])->find();
-            if ($result) {
-                $treeList = $this->getTree($data, $val['id']);
-                if ($treeList !== null) {
-                    $childs[$key]['childs'] = $treeList;
-                }
-            }
-        }
-
-        return $childs;
-    }
+	
 	/**
 	 * 删除
 	 */
