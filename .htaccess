@@ -5,5 +5,6 @@
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteRule ^tiku/(\w*)\/$ index.php/home/tiku/index/param/$1/
-
+  RewriteRule ^tiku/detail/(\d+).html$ index.php/home/tiku/detail/id/$1/
+  RewriteRule ^member/(\w*)$ index.php/home/member/$1/
 </IfModule>

@@ -7,6 +7,7 @@ class IndexController extends GlobalController {
 	 */
 	function _initialize()
 	{
+		parent::_initialize();
 		$course_data = parent::getCourse();
 		$this->assign('course_data',$course_data);
 	}

@@ -8,6 +8,7 @@ class TikuController extends GlobalController {
 	 */
 	function _initialize()
 	{
+		parent::_initialize();
 		$course_data = parent::getCourse();
 		$this->assign('course_data',$course_data);
 	}
@@ -35,6 +36,7 @@ class TikuController extends GlobalController {
 		$this->assign('feature_type_id',$feature_type_id);
 		$this->assign('wenli_id',$wenli_id);
 		$this->assign('year',$year);
+		$this->assign('point_id',$point_id);
 		$this->assign('province_id',$province_id);
 		//var_dump($feature_id);exit;
 
@@ -57,6 +59,9 @@ class TikuController extends GlobalController {
 		//获取题库特点,参数1表示高中
 		$tiku_feature = $this->getTikuFeature(1);
 		$this->assign('tiku_feature',$tiku_feature);
+		//获取知识点
+		$points = $this->getPointsByCourseId($course_id);
+		$this->assign('points',$points);
 		
 		$where = "tiku_source.course_id=$course_id ";
 		$join ="tiku_source on tiku_source.id=tiku.source_id";
@@ -78,16 +83,17 @@ class TikuController extends GlobalController {
 			$where .= " && tiku_source.wen_li=$wenli_id";
 		}
 		if($point_id){
-			$child_ids = $this->getAllChildrenPointId($point_id);
-			$join .= "tiku_to_point ON tiku_to_point.`tiku_id`=tiku.`id`";
-			$where .= " && tiku_to_point.point_id IN ($child_ids)";
+			$_points = $this->getAllChildrenPointId($point_id);
+			$join2= "tiku_to_point ON tiku_to_point.`tiku_id`=tiku.`id`";
+			$where .= " && tiku_to_point.point_id IN ($_points)";
 		}
+		//echo $join;exit;
 		$Model = M('tiku');
 		//获取年份数据 地区数据
 		if($feature_id){
 			$year_data = S('tiku_year_'.$where);
 			if(!$year_data){
-				$year_data = $Model->field("distinct tiku_source.year")->join($join)->where($where)->order("tiku_source.year desc")->select();
+				$year_data = $Model->field("distinct tiku_source.year")->join($join)->join($join2)->where($where)->order("tiku_source.year desc")->select();
 				S('tiku_year_'.$where,$year_data,array('type'=>'file','expire'=>FILE_CACHE_TIME));
 			}
 			
@@ -95,7 +101,7 @@ class TikuController extends GlobalController {
 			
 			$province_data = S('province_data_'.$where);
 			if(!$province_data){
-				$province_data = $Model->field("distinct province.id,province.province_name")->join($join)->join("province on tiku_source.province_id=province.id")->where($where)->order("tiku_source.year desc")->select();
+				$province_data = $Model->field("distinct province.id,province.province_name")->join($join)->join($join2)->join("province on tiku_source.province_id=province.id")->where($where)->order("tiku_source.year desc")->select();
 				//var_dump($province_data);exit;
 				S('province_data_'.$where,$province_data,array('type'=>'file','expire'=>FILE_CACHE_TIME));
 			}
@@ -103,22 +109,73 @@ class TikuController extends GlobalController {
 			$this->assign('province_data',$province_data);
 		}
 		//获取题库数据
-		$count = $Model->join($join)->where($where)->count();
+		$result = $Model->field("COUNT(DISTINCT tiku.id) AS tp_count")->join($join)->join($join2)->where($where)->find();
+		$count = $result['tp_count'];
+		//echo $count;
 		//echo $Model->getLastSql();exit;
 		$Page = new \Think\Page($count,10);
 		$Page->setConfig('prev','上一页');
 		$Page->setConfig('next','下一页');
 		$Page->setConfig('first','首页');
-		$Page->setConfig('first','末页');
+		$Page->setConfig('last','末页');
 		$page_show = $Page->_show($params);
 		$this->assign('page_show',$page_show);
-		$tiku_data = $Model->field(" tiku.`id`,tiku.`content`,tiku.`clicks`,tiku_source.`source_name`,tiku_difficulty.section")
+		$tiku_data = $Model->field("DISTINCT tiku.`id`,tiku.`content`,tiku.`clicks`,tiku_source.`source_name`,tiku_difficulty.section")
 		->join($join)
-		->join("tiku_difficulty on tiku.difficulty_id=tiku_difficulty.id")->where($where)->limit($Page->firstRow.','.$Page->listRows)->select();
-		echo $Model->getLastSql();
+		->join($join2)
+		->join("tiku_difficulty on tiku.difficulty_id=tiku_difficulty.id")->where($where)->limit($Page->firstRow.','.$Page->listRows)->order("tiku.id ASC")->select();
+		//echo $Model->getLastSql();
 		//var_dump($tiku_data);
 		$this->assign('tiku_data',$tiku_data);
         $this->display();
+	}
+	/**
+	 * 试题详情页
+	 */
+	public function detail(){
+		$id = I('get.id');
+		if(!id){//错误提示页面
+			
+		}
+		$Modle = M('tiku');
+		$data = $Modle->field("tiku.id,tiku.analysis,tiku.answer,tiku.content,tiku_source.course_id,tiku_course.id,tiku_course.course_name,tiku_source.source_name,tiku_difficulty.section")
+		->join("tiku_source ON tiku_source.id=tiku.source_id")
+		->join("tiku_difficulty ON tiku_difficulty.id=tiku.difficulty_id")
+		->join("tiku_course ON tiku_course.id=tiku_source.course_id")
+		->where("tiku.id=$id")->find();
+		if(!$data){//错误提示页面
+			
+		}
+		//获取推荐试题
+		$recommend = $this->_getRecommendTiku($data['course_id']);
+		
+		$this->assign('recommend',$recommend);
+		$this->assign('tiku_data',$data);
+		$this->display();
+	}
+	/**
+	 * 获取推荐试题
+	 */
+	protected function _getRecommendTiku($course_id){
+		$Model = M('tiku');
+		$result = $Model->field("tiku.id,tiku.content")->where("tiku_source.course_id=$course_id")->join("tiku_source ON tiku_source.id=tiku.source_id")->order("RAND()")->find();
+		return $result;
+	}
+	/**
+	 * 根据course_id获取所有知识点
+	 */
+	public function getPointsByCourseId($course_id){
+		$data = S('tiku_points_'.$course_id);
+		if(!$data){
+			$Model = M('tiku_point');
+			$child_data = $Model->where("course_id=$course_id")->select();
+			if(!$child_data){
+				return false;
+			}
+		$data = $this->getTree($child_data,0);
+		}
+		return $data;
+		
 	}
 	/**
 	 * 获取题型
@@ -199,10 +256,9 @@ class TikuController extends GlobalController {
 		if($child_data){//如果存在子节点
 			foreach($child_data as $val){
 				$GLOBALS['str'] .= ','.$val['id'];
+				$this->getAllChildrenPointId($val['id']);
 			}
-			$this->getAllChildrenPointId($val['id']);
-		}else{
-			return false;
+			
 		}
 		return $this->parent_id.$GLOBALS['str'];
 	}

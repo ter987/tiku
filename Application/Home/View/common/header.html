@@ -42,8 +42,12 @@ function select_course(id){
         <div class="right">
         	<a href="">设为首页</a> |
             <a href="">收藏网站</a> |
-            <a href="">登录</a> |
-            <a href="">注册</a>
+            <eq name="is_login" value="n">
+            <a href="/member/login">登录</a> |
+            <a href="/member/register">注册</a>
+            <else />
+            <a href="/member/logout">退出</a>
+            </eq>
          </div> 
      </div>
 </div>

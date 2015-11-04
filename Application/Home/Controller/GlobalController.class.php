@@ -8,7 +8,19 @@ class GlobalController extends Controller{
 	*/
 	function _initialize()
 	{
+		if(!empty($_SESSION['nick_name'])){
+			$this->assign('is_login','y');
+		}else{
+			$this->assign('is_login','n');
+		}
 		$this->getCourse();
+	}
+	public function checkLogin(){
+		if(!empty($_SESSION['nick_name'])){
+			redirect('/member/');
+		}else{
+			redirect('/member/login');
+		}
 	}
 	/**
 	 * 获取所有课程
@@ -18,6 +30,36 @@ class GlobalController extends Controller{
 		$data = $Course->where('status=1')->select();
 		return $data;
 	}
+	public function findChild(&$data, $parent_id = 0) {
+        $rootList = array();
+        foreach ($data as $key => $val) {
+            if ($val['parent_id'] == $parent_id) {
+                $rootList[]   = $val;
+                unset($data[$key]);
+            }
+        }
+        return $rootList;
+    }
+
+    public function getTree(&$data, $parent_id = 0) {
+        $Model = M('tiku_point');
+        $childs = $this->findChild($data, $parent_id);
+		
+        if (empty($childs)) {
+            return null;
+        }
+        foreach ($childs as $key => $val) {
+        	$result = $Model->where("parent_id=".$val['id'])->find();
+            if ($result) {
+                $treeList = $this->getTree($data, $val['id']);
+                if ($treeList !== null) {
+                    $childs[$key]['childs'] = $treeList;
+                }
+            }
+        }
+
+        return $childs;
+    }
 	/**
      * 数据列表
      *

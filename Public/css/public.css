@@ -306,3 +306,9 @@ a:hover{color:#f30;}
 	border: 1px solid #da2c4d;
 	background-color: #f43c5e;
 }
+.Validform_error{background-color:#fbe2e2;border-color:#c66161;color:#c00}
+.Validform_wrong .Validform_right .Validform_warning{display:inline-block;height:20px;font-size:12px;vertical-align:middle;padding-left:25px}
+.Validform_wrong{background:url(../images/icon_error_s.png) no-repeat 0 center;color:#ef392b}
+.Validform_right{background:url(../images/icon_right_s.png) no-repeat 0 center}
+.Validform_warning{background:url(../images/icon_warning_s.png) no-repeat 0 center;color:#777}
+
