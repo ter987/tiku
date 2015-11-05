@@ -4,17 +4,18 @@
 <div class="width">
     <div class="reg_form">
 		<form id="" name="" method="post" action="/member/login">
+			<div class="reg_br"><div class="reg_l"></div><div style="color: red;">{$error_msg} </div></div>
 			<div class="reg_br">
 				<div class="reg_l">账号：</div>
 				<div class="reg_r">
-					<input id="phone" type="text" name="phone" />
+					<input id="username" type="text" name="username" datatype="*" ajaxurl="/member/ajaxCheckUser" nullmsg="邮箱不能为空！" errormsg="请输入合法的邮箱地址！"/>
 				</div>
 				<div class="clear"></div>
 			</div>
 			
 			<div class="reg_br">
 				<div class="reg_l">密码：</div>
-				<div class="reg_r"><input id="password" type="password" name="password" /></div>
+				<div class="reg_r"><input id="password" type="password" name="password" datatype="*6-20" nullmsg="密码不能为空！" errormsg="密码请输入6-16个字符"/></div>
 				<div class="clear"></div>
 			</div>
 			<div class="reg_br" style="margin-top:20px;">
@@ -40,7 +41,9 @@
 <script>
 	$(
 		function(){
-   		$(".reg_form").Validform();
+   		$("form").Validform(
+   			{tiptype:3}
+   		);
     });
 </script>
 

@@ -13,7 +13,6 @@ class MemberController extends GlobalController {
         $this->display();
 	}
 	public function register(){
-		$this->checkLogin();
 		if($_POST){
 			$type = I('post.type');
 			$email = I('post.email');
@@ -27,6 +26,7 @@ class MemberController extends GlobalController {
 			$data['nick_name'] = $nick_name;
 			$data['email'] = $email;
 			$data['password'] = md5($password);
+			//var_dump($_POST);exit;
 			$Model = M('User');
 			if($Model->add($data)){
 				$_SESSION['nick_name'] = $nick_name;
@@ -38,13 +38,37 @@ class MemberController extends GlobalController {
 		
 	}
 	public function login(){
-		
-		
+		if($_POST){
+			$user = I('post.username');
+			$password = I('post.password');
+			$Model = M('User');
+			$result = $Model->where("(email='$user' OR telphone='$user') AND password='".md5($password)."'")->find();
+			//echo $Model->getLastSql();exit;
+			//var_dump($result);exit;
+			if($result){
+				$_SESSION['nick_name'] = $result['nick_name'];
+				redirect("/member/");
+			}else{
+				$error_msg = "登录邮箱/手机号或者密码错误!";
+				$this->assign('error_msg',$error_msg);
+			}
+		}
 		$this->display();
+		
 	}
 	public function logout(){
 		session_destroy();
 		redirect('/');
+	}
+	public function ajaxCheckUser(){
+		$user = trim($_POST['param']);
+		$Model = M('User');
+		$resutl = $Model->where("email='$user' OR telphone='$user'")->find();
+		if(!$resutl){
+			$this->ajaxReturn(array('status'=>'n','info'=>'该用户还未注册'));
+		}else{
+			$this->ajaxReturn(array('status'=>'y','info'=>'验证通过'));
+		}
 	}
 	public function ajaxCheckEmail(){
 		$email = trim($_POST['param']);
