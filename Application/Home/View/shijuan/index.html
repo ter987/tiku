@@ -137,9 +137,9 @@
 		<div class="fr" style="padding:15px 15px 46px">
 			<div style="min-height:215px;margin-bottom:20px;margin-left:3px">
 				<ul id="wo_de_shi_juan">
-					<li>单选题(<span>2</span>/2)</li>
-					<li>解答题(<span>1</span>/1)</li>
-					<li>填空题(<span>3</span>/3)</li>
+					<volist name="tiku_cart" id="vo">
+					<li>{$vo.type_name}(<span>{$vo.num}</span>/{$vo.num})</li>
+					</volist>
 				</ul>
 				<div>
 					<a href="javascript:;" class="btn btn3" id="mbsaveQues" rel="nofollow">保存试卷</a>

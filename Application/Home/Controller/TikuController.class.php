@@ -54,6 +54,7 @@ class TikuController extends GlobalController {
 			}
 		}
     	//获取题库类型
+    	$_SESSION['course_id'] = $course_id;
     	$tiku_type = $this->getTikuType($course_id);
 		$this->assign('tiku_type',$tiku_type);
 		//获取题库难度系数
@@ -156,7 +157,7 @@ class TikuController extends GlobalController {
 		$this->assign('tiku_data',$data);
 		$this->display();
 	}
-	protected function _getTikuCart(){
+	public function _getTikuCart(){
 		if($_SESSION['cart']){
 			foreach ($_SESSION['cart'] as $key => $val) {
 				if(!in_array($val['type_name'],$arr)){
