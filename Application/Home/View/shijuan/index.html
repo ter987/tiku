@@ -19,7 +19,7 @@
 						<a class="amendquestype mbquesBtn1" style="margin:6px 0;display:none">修改</a>
 					</div>
 					<div id="pui_maintitle" title="试卷主标题" style="padding:5px 70px 5px 0">
-						高中语文随堂练习-20151029
+						{$shijuan.title}
 					</div>
 				</div>
 				<div class="totalScore">
@@ -31,22 +31,25 @@
 					班级：___________&nbsp;&nbsp;姓名：___________&nbsp;&nbsp;考号：___________&nbsp;&nbsp;
 				</div>
 			</div>
+			
 			<div id="pui_body">
-				<div class="paperpart" id="paperpart2">
+				<notempty name="first_juan">
+				<div class="paperpart" id="paperpart1">
 					<div id="parthead2" class="parthead">
 						<div class="partmenu">
 							<a class="amendquestype mbquesBtn5" style="display:none;">修改</a>
 						</div>
 						<div id="partheadbox2" class="partheadbox">
 							<div id="partname2" class="partname">
-								第II卷（非选择题）
+								{$first_juan.t_title}
 							</div>
 							<div id="partnote2" class="partnote">
-								本试卷第二部分共有1道试题。
+								{$first_juan.note}
 							</div>
 						</div>
 					</div>
 					<div class="partbody" id="part2">
+						<volist name="first_juan.shiti" id="vo">
 						<div class="questype" id="questype2_1" t_id="22">
 							<div class="questypehead" id="questypehead2_1">
 								<div class="questypeheadbox" id="questypeheadbox2_1">
@@ -55,7 +58,7 @@
 									<tr>
 										<td>
 											<div class="questypetitle">
-												<span class="questypeindex"><b>一、</b></span><span class="questypename">作文（共1小题）</span>
+												<span class="questypeindex"><b>{$vo.order_char}、</b></span><span class="questypename">{$vo.t_title}</span>
 											</div>
 										</td>
 									</tr>
@@ -65,6 +68,7 @@
 							</div>
 							<div class="questypebody">
 								<ul class="dragsort-ver">
+									<volist name="vo.childs" id="v">
 									<li class="ajax_li">
 									<div class="quesbox">
 										<div style="display:none;" class="quesopmenu">
@@ -76,19 +80,13 @@
 											<a class="movedn">下移</a>
 										</div>
 										<div class="quesdiv">
-											<font  class="reportError">报错</font>
 											<div>
 												<span style="background-color:#fff" class="quesindex">
-													<b>1.</b>
+													<b>{$v.order_char}.</b>
 												</span>
 												<span class="tips"></span>
 												<span class="title_css">
-													<span>阅读下面的材料，根据要求写一篇不少于</span>
-													<span>800</span>
-													<span>字的文章。</span><br>
-													<span>　　</span>
-													襄阳63岁的志愿者吕军海，为劝阻路人闯红灯，不停向他们90度深鞠躬，并善意提醒：为了您的安全，请遵守交通规则！平均每天鞠<span>200</span>个躬，他已经坚持了半年，还是有人我行我素。老人说，无奈才出此“下”策，虽有争议仍会坚守。</span><br>
-													<span>要求：选好角度，确定立意，明确文体（诗歌除外），自拟标题；不要脱离材料内容及含意的范围作文；不要套作，不得抄袭。</span><br>
+													{$v.content|htmlspecialchars_decode}
 												</span>
 											</div>
 											<div style="display:none" class="quesTxt quesTxt2 quesTxtfno">
@@ -105,11 +103,94 @@
 										</div>
 									</div>
 									</li>
+									</volist>
 								</ul>
 							</div>
 						</div>
+						</volist>
 					</div>
 				</div>
+				</notempty>
+				
+				<notempty name="second_juan">
+				<div class="paperpart" id="paperpart2">
+					<div id="parthead2" class="parthead">
+						<div class="partmenu">
+							<a class="amendquestype mbquesBtn5" style="display:none;">修改</a>
+						</div>
+						<div id="partheadbox2" class="partheadbox">
+							<div id="partname2" class="partname">
+								{$second_juan.t_title}
+							</div>
+							<div id="partnote2" class="partnote">
+								{$second_juan.note}
+							</div>
+						</div>
+					</div>
+					<div class="partbody" id="part2">
+						<volist name="second_juan.shiti" id="vo">
+						<div class="questype" id="questype2_1" t_id="22">
+							<div class="questypehead" id="questypehead2_1">
+								<div class="questypeheadbox" id="questypeheadbox2_1">
+									<table border="0" cellpadding="0" cellspacing="0" width="100%">
+									<tbody>
+									<tr>
+										<td>
+											<div class="questypetitle">
+												<span class="questypeindex"><b>{$vo.order_char}、</b></span><span class="questypename">{$vo.t_title}</span>
+											</div>
+										</td>
+									</tr>
+									</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="questypebody">
+								<ul class="dragsort-ver">
+									<volist name="vo.childs" id="v">
+									<li class="ajax_li">
+									<div class="quesbox">
+										<div style="display:none;" class="quesopmenu">
+											<a style="display:none;" class="score">设定分值</a>
+											<a class="icon3">收藏试题</a>
+											<a class="answer">答案</a>
+											<a class="del">删除</a>
+											<a class="moveup">上移</a>
+											<a class="movedn">下移</a>
+										</div>
+										<div class="quesdiv">
+											<div>
+												<span style="background-color:#fff" class="quesindex">
+													<b>{$v.order_char}.</b>
+												</span>
+												<span class="tips"></span>
+												<span class="title_css">
+													{$v.content|htmlspecialchars_decode}
+												</span>
+											</div>
+											<div style="display:none" class="quesTxt quesTxt2 quesTxtfno">
+												<ul>
+													<li><font>考点</font>
+													<div class="fl">
+														<a href="javascript:;">材料作文</a>
+													</div>
+													</li>
+												</ul>
+												<ul>
+												</ul>
+											</div>
+										</div>
+									</div>
+									</li>
+									</volist>
+								</ul>
+							</div>
+						</div>
+						</volist>
+					</div>
+				</div>
+				</notempty>
+				
 			</div>
 		</div>
 	</div>
