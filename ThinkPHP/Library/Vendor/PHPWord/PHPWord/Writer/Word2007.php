@@ -155,7 +155,7 @@ class PHPWord_Writer_Word2007 implements PHPWord_Writer_IWriter {
 			
 			// Close file
 			if($objZip->close() === false) {
-				throw new Exception("Could not close zip file $pFilename.");
+				throw new \Exception("Could not close zip file $pFilename.");
 			}
 
 			// If a temporary file was used, copy it to the correct file stream

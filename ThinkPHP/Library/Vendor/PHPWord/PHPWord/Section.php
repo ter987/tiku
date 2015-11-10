@@ -110,7 +110,7 @@ class PHPWord_Section {
 	 * @return PHPWord_Section_Text
 	 */
 	public function addText($text, $styleFont = null, $styleParagraph = null) {
-		$givenText = utf8_encode($text);
+		$givenText = $text;
 		$text = new PHPWord_Section_Text($givenText, $styleFont, $styleParagraph);
 		$this->_elementCollection[] = $text;
 		return $text;
@@ -126,9 +126,9 @@ class PHPWord_Section {
 	 * @return PHPWord_Section_Link
 	 */
 	public function addLink($linkSrc, $linkName = null, $styleFont = null, $styleParagraph = null) {
-		$linkSrc = utf8_encode($linkSrc);
+		$linkSrc = $linkSrc;
 		if(!is_null($linkName)) {
-			$linkName = utf8_encode($linkName);
+			$linkName = $linkName;
 		}
 		
 		$link = new PHPWord_Section_Link($linkSrc, $linkName, $styleFont, $styleParagraph);
@@ -180,7 +180,7 @@ class PHPWord_Section {
 	 * @return PHPWord_Section_ListItem
 	 */
 	public function addListItem($text, $depth = 0, $styleFont = null, $styleList = null, $styleParagraph = null) {
-		$text = utf8_encode($text);
+		$text = $text;
 		$listItem = new PHPWord_Section_ListItem($text, $depth, $styleFont, $styleList, $styleParagraph);
 		$this->_elementCollection[] = $listItem;
 		return $listItem;
@@ -288,7 +288,7 @@ class PHPWord_Section {
 	 * @return PHPWord_Section_Title
 	 */
 	public function addTitle($text, $depth = 1) {
-		$text = utf8_encode($text);
+		$text = $text;
 		$styles = PHPWord_Style::getStyles();
 		if(array_key_exists('Heading_'.$depth, $styles)) {
 			$style = 'Heading'.$depth;
@@ -317,6 +317,7 @@ class PHPWord_Section {
 	public function createTextRun($styleParagraph = null) {
 		$textRun = new PHPWord_Section_TextRun($styleParagraph);
 		$this->_elementCollection[] = $textRun;
+		//var_dump($this->_elementCollection);exit;
 		return $textRun;
 	}
 	

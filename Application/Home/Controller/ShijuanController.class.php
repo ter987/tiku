@@ -116,27 +116,44 @@ class ShijuanController extends GlobalController {
 		// Every element you want to append to the word document is placed in a section. So you need a section:
 		$section = $PHPWord->createSection();
 		
-		// After creating a section, you can append elements:
-		$section->addText('Hello world!');
-		
 		// You can directly style your text by giving the addText function an array:
-		$section->addText('Hello world! I am formatted.', array('name'=>'Tahoma', 'size'=>16, 'bold'=>true));
-		$section->addPageBreak();
+		$section->addText('高中数学随堂练习-20151110', array( 'size'=>'15','bold'=>true),array('align' => 'center'));
+		$section->addText('满分：', array( 'size'=>'13'),array('align' => 'center'));
+		$section->addText('班级：_________  姓名：_________  考号：_________', array( 'size'=>'13'),array('align' => 'center'));
+		$section->addTextBreak();//换行
+		$section->addText('一、单选题（共2小题）',array('size'=>13,'bold'=>true));
+		$section->addTextBreak();
+		$textrun = $section->createTextRun();
+		//$textrun->addText('1、已知集合',array('size'=>13));
+		$image = $textrun->addImage('Public/tikupics/20151103/08/42/563803062838d1446511366.gif',array('width'=>100));
+		//$textrun->addText('则集合A中元素的个数为(　　)',array('size'=>13));
+
+
+		// var_dump($a);exit;
 		// If you often need the same style again you can create a user defined style to the word document
 		// and give the addText function the name of the style:
-		$PHPWord->addFontStyle('myOwnStyle', array('name'=>'Verdana', 'size'=>14, 'color'=>'1B2232'));
-		$section->addText('Hello world! I am formatted by a user defined style', 'myOwnStyle');
+		//$PHPWord->addFontStyle('myOwnStyle', array('name'=>'Verdana', 'size'=>14, 'color'=>'1B2232'));
 		
 		// You can also putthe appended element to local object an call functions like this:
 		// $myTextElement = $section->addText('Hello World!');
 		// $myTextElement->setBold();
 		// $myTextElement->setName('Verdana');
 		// $myTextElement->setSize(22);
-		
+
 		// At least write the document to webspace:
 		//$PHPWord_IOFactory = new \Vendor\PHPWord\PHPWord_IOFactory();
 		$objWriter = \Vendor\PHPWord\PHPWord_IOFactory::createWriter($PHPWord, 'Word2007');
-		$objWriter->save('helloWorld.docx');
+		//$objWriter->save('helloWorld.docx');
+		
+		//$objWriter->save(Yii::app()->params['exportToDir'].$filename.".docx");
+        header("Content-Description: File Transfer");
+        header('Content-Disposition: attachment; filename="高中数学.docx"');
+        //header("Content-Type: application/docx");
+        header('Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
+        header('Content-Transfer-Encoding: binary');
+        header("Cache-Control: public");
+        header('Expires: 0');
+        $objWriter->save("php://output");
 	}
 	protected function _getTikuInfo($id_arr,&$o){
 		$Model = M('tiku');

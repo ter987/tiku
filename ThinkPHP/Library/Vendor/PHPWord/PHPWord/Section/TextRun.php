@@ -81,12 +81,24 @@ class PHPWord_Section_TextRun {
 	 * @return PHPWord_Section_Text
 	 */
 	public function addText($text = null, $styleFont = null) {
-		$givenText = utf8_encode($text);
+		$givenText = $text;
 		$text = new PHPWord_Section_Text($givenText, $styleFont);
 		$this->_elementCollection[] = $text;
 		return $text;
 	}
-	
+	public function addImage($src, $style = null) {
+		$image = new PHPWord_Section_Image($src, $style);
+		
+		if(!is_null($image->getSource())) {
+			$rID = PHPWord_Media::addSectionMediaElement($src, 'image');
+			$image->setRelationId($rID);
+			
+			$this->_elementCollection[] = $image;
+			return $image;
+		} else {
+			trigger_error('Source does not exist or unsupported image type.');
+		}
+	}
 	/**
 	 * Add a Link Element
 	 * 
@@ -96,9 +108,9 @@ class PHPWord_Section_TextRun {
 	 * @return PHPWord_Section_Link
 	 */
 	public function addLink($linkSrc, $linkName = null, $styleFont = null) {
-		$linkSrc = utf8_encode($linkSrc);
+		$linkSrc = $linkSrc;
 		if(!is_null($linkName)) {
-			$linkName = utf8_encode($linkName);
+			$linkName = $linkName;
 		}
 		
 		$link = new PHPWord_Section_Link($linkSrc, $linkName, $styleFont);
@@ -108,6 +120,7 @@ class PHPWord_Section_TextRun {
 		$this->_elementCollection[] = $link;
 		return $link;
 	}
+	
 	
 	/**
 	 * Get TextRun content
