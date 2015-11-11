@@ -14,7 +14,7 @@ class AddtikuController extends Controller {
 		$this->dir_path = 'Public/tikupics/';
 		$this->date = date('Ymd');
 		$this->course_id = 3;//数学
-		$this->cookies = 'jsessionid=16BDA53B244ABC09FEF0639F495A02ED';
+		$this->cookies = 'jsessionid=8B40586742F381DF40F00FC85915276E';
 	}
     public function addtiku(){
         $content = $_POST['content'];
@@ -200,6 +200,55 @@ class AddtikuController extends Controller {
 		
 	}
 	public function test(){
+		$str = '<p style="layout-grid-mode:char;mso-layout-grid-align:none;
+punctuation-wrap:simple;text-autospace:none;mso-line-break-override:restrictions" class="MsoNormal"><span lang="EN-US" style="font-size:11.0pt;mso-bidi-font-size:10.5pt;font-family:宋体;
+color:black">A</span><span style="font-size:11.0pt;mso-bidi-font-size:10.5pt;
+font-family:宋体;color:black">．<span lang="EN-US" style="position:relative;
+top:3.0pt;mso-text-raise:-3.0pt"><img width="60" height="19" v:shapes="Picture_x0020_15" alt="金太阳新课标资源网(  http://wx.jtyjy.com/)" src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150317/body15934568.files/image008.gif"></span><span lang="EN-US"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span><span style="mso-tab-count:
+1">&nbsp;&nbsp;&nbsp; </span><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>B</span>．<span lang="EN-US" style="position:relative;top:3.0pt;mso-text-raise:
+-3.0pt"><img width="60" height="19" v:shapes="Picture_x0020_16" alt="金太阳新课标资源网(  http://wx.jtyjy.com/)" src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150317/body15934568.files/image010.gif"></span><span lang="EN-US"><o:p></o:p></span></span></p>
+<p style="layout-grid-mode:char;mso-layout-grid-align:none;
+punctuation-wrap:simple;text-autospace:none;mso-line-break-override:restrictions" class="MsoNormal"><span lang="EN-US" style="font-size:11.0pt;mso-bidi-font-size:10.5pt;font-family:宋体;
+color:black">C</span><span style="font-size:11.0pt;mso-bidi-font-size:10.5pt;
+font-family:宋体;color:black">．<span lang="EN-US" style="position:relative;
+top:3.0pt;mso-text-raise:-3.0pt"><img width="60" height="19" v:shapes="Picture_x0020_17" alt="金太阳新课标资源网(  http://wx.jtyjy.com/)" src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150317/body15934568.files/image012.gif"></span><span lang="EN-US"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>D</span>．<span lang="EN-US" style="position:relative;top:3.0pt;mso-text-raise:
+-3.0pt"><img width="60" height="19" v:shapes="Picture_x0020_18" alt="金太阳新课标资源网(  http://wx.jtyjy.com/)" src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150317/body15934568.files/image014.gif"></span><span lang="EN-US"><o:p></o:p></span></span></p>';
+		$str = '<p align="left" style="text-align:left" class="MsoNormal"><span lang="EN-US" style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">A</span><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">．<span lang="EN-US">4A</span>＝<span lang="EN-US">M<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>B</span>．<span lang="EN-US">B</span>＝<span lang="EN-US">A</span>＝<span lang="EN-US">3<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>C</span>．<span lang="EN-US">x</span>＋<span lang="EN-US">y</span>＝<span lang="EN-US">0<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>D</span>．<span lang="EN-US">M</span>＝－<span lang="EN-US">M<o:p></o:p></span></span></p>';
+		$str = '<div style="layout-grid:15.6pt" class="Section1">
+
+<p align="left" style="text-align:left" class="MsoNormal"><span style="font-size:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">设集合<span lang="EN-US">A</span>＝<span lang="EN-US">{0</span>，<span lang="EN-US">1</span>，<span lang="EN-US">2</span>，<span lang="EN-US">4}</span>，<span lang="EN-US">B</span>＝<span lang="EN-US" style="position:relative;top:7.0pt;mso-text-raise:-7.0pt"><img width="113" height="27" v:shapes="_x0000_i1025" src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151107/body16314512.files/image002.gif"></span>，则<span lang="EN-US" style="position:relative;top:4.0pt;mso-text-raise:-4.0pt"><img width="41" height="20" v:shapes="_x0000_i1026" src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151107/body16314512.files/image004.gif"></span>＝（<span lang="EN-US"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span></span>）<span lang="EN-US"><o:p></o:p></span></span></p>
+
+<p align="left" style="text-align:left" class="MsoNormal"><span lang="EN-US" style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">A</span><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">．｛<span lang="EN-US">1</span>，<span lang="EN-US">2</span>，<span lang="EN-US">3</span>，<span lang="EN-US">4</span>｝<span lang="EN-US"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>B</span>．｛<span lang="EN-US">2</span>，<span lang="EN-US">3</span>，<span lang="EN-US">4</span>｝<span lang="EN-US"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>C</span>．｛<span lang="EN-US">2</span>，<span lang="EN-US">4</span>｝<span lang="EN-US"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>D</span>．｛<span lang="EN-US" style="position:relative;top:5.0pt;mso-text-raise:-5.0pt"><img width="75" height="21" v:shapes="_x0000_i1027" src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151107/body16314512.files/image006.gif"></span>｝<span lang="EN-US"><o:p></o:p></span></span></p>
+
+
+
+</div>';
+		$str = strip_tags($str,'<img>');
+		//$str= preg_replace('/\s*/','',$str);
+		//echo $str;exit;
+		$result = preg_match('/A[．]{1}[\s|\S]+&nbsp;/U',$str,$match);
+		
+		//if(!$result){ preg_match('/A[．|\.]{1}[\s|\S]+\n/U',$str,$match);}
+		var_dump($match);exit;
+		$a = preg_replace('/A．|A\.|&nbsp;/i','',$match[0]);
+		
+		$result = preg_match('/B[．|\.]{1}[\s|\S]+&nbsp;/U',$str,$match);
+		if(!$result){ preg_match('/B[．|\.]{1}[\s|\S]+\n/U',$str,$match);}
+		//var_dump($matchs);exit;
+		$b = preg_replace('/B．|B\.|&nbsp;/i','',$match[0]);
+		$result = preg_match('/C[．|\.]{1}[\s|\S]+&nbsp;/U',$str,$match);
+		if(!$result){ preg_match('/C[．|\.]{1}[\s|\S]+\n/U',$str,$match);}
+		$c = preg_replace('/C．|C\.|&nbsp;/i','',$match[0]);
+		$result = preg_match('/&nbsp;\s*D[．|\.]{1}[\s|\S]+/i',$str,$match);
+		if(!$result){ preg_match('/D[．|\.]{1}[\s|\S]+/i',$str,$match);}
+		$d = preg_replace('/D．|D\.|&nbsp;/i','',$match[0]);
+		$option_arr = array($a,$b,$c,$d);
+		var_dump($option_arr);exit;
+		echo $d;exit;
+		echo $str;exit;
 		mkdir('pub/s');
 		if(!file_exists($this->dir_path.$this->date)){
 			mkdir($this->dir_path.$this->date.'/'.date('i'));
@@ -239,12 +288,13 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 	 * 采集源：http://www.jtyhjy.com/sts/
 	 */
 	public function spider_tiku(){
-		
+		$queTypeIds = 13648;//题型ID
 		$point_id = '2440912';
+		$is_xuanzheti = true;//如果是选择题，设置为true
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_HTTPHEADER, array("Cookie:$this->cookies"));
 		curl_setopt($ch, CURLOPT_URL, "http://www.jtyhjy.com/sts/question_findQuestionPage.action");
-		curl_setopt($ch, CURLOPT_POSTFIELDS, array('difficults'=>'1,2,3,4,5','disciplineCode'=>'2','disciplineId'=>'21','disciplineType'=>'2','flag'=>'3','knowledgeIds'=>$point_id,'knowledgeLevel'=>'3','page'=>'1','queTypeIds'=>'13646,13647,13648','rows'=>'10'));
+		curl_setopt($ch, CURLOPT_POSTFIELDS, array('difficults'=>'1,2,3,4,5','disciplineCode'=>'2','disciplineId'=>'21','disciplineType'=>'2','flag'=>'3','knowledgeIds'=>$point_id,'knowledgeLevel'=>'3','page'=>'1','queTypeIds'=>$queTypeIds,'rows'=>'10'));
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		$data = curl_exec($ch);
 		curl_close($ch);
@@ -260,7 +310,7 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 			$ch = curl_init();
 			curl_setopt($ch, CURLOPT_HTTPHEADER, array("Cookie:$this->cookies"));
 			curl_setopt($ch, CURLOPT_URL, "http://www.jtyhjy.com/sts/question_findQuestionPage.action");
-			curl_setopt($ch, CURLOPT_POSTFIELDS, array('difficults'=>'1,2,3,4,5','disciplineCode'=>'2','disciplineId'=>'21','disciplineType'=>'2','flag'=>'3','knowledgeIds'=>$point_id,'knowledgeLevel'=>'3','page'=>$page,'queTypeIds'=>'13646,13647,13648','rows'=>'10'));
+			curl_setopt($ch, CURLOPT_POSTFIELDS, array('difficults'=>'1,2,3,4,5','disciplineCode'=>'2','disciplineId'=>'21','disciplineType'=>'2','flag'=>'3','knowledgeIds'=>$point_id,'knowledgeLevel'=>'3','page'=>$page,'queTypeIds'=>$queTypeIds,'rows'=>'10'));
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 			curl_setopt($ch, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_0);
 			$data = curl_exec($ch);
@@ -268,7 +318,7 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 			$data = json_decode($data,true);
 			$tikus = $data['data']['questionList']['rows'];
 			foreach($tikus as $val){
-				$tiku['type_id'] = 1;
+				$tiku['type_id'] = 3;
 				
 				$tiku['difficulty_id'] = $val['difficult'];
 				$source_name = trim($val['queSource']);
@@ -359,6 +409,9 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 						$content = str_replace($vl,$new_file,$content);
 					}
 				}
+				$content = strip_tags($content,"<p><a><span><img>");
+				$content= preg_replace('/<p[\s|\S]*>/U','',$content,1);
+				$content = preg_replace('/<\/p>/','',$content,1);
 				//过滤解析
 				$analysis = $val['analysisHtmlText'];
 				preg_match_all('/src="\S+"/i',$analysis,$a_m);

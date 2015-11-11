@@ -109,12 +109,14 @@ class ShijuanController extends GlobalController {
 	 * 生成word文件
 	 */
 	public function createToWord(){
-		Vendor("PHPWord.PHPWord");
-		// Create a new PHPWord Object
-		$PHPWord = new \Vendor\PHPWord\PHPWord();
 		
+		Vendor('PhpWord.src.PhpWord.Autoloader');
+		\PhpOffice\PhpWord\Autoloader::register();
+		
+		// Creating the new document...
+		$phpWord = new \PhpOffice\PhpWord\PhpWord();
 		// Every element you want to append to the word document is placed in a section. So you need a section:
-		$section = $PHPWord->createSection();
+		$section = $phpWord->addSection();
 		
 		// You can directly style your text by giving the addText function an array:
 		$section->addText('高中数学随堂练习-20151110', array( 'size'=>'15','bold'=>true),array('align' => 'center'));
@@ -123,13 +125,23 @@ class ShijuanController extends GlobalController {
 		$section->addTextBreak();//换行
 		$section->addText('一、单选题（共2小题）',array('size'=>13,'bold'=>true));
 		$section->addTextBreak();
-		$textrun = $section->createTextRun();
-		//$textrun->addText('1、已知集合',array('size'=>13));
-		$image = $textrun->addImage('Public/tikupics/20151103/08/42/563803062838d1446511366.gif',array('width'=>100));
+
+		$textrun = $section->createTextRun(array('widowControl'=>'true'));
+		$textrun->addText('1、已知集合',array('size'=>13));
+		//$textrun->addImage('Public/tikupics/20151103/08/42/563803062838d1446511366.gif');
 		//$textrun->addText('则集合A中元素的个数为(　　)',array('size'=>13));
-
-
-		// var_dump($a);exit;
+		$textrun->addText('因为加密等原因,如果直接用FILE后者OPEN等函数读取WORD的话往往是乱码,原来要使用COM 这是我简单的一个读取并存储到新的WOR',array('size'=>13));
+		$tableStyle = array(
+		    'borderColor' => '006699',
+		    'borderSize' => 6,
+		    'cellMargin' => 50
+		);
+		$firstRowStyle = array('bgColor' => '66BBFF');
+		$phpWord->addTableStyle('myTable', $tableStyle, $firstRowStyle);
+		$table = $section->addTable('myTable');
+		$table->addRow(1500);
+		$cell = $table->addCell(1500);
+				// var_dump($a);exit;
 		// If you often need the same style again you can create a user defined style to the word document
 		// and give the addText function the name of the style:
 		//$PHPWord->addFontStyle('myOwnStyle', array('name'=>'Verdana', 'size'=>14, 'color'=>'1B2232'));
@@ -142,7 +154,7 @@ class ShijuanController extends GlobalController {
 
 		// At least write the document to webspace:
 		//$PHPWord_IOFactory = new \Vendor\PHPWord\PHPWord_IOFactory();
-		$objWriter = \Vendor\PHPWord\PHPWord_IOFactory::createWriter($PHPWord, 'Word2007');
+		$objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');
 		//$objWriter->save('helloWorld.docx');
 		
 		//$objWriter->save(Yii::app()->params['exportToDir'].$filename.".docx");
