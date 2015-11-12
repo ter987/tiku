@@ -124,7 +124,7 @@ class TikuController extends GlobalController {
 		$Page->setConfig('last','末页');
 		$page_show = $Page->_show($params);
 		$this->assign('page_show',$page_show);
-		$tiku_data = $Model->field("DISTINCT tiku.`id`,tiku.`content`,tiku.`clicks`,tiku_source.`source_name`,tiku_difficulty.section")
+		$tiku_data = $Model->field("DISTINCT tiku.`id`,tiku.options,tiku.`content`,tiku.`clicks`,tiku_source.`source_name`,tiku_difficulty.section")
 		->join($join)
 		->join($join2)
 		->join("tiku_difficulty on tiku.difficulty_id=tiku_difficulty.id")->where($where)->limit($Page->firstRow.','.$Page->listRows)->order("tiku.id ASC")->select();

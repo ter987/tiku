@@ -66,6 +66,11 @@
 									</table>
 								</div>
 							</div>
+							<style>
+			               	.em2 img{
+			               		vertical-align: middle;
+			               	}
+			               </style>
 							<div class="questypebody">
 								<ul class="dragsort-ver">
 									<volist name="vo.childs" id="v">
@@ -87,6 +92,24 @@
 												<span class="tips"></span>
 												<span class="title_css">
 													{$v.content|htmlspecialchars_decode}
+													<php>
+							                    		if($v['options']){
+							                    			$options = json_decode($v['options']);
+							                    			$options_index = array(0=>'A',1=>'B',2=>'C',3=>'D',4=>'E');
+							                    	</php>
+							                    	<p>
+							                    		<php>
+							                    			$k = 0;
+							                    			foreach($options as $k=>$val){
+							                    		</php>
+							                    			<span style="float:left;line-height:18px;font-size:14px;padding-right:30px;" class="em2"><php>echo $options_index[$k]</php>.<php>echo $val</php></span>
+							                    		<php>
+							                    			}
+							                    		</php>
+							                    	</p>
+							                    	<php>
+							                    	}
+							                    	</php>
 												</span>
 											</div>
 											<div style="display:none" class="quesTxt quesTxt2 quesTxtfno">

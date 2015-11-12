@@ -327,7 +327,11 @@
                     <div class="clear"></div>
         	     </div>
                </div>
-               
+               <style>
+               	.em2 img{
+               		vertical-align: middle;
+               	}
+               </style>
                <div class="clear"></div>
                <ul class="tk_tm_ul">
                	<notempty name="tiku_data">
@@ -335,6 +339,25 @@
                <li>
                 	<p class="c_z"><b>来源：{$vo.source_name}</b></p>
                     <p>{$vo.content|htmlspecialchars_decode}</p>
+                    
+                    	<php>
+                    		if($vo['options']){
+                    			$options = json_decode($vo['options']);
+                    			$options_index = array(0=>'A',1=>'B',2=>'C',3=>'D',4=>'E');
+                    	</php>
+                    	<p>
+                    		<php>
+                    			$k = 0;
+                    			foreach($options as $k=>$val){
+                    		</php>
+                    			<span style="float:left;line-height:18px;font-size:14px;padding-right:30px;" class="em2"><php>echo $options_index[$k]</php>.<php>echo $val</php></span>
+                    		<php>
+                    			}
+                    		</php>
+                    	</p>
+                    	<php>
+                    	}
+                    	</php>
                     
                      <div class="jcbtn1">纠错</div>
                             <div class="jc_list_b">

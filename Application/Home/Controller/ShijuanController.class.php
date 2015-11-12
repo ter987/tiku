@@ -136,11 +136,12 @@ class ShijuanController extends GlobalController {
 		    'borderSize' => 6,
 		    'cellMargin' => 50
 		);
-		$firstRowStyle = array('bgColor' => '66BBFF');
-		$phpWord->addTableStyle('myTable', $tableStyle, $firstRowStyle);
 		$table = $section->addTable('myTable');
-		$table->addRow(1500);
-		$cell = $table->addCell(1500);
+		$table->addRow();
+		$cell = $table->addCell();
+		$textrun2 = $cell->addTextRun();
+		$textrun2->addText('胜多负少');
+		$textrun2->addImage('Public/tikupics/20151112/15/52/5644453a67e081447314746.gif');
 				// var_dump($a);exit;
 		// If you often need the same style again you can create a user defined style to the word document
 		// and give the addText function the name of the style:
@@ -170,7 +171,7 @@ class ShijuanController extends GlobalController {
 	protected function _getTikuInfo($id_arr,&$o){
 		$Model = M('tiku');
 		foreach($id_arr as $key=>$val){
-			$rs = $Model->field("id,content,answer,analysis")->where("id=$val")->find();
+			$rs = $Model->field("id,content,options,answer,analysis")->where("id=$val")->find();
 			$rs['order_char'] = $o;
 			$tiku[] = $rs;
 			$o++;
