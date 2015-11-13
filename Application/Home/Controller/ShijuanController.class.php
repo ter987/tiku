@@ -109,7 +109,9 @@ class ShijuanController extends GlobalController {
 	 * 生成word文件
 	 */
 	public function createToWord(){
-		
+		// if(empty($_SESSION['shijuan'])){
+    		// redirect('/');
+    	// }
 		Vendor('PhpWord.src.PhpWord.Autoloader');
 		\PhpOffice\PhpWord\Autoloader::register();
 		
@@ -119,39 +121,119 @@ class ShijuanController extends GlobalController {
 		$section = $phpWord->addSection();
 		
 		// You can directly style your text by giving the addText function an array:
-		$section->addText('高中数学随堂练习-20151110', array( 'size'=>'15','bold'=>true),array('align' => 'center'));
+		$section->addText($_SESSION['shijuan']['title'], array( 'size'=>'15','bold'=>true),array('align' => 'center'));
 		$section->addText('满分：', array( 'size'=>'13'),array('align' => 'center'));
 		$section->addText('班级：_________  姓名：_________  考号：_________', array( 'size'=>'13'),array('align' => 'center'));
 		$section->addTextBreak();//换行
-		$section->addText('一、单选题（共2小题）',array('size'=>13,'bold'=>true));
+		$oa = array(1=>'一',2=>'二',3=>'三',4=>'四',5=>'五',6=>'六',7=>'七');
+		$last = 0;
+		$o = 1;
+		if($_SESSION['shijuan'][1]){
+			$option_index = array(0=>'A',1=>'B',2=>'C',3=>'D',4=>'E');
+			$section->addText($_SESSION['shijuan'][1]['t_title'],array('size'=>13,'bold'=>true),array('align' => 'center'));
+			$section->addText($_SESSION['shijuan'][1]['note'],array('size'=>13));
+			foreach($_SESSION['shijuan'][1]['shiti'] as $k=>$v){
+				$childs = $this->_getTikuInfo($v['childs'],$o);
+				$last = $k;
+				$section->addText($oa[$k].'、'.$v['t_title'],array('size'=>13,'bold'=>true));
+				foreach($childs as $key=>$val){
+					$textrun = $section->createTextRun(array('widowControl'=>'true'));
+					$question = trim(strip_tags(htmlspecialchars_decode($val['content']),'<img>'));
+					$question = preg_replace('/(&nbsp;)*/','',$question);
+					$text_arr = preg_split('/<img[\s|\S]+>/U',$question);
+					preg_match_all('/src="[\s|\S]+"/U',$question,$matchs);
+					//var_dump($matchs);exit;
+					if($matchs){
+						$img_arr = preg_replace('/(src="\/)|"/U','',$matchs[0]);
+						$i=0;
+						$text_count = count($text_arr);
+						$img_count = count($img_arr);
+						$textrun->addText($val['order_char'].'.',array('size'=>13));
+						while($i<$text_count){
+							//echo $text_arr[$i];exit;
+							$textrun->addText($text_arr[$i],array('size'=>13));
+							if($i==$img_count) break;
+							$textrun->addImage($img_arr[$i]);
+							$i++;
+						}
+						
+					}else{
+						$section->addText($val['order_char'].'.'.$question,array('size'=>13));
+					}
+					if($val['options']){
+						$options = json_decode($val['options']);
+						
+						$table = $section->addTable('myTable');
+						$table->addRow();
+						foreach($options as $d=>$c){
+							$cell = $table->addCell(2500);
+							$textrun2 = $cell->addTextRun();
+							$option = trim($c);
+							$option = preg_replace('/(&nbsp;)*/','',$option);
+							$text_arr = preg_split('/<img[\s|\S]+>/U',$option);
+							preg_match_all('/src="[\s|\S]+"/U',$option,$matchs);
+							//var_dump($matchs);exit;
+							if($matchs){
+								$img_arr = preg_replace('/(src="\/)|"/U','',$matchs[0]);
+								$i=0;
+								$text_count = count($text_arr);
+								$img_count = count($img_arr);
+								while($i<$text_count){
+									//echo $text_arr[$i];exit;
+									$textrun2->addText($option_index[$d].'.'.$text_arr[$i],array('size'=>13));
+									if($i==$img_count) break;
+									$textrun2->addImage($img_arr[$i]);
+									$i++;
+								}
+							}else{
+								$textrun2->addText($option_index[$d].'.'.$option,array('size'=>13));
+							}
+					}
+					//break;
+					
+					}
+				}
+				//$textrun->addImage('Public/tikupics/20151103/08/42/563803062838d1446511366.gif');
+			}
+		}
 		$section->addTextBreak();
-
-		$textrun = $section->createTextRun(array('widowControl'=>'true'));
-		$textrun->addText('1、已知集合',array('size'=>13));
-		//$textrun->addImage('Public/tikupics/20151103/08/42/563803062838d1446511366.gif');
-		//$textrun->addText('则集合A中元素的个数为(　　)',array('size'=>13));
-		$textrun->addText('因为加密等原因,如果直接用FILE后者OPEN等函数读取WORD的话往往是乱码,原来要使用COM 这是我简单的一个读取并存储到新的WOR',array('size'=>13));
-		$tableStyle = array(
-		    'borderColor' => '006699',
-		    'borderSize' => 6,
-		    'cellMargin' => 50
-		);
-		$table = $section->addTable('myTable');
-		$table->addRow();
-		$cell = $table->addCell();
-		$textrun2 = $cell->addTextRun();
-		$textrun2->addText('胜多负少');
-		$textrun2->addImage('Public/tikupics/20151112/15/52/5644453a67e081447314746.gif');
-				// var_dump($a);exit;
-		// If you often need the same style again you can create a user defined style to the word document
-		// and give the addText function the name of the style:
-		//$PHPWord->addFontStyle('myOwnStyle', array('name'=>'Verdana', 'size'=>14, 'color'=>'1B2232'));
-		
-		// You can also putthe appended element to local object an call functions like this:
-		// $myTextElement = $section->addText('Hello World!');
-		// $myTextElement->setBold();
-		// $myTextElement->setName('Verdana');
-		// $myTextElement->setSize(22);
+		if($_SESSION['shijuan'][2]){
+			$section->addText($_SESSION['shijuan'][2]['t_title'],array('size'=>13,'bold'=>true),array('align' => 'center'));
+			$section->addText($_SESSION['shijuan'][2]['note'],array('size'=>13));
+			foreach($_SESSION['shijuan'][2]['shiti'] as $k=>$v){
+				$childs = $this->_getTikuInfo($v['childs'],$o);
+				$last = $k;
+				$section->addText($oa[$k].'、'.$v['t_title'],array('size'=>13,'bold'=>true));
+				foreach($childs as $key=>$val){
+					$textrun = $section->createTextRun(array('widowControl'=>'true'));
+					$question = trim(strip_tags(htmlspecialchars_decode($val['content']),'<img>'));
+					$question = preg_replace('/(&nbsp;)*/','',$question);
+					$text_arr = preg_split('/<img[\s|\S]+>/U',$question);
+					$text_arr = preg_replace('/\n/','',$text_arr);
+					preg_match_all('/src="[\s|\S]+"/U',$question,$matchs);
+					//var_dump($matchs);exit;
+					if($matchs){
+						$img_arr = preg_replace('/(src="\/)|"/U','',$matchs[0]);
+						$i=0;
+						$text_count = count($text_arr);
+						$img_count = count($img_arr);
+						$textrun->addText($val['order_char'].'.',array('size'=>13));
+						while($i<$text_count){
+							//echo $text_arr[$i];exit;
+							$textrun->addText($text_arr[$i],array('size'=>13));
+							$textrun->addTextBreak();
+							if($i==$img_count) break;
+							$textrun->addImage($img_arr[$i]);
+							$i++;
+						}
+						
+					}else{
+						$section->addText($val['order_char'].'.'.$question,array('size'=>13));
+					}
+					$section->addTextBreak();
+				}
+			}
+		}
 
 		// At least write the document to webspace:
 		//$PHPWord_IOFactory = new \Vendor\PHPWord\PHPWord_IOFactory();

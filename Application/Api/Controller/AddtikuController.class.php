@@ -14,7 +14,7 @@ class AddtikuController extends Controller {
 		$this->dir_path = 'Public/tikupics/';
 		$this->date = date('Ymd');
 		$this->course_id = 3;//数学
-		$this->cookies = 'jsessionid=B2098B93B6E0587C42A435AA428BC0A2';
+		$this->cookies = 'jsessionid=53E359E4DABC0E42E238CE627E0562F0';
 	}
     public function addtiku(){
         $content = $_POST['content'];
@@ -206,49 +206,41 @@ class AddtikuController extends Controller {
 
 <p class=MsoNormal align=left style="text-align:left"><span style="font-size:
 
-11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">设<span lang=EN-US>S</span>为复数集<span
+11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">设<span lang=EN-US
 
-lang=EN-US>C</span>的非空子集．若对任意<span lang=EN-US style="position:relative;
+style="position:relative;top:2.0pt;mso-text-raise:-2.0pt"><img width=16 height=18
 
-top:5.0pt;mso-text-raise:-5.0pt"><img width=53 height=21
+src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image002.gif" v:shapes="Picture_x0020_57"></span>为非空实数集，若<span
 
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150716/body16216156.files/image002.gif" v:shapes="_x0000_i1025"></span>，都有<span
+lang=EN-US style="position:relative;top:5.0pt;mso-text-raise:-5.0pt"><img width=66 height=22
 
-lang=EN-US style="position:relative;top:5.0pt;mso-text-raise:-5.0pt"><img width=119 height=21
+src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image004.gif" v:shapes="Picture_x0020_58"></span>，都有<span
 
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150716/body16216156.files/image004.gif" v:shapes="_x0000_i1026"></span>，则称<span
+lang=EN-US style="position:relative;top:5.0pt;mso-text-raise:-5.0pt"><img width=188 height=23
 
-lang=EN-US>S</span>为封闭集。下列命题：</span><span style="mso-ignore:vglayout;position:
+src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image006.gif" v:shapes="Picture_x0020_198"></span>，则称<span
 
-absolute;z-index:-7;margin-left:425px;margin-top:13px;width:63px;height:23px"><img
+lang=EN-US style="position:relative;top:2.0pt;mso-text-raise:-2.0pt"><img width=16 height=18
 
-width=63 height=23 src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150716/body16216156.files/image006.gif" v:shapes="Picture_x0020_881"></span><span style="mso-ignore:vglayout;position:
+src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image002.gif" v:shapes="Picture_x0020_60"></span>为封闭集．<span
 
-absolute;z-index:-8;margin-left:268px;margin-top:17px;width:63px;height:23px"><img
+lang=EN-US><o:p></o:p></span></span></p>
 
-width=63 height=23 src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150716/body16216156.files/image007.gif" v:shapes="Picture_x0020_880"></span><span style="mso-ignore:vglayout;position:
 
-absolute;z-index:-9;margin-left:252px;margin-top:1px;width:63px;height:23px"><img
 
-width=63 height=23 src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150716/body16216156.files/image007.gif" v:shapes="Picture_x0020_879"></span><span
+<p class=MsoNormal align=left style="text-align:left"><span style="font-size:
 
-style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;mso-bidi-font-family:
+11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;
 
-宋体;color:black">①</span><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
+color:black">①</span><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
 
-font-family:宋体;color:black">集合<span lang=EN-US>S</span>＝<span lang=EN-US>{a</span>＋<span
+font-family:宋体;color:black">集合<span lang=EN-US style="position:relative;
 
-lang=EN-US>bi|</span>（<span lang=EN-US style="position:relative;top:4.0pt;
+top:5.0pt;mso-text-raise:-5.0pt"><img width=141 height=22
 
-mso-text-raise:-4.0pt"><img width=27 height=20
+src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image009.gif" v:shapes="Picture_x0020_61"></span>为封闭集；<span
 
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150716/body16216156.files/image009.gif" v:shapes="_x0000_i1027"></span>为整数，<span
-
-lang=EN-US style="position:relative;top:3.0pt;mso-text-raise:-3.0pt"><img width=9 height=17
-
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150716/body16216156.files/image011.gif" v:shapes="_x0000_i1028"></span>为虚数单位）<span
-
-lang=EN-US>}</span>为封闭集；<span lang=EN-US><o:p></o:p></span></span></p>
+lang=EN-US><o:p></o:p></span></span></p>
 
 
 
@@ -258,11 +250,11 @@ lang=EN-US>}</span>为封闭集；<span lang=EN-US><o:p></o:p></span></span></p>
 
 color:black">②</span><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
 
-font-family:宋体;color:black">若<span lang=EN-US>S</span>为封闭集，则一定有<span
+font-family:宋体;color:black">集合<span lang=EN-US style="position:relative;
 
-lang=EN-US style="position:relative;top:3.0pt;mso-text-raise:-3.0pt"><img width=37 height=19
+top:5.0pt;mso-text-raise:-5.0pt"><img width=144 height=22
 
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150716/body16216156.files/image013.gif" v:shapes="_x0000_i1029"></span>；<span
+src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image011.gif" v:shapes="Picture_x0020_62"></span>为封闭集；<span
 
 lang=EN-US><o:p></o:p></span></span></p>
 
@@ -274,25 +266,15 @@ lang=EN-US><o:p></o:p></span></span></p>
 
 color:black">③</span><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
 
-font-family:宋体;color:black">封闭集一定是无限集；<span lang=EN-US><o:p></o:p></span></span></p>
+font-family:宋体;color:black">若集合<span lang=EN-US style="position:relative;
 
+top:5.0pt;mso-text-raise:-5.0pt"><img width=42 height=22
 
+src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image013.gif" v:shapes="Picture_x0020_63"></span>为封闭集，则<span
 
-<p class=MsoNormal align=left style="text-align:left"><span style="font-size:
+lang=EN-US style="position:relative;top:5.0pt;mso-text-raise:-5.0pt"><img width=54 height=22
 
-11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;
-
-color:black">④</span><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
-
-font-family:宋体;color:black">若<span lang=EN-US>S</span>为封闭集，则满足<span lang=EN-US
-
-style="position:relative;top:4.0pt;mso-text-raise:-4.0pt"><img width=73 height=20
-
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150716/body16216156.files/image015.gif" v:shapes="_x0000_i1030"></span>的任意集合<span
-
-lang=EN-US style="position:relative;top:2.0pt;mso-text-raise:-2.0pt"><img width=15 height=17
-
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150716/body16216156.files/image017.gif" v:shapes="_x0000_i1031"></span>也是封闭集．<span
+src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image015.gif" v:shapes="Picture_x0020_64"></span>为封闭集；<span
 
 lang=EN-US><o:p></o:p></span></span></p>
 
@@ -300,77 +282,25 @@ lang=EN-US><o:p></o:p></span></span></p>
 
 <p class=MsoNormal align=left style="text-align:left"><span style="font-size:
 
-11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">上面命题中真命题共有哪些？（<span
+11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">④若<span
 
-lang=EN-US><span style="mso-spacerun:yes">&nbsp; </span></span>）<span
+lang=EN-US style="position:relative;top:2.0pt;mso-text-raise:-2.0pt"><img width=16 height=18
 
-lang=EN-US><o:p></o:p></span></span></p>
+src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image002.gif" v:shapes="Picture_x0020_65"></span>为封闭集，则一定有<span
+
+lang=EN-US style="position:relative;top:3.0pt;mso-text-raise:-3.0pt"><img width=38 height=18
+
+src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image018.gif" v:shapes="Picture_x0020_66"></span>．<span
+
+lang=EN-US><o:p></o:p></span></span>s</p>
 
 
 
-<p class=MsoNormal align=left style="text-align:left"><span lang=EN-US
+<p class=MsoNormal align=left style="text-align:left"><span style="font-size:
 
-style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">A</span><span
+11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">其中正确结论的序号是<span
 
-style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">．</span><span style="mso-ignore:vglayout;position:
-
-absolute;z-index:-4;margin-left:425px;margin-top:13px;width:63px;height:23px"><img
-
-width=63 height=23 src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150716/body16216156.files/image007.gif" v:shapes="_x0000_s1092"></span><span style="mso-ignore:vglayout;position:
-
-absolute;z-index:-5;margin-left:268px;margin-top:17px;width:63px;height:23px"><img
-
-width=63 height=23 src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150716/body16216156.files/image007.gif" v:shapes="_x0000_s1091"></span><span style="mso-ignore:vglayout;position:
-
-absolute;z-index:-6;margin-left:252px;margin-top:1px;width:63px;height:23px"><img
-
-width=63 height=23 src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150716/body16216156.files/image007.gif" v:shapes="_x0000_s1090"></span><span
-
-style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;mso-bidi-font-family:
-
-宋体;color:black">①</span><span lang=EN-US style="font-size:11.0pt;mso-bidi-font-size:
-
-12.0pt;font-family:宋体;color:black"><span
-
-style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>B</span><span style="mso-ignore:vglayout;position:
-
-absolute;z-index:-1;margin-left:441px;margin-top:29px;width:63px;height:23px"><img
-
-width=63 height=23 src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150716/body16216156.files/image007.gif" v:shapes="_x0000_s1095"></span><span style="mso-ignore:vglayout;position:
-
-absolute;z-index:-2;margin-left:284px;margin-top:33px;width:63px;height:23px"><img
-
-width=63 height=23 src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150716/body16216156.files/image007.gif" v:shapes="_x0000_s1094"></span><span style="mso-ignore:vglayout;position:
-
-absolute;z-index:-3;margin-left:284px;margin-top:33px;width:63px;height:23px"><img
-
-width=63 height=23 src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20150716/body16216156.files/image007.gif" v:shapes="_x0000_s1093"></span><span
-
-style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">．</span><span
-
-style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;mso-bidi-font-family:
-
-宋体;color:black">①②</span><span lang=EN-US style="font-size:11.0pt;mso-bidi-font-size:
-
-12.0pt;font-family:宋体;color:black"><span style="mso-spacerun:yes">&nbsp;&nbsp;
-
-</span>C</span><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
-
-font-family:宋体;color:black">．</span><span style="font-size:11.0pt;mso-bidi-font-size:
-
-12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black">①②③</span><span
-
-lang=EN-US style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;
-
-color:black"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>D</span><span
-
-style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">．</span><span
-
-style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;mso-bidi-font-family:
-
-宋体;color:black">①②④</span><span lang=EN-US style="font-size:11.0pt;mso-bidi-font-size:
-
-12.0pt;font-family:宋体;color:black"><o:p></o:p></span></p>
+lang=EN-US>____________</span>．<span lang=EN-US><o:p></o:p></span></span></p>
 
 
 
@@ -380,6 +310,19 @@ style="font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;mso-bidi-fo
 
 </div>
 		';
+		
+		$str = preg_replace('/\s{2,}/',' ',$str);
+		echo $str;exit;
+		preg_match('/\s/',$str,$match);
+		//$count = preg_match_all('/(&nbsp;)/', $match[0],$m);
+		//echo $count;
+		var_dump($match);exit;
+		for($i=0;$i<$count;$i++){
+			$underline .= '_';
+		}
+		//echo $count;exit;
+		$str = preg_replace('/[\'|"]mso-spacerun:yes[\'|"]>(&nbsp;){3,}[\s|\S]*<\/span>/','"mso-spacerun:yes">'.$underline.'</span>',$str);
+		echo $str;exit;
 		// preg_match_all('/<p[\s|\S]*<\/p>/U',$str,$matchs);
 		// $count = count($matchs[0]);
 		// if($count){
@@ -456,10 +399,10 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 	 * 采集源：http://www.jtyhjy.com/sts/
 	 */
 	public function spider_tiku(){
-		$queTypeIds = 13646;//采集源题型ID
+		$queTypeIds = 13648;//采集源题型ID
 		$point_id = '2440912';
-		$type_id = 1;//本地题型ID
-		$is_xuanzheti = true;//如果是选择题，设置为true
+		$type_id = 3;//本地题型ID
+		$is_xuanzheti = false;//如果是选择题，设置为true
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_HTTPHEADER, array("Cookie:$this->cookies"));
 		curl_setopt($ch, CURLOPT_URL, "http://www.jtyhjy.com/sts/question_findQuestionPage.action");
@@ -580,8 +523,11 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 					}
 				}
 				$tiku['content_old'] = $content;
+				$content = preg_replace('/<!--[\s|\S]+-->/U','',$content);
+				$content = preg_replace('/\s{2,}/',' ',$content);
 				if($is_xuanzheti){//如果是选择题，从题目中过滤出选项
-			
+					$a=$b=$c=$d='';
+					$option_arr = array();
 					$str = strip_tags($content,'<img>');
 					//$str= preg_replace('/\s*/','',$str);
 					//echo $str;exit;
@@ -603,7 +549,10 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 					if(!$result){ if(preg_match('/D(．|\.){1}[\s|\S]+/i',$str,$match)){}else{preg_match('/（D）[\s|\S]+/',$str,$match);$match[0] = preg_replace('/（D）/','',$match[0]);}}
 					$d = preg_replace('/D．|D\.|&nbsp;/i','',$match[0]);
 					$option_arr = array(0=>$a,1=>$b,2=>$c,3=>$d);
-					$tiku['options'] = json_encode($option_arr);
+					if(!empty($a) || !empty($b) || !empty($c) || !empty($d)){
+						$tiku['options'] = json_encode($option_arr);
+					}
+					
 					if(empty($a) || empty($b) || empty($c) || empty($d)){
 					 $spider_error = true;
 					}
@@ -622,12 +571,23 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 					}else{
 						$spider_error = true;
 					}
+				}else{
+					
+					preg_match('/mso-spacerun:yes[\'|"]>(&nbsp;){3,}[\s|\S]*<\/span>/U',$content,$match);
+					$count = preg_match_all('/(&nbsp;)/', $match[0],$m);
+					$underline = '';
+					for($i=0;$i<$count;$i++){
+						$underline .= '_';
+					}
+					//echo $count;exit;
+					$content = preg_replace('/[\'|"]mso-spacerun:yes[\'|"]>(&nbsp;){3,}[\s|\S]*<\/span>/','"mso-spacerun:yes">'.$underline.'</span>',$content);
 				}
-				$content = strip_tags($content,"<p><a><span><img>");
+				
+				$content = strip_tags(trim($content),"<p><a><span><img>");
 				$content= preg_replace('/<p[\s|\S]*>/U','',$content,1);
 				$content = preg_replace('/<\/p>/','',$content,1);
 				//过滤解析
-				$analysis = $val['analysisHtmlText'];
+				$analysis = trim($val['analysisHtmlText']);
 				preg_match_all('/src="\S+"/i',$analysis,$a_m);
 				if($a_m){
 					$imgs = $a_m[0];
@@ -639,7 +599,7 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 						$analysis = str_replace($vl,$new_file,$analysis);
 					}
 				}
-				$tiku['answer'] = htmlspecialchars($answer);
+				$tiku['answer'] = trim(htmlspecialchars($answer));
 				$tiku['content'] = htmlspecialchars($content);
 				$tiku['analysis'] = htmlspecialchars($analysis);
 				$tiku['update_time'] = time();
@@ -757,7 +717,7 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		$stream = curl_exec($ch);
 		$new_file = $this->dir_path.$this->date.'/'.date('H').'/'.date('i').'/'.$filename;
-		$handle = fopen($new_file, 'w');
+		$handle = @fopen($new_file, 'w');
 		fwrite($handle, $stream);
 		curl_close($ch);
 		fclose($handle);
