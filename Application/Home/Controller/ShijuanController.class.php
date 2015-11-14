@@ -105,6 +105,31 @@ class ShijuanController extends GlobalController {
 		$this->assign('shijuan',$shijuan);
         $this->display();
 	}
+	public function test(){
+		Vendor('PhpWord.src.PhpWord.Autoloader');
+		\PhpOffice\PhpWord\Autoloader::register();
+		
+		// Creating the new document...
+		$phpWord = new \PhpOffice\PhpWord\PhpWord();
+		// Every element you want to append to the word document is placed in a section. So you need a section:
+		$section = $phpWord->addSection();
+		$section->addText('123');
+		$textrun = $section->createTextRun();
+		$textrun->addText('欧阿骚发啊啊 是是是');
+		$textrun->addText('水电费拉黑水电费说了东风科技水电费');
+		$objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');
+		//$objWriter->save('helloWorld.docx');
+		
+		//$objWriter->save(Yii::app()->params['exportToDir'].$filename.".docx");
+        header("Content-Description: File Transfer");
+        header('Content-Disposition: attachment; filename="高中数学.docx"');
+        //header("Content-Type: application/docx");
+        header('Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
+        header('Content-Transfer-Encoding: binary');
+        header("Cache-Control: public");
+        header('Expires: 0');
+        $objWriter->save("php://output");
+	}
 	/**
 	 * 生成word文件
 	 */
@@ -204,37 +229,52 @@ class ShijuanController extends GlobalController {
 				$childs = $this->_getTikuInfo($v['childs'],$o);
 				$last = $k;
 				$section->addText($oa[$k].'、'.$v['t_title'],array('size'=>13,'bold'=>true));
+				//break;
 				foreach($childs as $key=>$val){
-					$textrun = $section->createTextRun(array('widowControl'=>'true'));
-					$question = trim(strip_tags(htmlspecialchars_decode($val['content']),'<img>'));
+					$question = trim(strip_tags(htmlspecialchars_decode($val['content']),'<img><p><br />'));
 					$question = preg_replace('/(&nbsp;)*/','',$question);
-					$text_arr = preg_split('/<img[\s|\S]+>/U',$question);
-					$text_arr = preg_replace('/\n/','',$text_arr);
-					preg_match_all('/src="[\s|\S]+"/U',$question,$matchs);
-					//var_dump($matchs);exit;
-					if($matchs){
-						$img_arr = preg_replace('/(src="\/)|"/U','',$matchs[0]);
-						$i=0;
-						$text_count = count($text_arr);
-						$img_count = count($img_arr);
-						$textrun->addText($val['order_char'].'.',array('size'=>13));
-						while($i<$text_count){
-							//echo $text_arr[$i];exit;
-							$textrun->addText($text_arr[$i],array('size'=>13));
-							$textrun->addTextBreak();
-							if($i==$img_count) break;
-							$textrun->addImage($img_arr[$i]);
-							$i++;
+					$question_arr = preg_split('/<p[\s|\S]*>|<br \/>/U',$question);
+					//var_dump($question_arr);exit;
+					foreach($question_arr as $kk=>$vv){
+						//echo $vv;
+						$vv =strip_tags($vv,'<img>');
+						$order_char = '';
+						if($kk==0) $order_char = $val['order_char'].'.';
+						$textrun_name = 'textrun_'.$kk;
+						$$textrun_name = $section->createTextRun();
+						$text_arr = preg_split('/<img[\s|\S]+>/U',$vv);
+						$text_arr = preg_replace('/\n/','',$text_arr);
+						preg_match_all('/src="[\s|\S]+"/U',$vv,$matchs);
+						//var_dump($matchs);exit;
+						if(!empty($matchs[0])){
+							$img_arr = preg_replace('/(src="\/)|"/U','',$matchs[0]);
+							$i=0;
+							$text_count = count($text_arr);
+							$img_count = count($img_arr);
+							$$textrun_name->addText($order_char,array('size'=>13));
+							while($i<$text_count){
+								//echo $text_arr[$i];exit;
+								$$textrun_name->addText($text_arr[$i],array('size'=>13));
+								if($i==$img_count) break;
+								//echo $img_arr[$i];exit;
+								$$textrun_name->addImage($img_arr[$i]);
+								$i++;
+							}
+							
+						}else{
+							//echo $vv;
+							$section->addText($order_char.$vv,array('size'=>13));
 						}
-						
-					}else{
-						$section->addText($val['order_char'].'.'.$question,array('size'=>13));
+						//break;
 					}
-					$section->addTextBreak();
+					if(strpos($v['t_title'],'解答题')!==false){
+						$section->addTextBreak(10);
+					}
+					
 				}
 			}
 		}
-
+		//exit;
 		// At least write the document to webspace:
 		//$PHPWord_IOFactory = new \Vendor\PHPWord\PHPWord_IOFactory();
 		$objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');

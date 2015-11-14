@@ -14,7 +14,7 @@ class AddtikuController extends Controller {
 		$this->dir_path = 'Public/tikupics/';
 		$this->date = date('Ymd');
 		$this->course_id = 3;//数学
-		$this->cookies = 'jsessionid=53E359E4DABC0E42E238CE627E0562F0';
+		$this->cookies = 'jsessionid=82D4228F2AF5C5FDCE10174A6639FEFA';
 	}
     public function addtiku(){
         $content = $_POST['content'];
@@ -200,17 +200,13 @@ class AddtikuController extends Controller {
 		
 	}
 	public function test(){
-		$str = '<div class=Section1 style="layout-grid:15.6pt">
-
-
-
-<p class=MsoNormal align=left style="text-align:left"><span style="font-size:
+		$str = '<span style="font-size:
 
 11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">设<span lang=EN-US
 
 style="position:relative;top:2.0pt;mso-text-raise:-2.0pt"><img width=16 height=18
 
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image002.gif" v:shapes="Picture_x0020_57"></span>为非空实数集，若<span
+src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image002.gif" v:shapes="Picture_x0020_57"></span>为非空<br />实数集，若<span
 
 lang=EN-US style="position:relative;top:5.0pt;mso-text-raise:-5.0pt"><img width=66 height=22
 
@@ -274,7 +270,7 @@ src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files
 
 lang=EN-US style="position:relative;top:5.0pt;mso-text-raise:-5.0pt"><img width=54 height=22
 
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image015.gif" v:shapes="Picture_x0020_64"></span>为封闭集；<span
+src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image015.gif" v:shapes="Picture_x0020_64"></span>为封<br />闭集；<span
 
 lang=EN-US><o:p></o:p></span></span></p>
 
@@ -300,17 +296,11 @@ lang=EN-US><o:p></o:p></span></span>s</p>
 
 11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">其中正确结论的序号是<span
 
-lang=EN-US>____________</span>．<span lang=EN-US><o:p></o:p></span></span></p>
+lang=EN-US>____________</span>．<span lang=EN-US><o:p></o:p></span></span>
 
-
-
-
-
-
-
-</div>
 		';
-		
+		$arr = preg_split('/<p[\s|\S]*>|<br \/>/U',$str);
+		var_dump($arr);exit;
 		$str = preg_replace('/\s{2,}/',' ',$str);
 		echo $str;exit;
 		preg_match('/\s/',$str,$match);
@@ -399,9 +389,9 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 	 * 采集源：http://www.jtyhjy.com/sts/
 	 */
 	public function spider_tiku(){
-		$queTypeIds = 13648;//采集源题型ID
+		$queTypeIds = 13647;//采集源题型ID
 		$point_id = '2440912';
-		$type_id = 3;//本地题型ID
+		$type_id = 2;//本地题型ID
 		$is_xuanzheti = false;//如果是选择题，设置为true
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_HTTPHEADER, array("Cookie:$this->cookies"));
