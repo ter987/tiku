@@ -14,7 +14,7 @@ class AddtikuController extends Controller {
 		$this->dir_path = 'Public/tikupics/';
 		$this->date = date('Ymd');
 		$this->course_id = 3;//数学
-		$this->cookies = 'jsessionid=82D4228F2AF5C5FDCE10174A6639FEFA';
+		$this->cookies = 'jsessionid=4DF1728A82A17367FB9E23FCE9D356B9';
 	}
     public function addtiku(){
         $content = $_POST['content'];
@@ -200,105 +200,7 @@ class AddtikuController extends Controller {
 		
 	}
 	public function test(){
-		$str = '<span style="font-size:
-
-11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">设<span lang=EN-US
-
-style="position:relative;top:2.0pt;mso-text-raise:-2.0pt"><img width=16 height=18
-
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image002.gif" v:shapes="Picture_x0020_57"></span>为非空<br />实数集，若<span
-
-lang=EN-US style="position:relative;top:5.0pt;mso-text-raise:-5.0pt"><img width=66 height=22
-
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image004.gif" v:shapes="Picture_x0020_58"></span>，都有<span
-
-lang=EN-US style="position:relative;top:5.0pt;mso-text-raise:-5.0pt"><img width=188 height=23
-
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image006.gif" v:shapes="Picture_x0020_198"></span>，则称<span
-
-lang=EN-US style="position:relative;top:2.0pt;mso-text-raise:-2.0pt"><img width=16 height=18
-
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image002.gif" v:shapes="Picture_x0020_60"></span>为封闭集．<span
-
-lang=EN-US><o:p></o:p></span></span></p>
-
-
-
-<p class=MsoNormal align=left style="text-align:left"><span style="font-size:
-
-11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;
-
-color:black">①</span><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
-
-font-family:宋体;color:black">集合<span lang=EN-US style="position:relative;
-
-top:5.0pt;mso-text-raise:-5.0pt"><img width=141 height=22
-
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image009.gif" v:shapes="Picture_x0020_61"></span>为封闭集；<span
-
-lang=EN-US><o:p></o:p></span></span></p>
-
-
-
-<p class=MsoNormal align=left style="text-align:left"><span style="font-size:
-
-11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;
-
-color:black">②</span><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
-
-font-family:宋体;color:black">集合<span lang=EN-US style="position:relative;
-
-top:5.0pt;mso-text-raise:-5.0pt"><img width=144 height=22
-
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image011.gif" v:shapes="Picture_x0020_62"></span>为封闭集；<span
-
-lang=EN-US><o:p></o:p></span></span></p>
-
-
-
-<p class=MsoNormal align=left style="text-align:left"><span style="font-size:
-
-11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;
-
-color:black">③</span><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
-
-font-family:宋体;color:black">若集合<span lang=EN-US style="position:relative;
-
-top:5.0pt;mso-text-raise:-5.0pt"><img width=42 height=22
-
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image013.gif" v:shapes="Picture_x0020_63"></span>为封闭集，则<span
-
-lang=EN-US style="position:relative;top:5.0pt;mso-text-raise:-5.0pt"><img width=54 height=22
-
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image015.gif" v:shapes="Picture_x0020_64"></span>为封<br />闭集；<span
-
-lang=EN-US><o:p></o:p></span></span></p>
-
-
-
-<p class=MsoNormal align=left style="text-align:left"><span style="font-size:
-
-11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">④若<span
-
-lang=EN-US style="position:relative;top:2.0pt;mso-text-raise:-2.0pt"><img width=16 height=18
-
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image002.gif" v:shapes="Picture_x0020_65"></span>为封闭集，则一定有<span
-
-lang=EN-US style="position:relative;top:3.0pt;mso-text-raise:-3.0pt"><img width=38 height=18
-
-src="http://i.jtyhjy.com/hstsnew/stsdoc/2/02/quehtml/20151031/body16307271.files/image018.gif" v:shapes="Picture_x0020_66"></span>．<span
-
-lang=EN-US><o:p></o:p></span></span>s</p>
-
-
-
-<p class=MsoNormal align=left style="text-align:left"><span style="font-size:
-
-11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black">其中正确结论的序号是<span
-
-lang=EN-US>____________</span>．<span lang=EN-US><o:p></o:p></span></span>
-
-		';
+		
 		$arr = preg_split('/<p[\s|\S]*>|<br \/>/U',$str);
 		var_dump($arr);exit;
 		$str = preg_replace('/\s{2,}/',' ',$str);
@@ -389,9 +291,9 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 	 * 采集源：http://www.jtyhjy.com/sts/
 	 */
 	public function spider_tiku(){
-		$queTypeIds = 13647;//采集源题型ID
+		$queTypeIds = 13648;//采集源题型ID
 		$point_id = '2440912';
-		$type_id = 2;//本地题型ID
+		$type_id = 3;//本地题型ID
 		$is_xuanzheti = false;//如果是选择题，设置为true
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_HTTPHEADER, array("Cookie:$this->cookies"));
@@ -487,7 +389,8 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 				}
 				//过滤答案
 				$answer = $val['answerHtmlText'];
-				preg_match_all('/src="\S+"/i',$answer,$a_m);
+				preg_match_all('/src=["|\'][\s|\S]+["|\']/U',$answer,$a_m);
+				//var_dump($a_m);exit;
 				if($a_m){
 					$imgs = $a_m[0];
 					$imgs = preg_replace('/src=[\'|"]{1}/','',$imgs);
@@ -498,7 +401,7 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 						$answer = str_replace($vl,$new_file,$answer);
 					}
 				}
-				$answer = $val['answerHtmlText'];
+				//$answer = $val['answerHtmlText'];
 				//过滤题目
 				$content = $val['bodyHtmlText'];
 				preg_match_all('/src="\S+"/i',$content,$a_m);
@@ -578,7 +481,7 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 				$content = preg_replace('/<\/p>/','',$content,1);
 				//过滤解析
 				$analysis = trim($val['analysisHtmlText']);
-				preg_match_all('/src="\S+"/i',$analysis,$a_m);
+				preg_match_all('/src=["|\'][\s|\S]+["|\']/U',$analysis,$a_m);
 				if($a_m){
 					$imgs = $a_m[0];
 					$imgs = preg_replace('/src=[\'|"]{1}/','',$imgs);

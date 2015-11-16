@@ -9,6 +9,7 @@ class ShijuanController extends GlobalController {
 	function _initialize()
 	{
 		parent::_initialize();
+		$this->checkLogin();
 		$Tiku = A('Tiku');
 		$tiku_cart = $Tiku->_getTikuCart();
 		$this->assign('tiku_cart',$tiku_cart);
@@ -101,34 +102,11 @@ class ShijuanController extends GlobalController {
 		//var_dump($second_juan);
 		$shijuan['title'] = $_SESSION['shijuan']['title'];
 		$this->assign('first_juan',$first_juan);
+		$this->assign('shijuan_title',$_SESSION['shijuan']['title']);
+		$this->assign('shijuan_subtitle',$_SESSION['shijuan']['subtitle']);
 		$this->assign('second_juan',$second_juan);
 		$this->assign('shijuan',$shijuan);
         $this->display();
-	}
-	public function test(){
-		Vendor('PhpWord.src.PhpWord.Autoloader');
-		\PhpOffice\PhpWord\Autoloader::register();
-		
-		// Creating the new document...
-		$phpWord = new \PhpOffice\PhpWord\PhpWord();
-		// Every element you want to append to the word document is placed in a section. So you need a section:
-		$section = $phpWord->addSection();
-		$section->addText('123');
-		$textrun = $section->createTextRun();
-		$textrun->addText('欧阿骚发啊啊 是是是');
-		$textrun->addText('水电费拉黑水电费说了东风科技水电费');
-		$objWriter = \PhpOffice\PhpWord\IOFactory::createWriter($phpWord, 'Word2007');
-		//$objWriter->save('helloWorld.docx');
-		
-		//$objWriter->save(Yii::app()->params['exportToDir'].$filename.".docx");
-        header("Content-Description: File Transfer");
-        header('Content-Disposition: attachment; filename="高中数学.docx"');
-        //header("Content-Type: application/docx");
-        header('Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
-        header('Content-Transfer-Encoding: binary');
-        header("Cache-Control: public");
-        header('Expires: 0');
-        $objWriter->save("php://output");
 	}
 	/**
 	 * 生成word文件
@@ -143,8 +121,13 @@ class ShijuanController extends GlobalController {
 		// Creating the new document...
 		$phpWord = new \PhpOffice\PhpWord\PhpWord();
 		// Every element you want to append to the word document is placed in a section. So you need a section:
-		$section = $phpWord->addSection();
-		
+		$section = $phpWord->addSection(array('pageSizeW' => 11906,'pageSizeH'=>16838,'colsNum'=>2,'orientation'=>'landscape'));
+		//$section->getStyle()->setPageNumberingStart(1);
+		$footer = $section->addFooter();
+		//$footer->addText('第1页');
+		$footer->addPreserveText('第{PAGE}页(共{NUMPAGES}页).');
+		$header = $section->addHeader();
+		$header->addText('头部');
 		// You can directly style your text by giving the addText function an array:
 		$section->addText($_SESSION['shijuan']['title'], array( 'size'=>'15','bold'=>true),array('align' => 'center'));
 		$section->addText('满分：', array( 'size'=>'13'),array('align' => 'center'));
@@ -282,13 +265,45 @@ class ShijuanController extends GlobalController {
 		
 		//$objWriter->save(Yii::app()->params['exportToDir'].$filename.".docx");
         header("Content-Description: File Transfer");
-        header('Content-Disposition: attachment; filename="高中数学.docx"');
+        header('Content-Disposition: attachment; filename="'.$_SESSION['shijuan']['title'].'.docx"');
         //header("Content-Type: application/docx");
         header('Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document');
         header('Content-Transfer-Encoding: binary');
         header("Cache-Control: public");
         header('Expires: 0');
         $objWriter->save("php://output");
+	}
+	public function ajaxSave(){
+		$Model = M('user_shijuan');
+		if(isset($_SESSION['shijuan']['id'])){//更新数据库
+			$data['id'] = $_SESSION['shijuan']['id'];
+			$data['update_time'] = time();
+			$data['content'] = json_encode($_SESSION['shijuan']);
+			if($Model->data($data)->save()){
+				$this->ajaxReturn(array('status'=>'success','action'=>'update'));
+			}else{
+				$this->ajaxReturn(array('status'=>'error','action'=>'update'));
+			}
+		}else{//添加到数据库
+			$data['title'] = $_SESSION['shijuan']['title'];
+			$data['user_id'] = $_SESSION['user_id'];
+			$data['create_time'] = $data['update_time'] = time();
+			$data['content'] = json_encode($_SESSION['shijuan']);
+			if($id = $Model->add($data)){
+				$_SESSION['shijuan']['id'] = $id;
+				$this->ajaxReturn(array('status'=>'success','action'=>'add'));
+			}else{
+				$this->ajaxReturn(array('status'=>'error','action'=>'add'));
+			}
+		}
+		
+	}
+	public function ajaxDownload(){
+		if(isset($_SESSION['shijuan']['id'])){
+			$this->ajaxReturn(array('status'=>'success'));
+		}else{
+			$this->ajaxSave();
+		}
 	}
 	protected function _getTikuInfo($id_arr,&$o){
 		$Model = M('tiku');

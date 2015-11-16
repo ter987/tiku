@@ -220,6 +220,7 @@
 	<div class="clear">
 	</div>
 </div>
+<iframe id="down_iframe" src="" style="display:none;"></iframe>
 <!-- 右侧 试卷选项-->
 <div class="rightNav">
 	<div class="Nav_title">
@@ -302,9 +303,9 @@
 	<div id="save_sj" style="background:#fff;display:none;">
 		<div class="mbquesTxt" style="width:390px; height:220px;">
 			<ul class="mt">
-				<li><label>主标题：</label><textarea name="save_title" class="wh2">高中语文随堂练习-20151031</textarea></li>
-				<li><label>副标题：</label><textarea name="save_title1" class="wh2">高中语文</textarea></li>
-				<li><input type="button" class=" btn2 fine_save_paper" value="保 存"></li>
+				<li><label>主标题：</label><textarea name="save_title" class="wh2">{$shijuan_title}</textarea></li>
+				<li><label>副标题：</label><textarea name="save_title1" class="wh2">{$shijuan_subtitle}</textarea></li>
+				<li><input type="button" class=" btn2 fine_save_paper" id="save_shijuan" value="保 存"></li>
 			</ul>
 		</div>
 	</div>
@@ -312,9 +313,9 @@
 	<div id="down_sj" style="background:#fff;display:none;">
 		<div class="mbquesTxt" style="width:390px; height:220px;>
 			<ul class="mt">
-				<li><label>主标题：</label><textarea name="save_title" class="wh2">高中语文随堂练习-20151031</textarea></li>
-				<li><label>副标题：</label><textarea name="save_title1" class="wh2">高中语文</textarea></li>
-				<li><input type="button" class="btn2 fine_save_paper" value="下一步"></li>
+				<li><label>主标题：</label><textarea name="save_title" class="wh2">{$shijuan_title}</textarea></li>
+				<li><label>副标题：</label><textarea name="save_title1" class="wh2">{$shijuan_subtitle}</textarea></li>
+				<li><input type="button" class="btn2 fine_save_paper" id="download_shijuan" value="下载试卷"></li>
 			</ul>
 		</div>
 	</div>
@@ -372,6 +373,32 @@ $(function(){
 	//
 	
 })
+$('#save_shijuan').click(function(){
+	$.getJSON(
+		'/shijuan/ajaxSave',
+		'',
+		function(data){
+			if(data.status=='success'){
+				
+			}
+		}
+	);
+	
+	$('#save_sj').dialog("close");
+});
+$('#download_shijuan').click(function(){
+	$.getJSON(
+		'/shijuan/ajaxDownload',
+		'',
+		function(data){
+			if(data.status=='success'){
+				$('#down_iframe').attr('src','/shijuan/createtoword');
+			}
+		}
+	);
+	
+	$('#down_sj').dialog("close");
+});
 </script>
 <script>
 $(function(){

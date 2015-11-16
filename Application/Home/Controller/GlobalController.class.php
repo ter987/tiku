@@ -16,9 +16,7 @@ class GlobalController extends Controller{
 		$this->getCourse();
 	}
 	public function checkLogin(){
-		if(!empty($_SESSION['nick_name'])){
-			redirect('/member/');
-		}else{
+		if(empty($_SESSION['nick_name'])){
 			redirect('/member/login');
 		}
 	}

@@ -35,8 +35,10 @@ dia_log.prototype.check = function(){
 			height:"auto",
 			modal:true,
 			create: function(){
+				
 			},
 			beforeClose: function() {
+				
 				$('#datike').dialog("destroy");
 			}
 		});

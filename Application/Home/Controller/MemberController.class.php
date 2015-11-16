@@ -47,6 +47,7 @@ class MemberController extends GlobalController {
 			//var_dump($result);exit;
 			if($result){
 				$_SESSION['nick_name'] = $result['nick_name'];
+				$_SESSION['user_id'] = $result['id'];
 				redirect("/member/");
 			}else{
 				$error_msg = "登录邮箱/手机号或者密码错误!";
