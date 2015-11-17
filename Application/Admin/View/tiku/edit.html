@@ -53,6 +53,14 @@
 					</volist>
 				</select>
 				</span> </div>
+			<label class="form-label col-2"><span class="c-red">*</span>题型：</label>
+			<div class="formControls col-2"> <span class="select-box">
+				<select name="type_id" class="select" >
+					<volist name="type_data" id="vo">
+					<option value="{$vo.id}" <eq name="tiku_data.type_id" value="$vo.id">selected=""</eq>>{$vo.type_name}</option>
+					</volist>
+				</select>
+				</span> </div>
 			<label class="form-label col-2"><span class="c-red">*</span>知识点：</label>
 			<div class="formControls col-2"> <span class="select-box">
 				<select name="point_id" class="select" id="point_id">

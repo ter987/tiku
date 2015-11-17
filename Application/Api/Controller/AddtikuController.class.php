@@ -14,7 +14,7 @@ class AddtikuController extends Controller {
 		$this->dir_path = 'Public/tikupics/';
 		$this->date = date('Ymd');
 		$this->course_id = 3;//数学
-		$this->cookies = 'jsessionid=4DF1728A82A17367FB9E23FCE9D356B9';
+		$this->cookies = 'jsessionid=FAF53BBAC65313CDAB38F821FC46BCEB';
 	}
     public function addtiku(){
         $content = $_POST['content'];
@@ -291,10 +291,10 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 	 * 采集源：http://www.jtyhjy.com/sts/
 	 */
 	public function spider_tiku(){
-		$queTypeIds = 13648;//采集源题型ID
+		$queTypeIds = 13646;//采集源题型ID
 		$point_id = '2440912';
-		$type_id = 3;//本地题型ID
-		$is_xuanzheti = false;//如果是选择题，设置为true
+		$type_id = 1;//本地题型ID
+		$is_xuanzheti = true;//如果是选择题，设置为true
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_HTTPHEADER, array("Cookie:$this->cookies"));
 		curl_setopt($ch, CURLOPT_URL, "http://www.jtyhjy.com/sts/question_findQuestionPage.action");
@@ -492,6 +492,7 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 						$analysis = str_replace($vl,$new_file,$analysis);
 					}
 				}
+				$tiku['spider_id'] = $val['questionId'];
 				$tiku['answer'] = trim(htmlspecialchars($answer));
 				$tiku['content'] = htmlspecialchars($content);
 				$tiku['analysis'] = htmlspecialchars($analysis);

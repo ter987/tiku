@@ -121,7 +121,7 @@ class ShijuanController extends GlobalController {
 		// Creating the new document...
 		$phpWord = new \PhpOffice\PhpWord\PhpWord();
 		// Every element you want to append to the word document is placed in a section. So you need a section:
-		$section = $phpWord->addSection(array('pageSizeW' => 11906,'pageSizeH'=>16838,'colsNum'=>2,'orientation'=>'landscape'));
+		$section = $phpWord->addSection(array('pageSizeW' => 11906,'pageSizeH'=>16838,'colsNum'=>1,'orientation'=>'landscape'));
 		//$section->getStyle()->setPageNumberingStart(1);
 		$footer = $section->addFooter();
 		//$footer->addText('第1页');

@@ -89,6 +89,7 @@ class TikuController extends GlobalController {
 			$data['analysis'] = I('post.analysis');
 			$data['status'] = $_POST['status'];
 			$data['course_id'] = $_POST['course_id'];
+			$data['type_id'] = $_POST['type_id'];
 			$data['update_time'] = time();
 			$Model = M('tiku');
 			$result = $Model->save($data);
@@ -106,7 +107,7 @@ class TikuController extends GlobalController {
 		}else{
 			$tiku_id = $_GET['id'];
 			$Model = M('tiku');
-			$tiku_data = $Model->field(" tiku.`id`,tiku.difficulty_id,tiku_to_point.point_id,province.province_name,tiku.`content`,tiku.`clicks`,tiku.`status`,tiku.`answer`,tiku.`analysis`,tiku.`create_time`,tiku_source.course_id,tiku_source.source_name,tiku_source.course_id,year,tiku_source.grade,tiku_source.source_type_id,tiku_source.id as sid,tiku_source.wen_li")
+			$tiku_data = $Model->field(" tiku.`id`,tiku.difficulty_id,tiku.type_id,tiku_to_point.point_id,province.province_name,tiku.`content`,tiku.`clicks`,tiku.`status`,tiku.`answer`,tiku.`analysis`,tiku.`create_time`,tiku_source.course_id,tiku_source.source_name,tiku_source.course_id,year,tiku_source.grade,tiku_source.source_type_id,tiku_source.id as sid,tiku_source.wen_li")
 			->join("tiku_source on tiku.`source_id`=tiku_source.id")
 			->join("province on tiku_source.province_id=province.id")
 			->join("tiku_to_point on tiku_to_point.tiku_id=tiku.id")
@@ -116,10 +117,22 @@ class TikuController extends GlobalController {
 			$this->assign('point_html',$point_html);
 			$this->assign('tiku_data',$tiku_data);
 		}
+		$type_data = $this->getTypeByTikuId($tiku_data['course_id']);
+		$this->assign('type_data',$type_data);
 		$difficulty_data = $this->getTikuDifficulty();
 		$this->assign('difficulty_data',$difficulty_data);
 		
 		$this->display();
+	}
+	public function getTypeByTikuId($course_id){
+		$data = S('tiku_type_'.$course_id);
+		if(!$data){
+			$Model = M('tiku_type');
+			$data = $Model->field("tiku_type.`type_name`,tiku_type.`id`")->join("course_to_type on tiku_type.id=course_to_type.type_id")->where("course_to_type.course_id=$course_id")->select();
+
+			S('tiku_type_'.$course_id,$data,array('type'=>'file','expire'=>FILE_CACHE_TIME));
+		}
+		return $data;
 	}
 	/**
 	 * 获取题型

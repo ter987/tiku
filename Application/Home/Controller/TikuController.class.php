@@ -55,6 +55,7 @@ class TikuController extends GlobalController {
 		}
     	//获取题库类型
     	$_SESSION['course_id'] = $course_id;
+		$this->assign('course_id',$course_id);
     	$tiku_type = $this->getTikuType($course_id);
 		$this->assign('tiku_type',$tiku_type);
 		//获取题库难度系数

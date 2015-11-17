@@ -1,0 +1,180 @@
+<include file="common:header" />
+<!--main-->
+<div class="width">
+	<div class="tk_bg">
+		<!--标题-->
+        <div class="tit"><span> <a href="">题库</a> 〉<a href="">精品试卷</a></span>精品试卷</div>
+        
+        <!--小标-->
+        <ul class="sj_ul">
+        	<li style="width:194px;">&nbsp;&nbsp;&nbsp;&nbsp;科目：高中语文<div class="clear"></div>
+                <dl class="sub_ul">
+                      <dt><a href="">高中数学</a></dt>
+                      <dt><a href="">高中数学</a></dt>
+                </dl>
+            </li>
+            <li><a href="/tiku/c{$course_id}/">知识点选题</a></li>
+            <li><a href="">章节选题</a></li>
+            <li class="hover"><a href="/jingpin/c{$course_id}/">精品试卷</a></li>
+            <li><a href="">我的题库</a></li>
+        </ul>
+        
+        <div class="clear"></div>
+        
+        <div class="ss"><form><input type="button" class="btn"  value="搜索"/><input type="text" class="text" /></form></div>
+        
+        <!--快速搜索-->
+        <div id="quick_goods" class="mt20">
+            <ul>
+                <li class="fixed"><strong>年级：</strong></li>
+                <li>
+                    <dl>
+                        <dt class="hover"><a href="">全部</a></dt>
+                        <dt><a href="">高一</a></dt>
+                        <dt><a href="">高二</a></dt>
+                        <dt><a href="">高三</a></dt>
+               		 </dl>
+                </li>
+            </ul>
+            <div class="clear"></div>
+
+            <ul>
+                <li class="fixed"><strong>类型：</strong></li>
+                <li>
+                    <dl>
+                        <dt <eq name="feature_type_id" value="">class="hover"</eq>><a href="javascript:select_feature_type('r',0)">全部</a></dt>
+                        <volist name='tiku_feature_type' id='vo'>
+                        <dt <eq name="feature_type_id" value="$vo.id">class="hover"</eq>><a href="javascript:select_feature_type('r',{$vo.id})">{$vo.type_name}</a></dt>
+                        </volist>
+                    </dl>
+                </li>
+            </ul>
+            <div class="clear"></div>
+            
+            <ul>
+                <li class="fixed"><strong>年份：</strong></li>
+                <li>
+                    <dl>
+                        <dt class="hover"><a href="">全部</a></dt>
+                        <dt><a href="">2015年</a></dt>
+                        <dt><a href="">2014年</a></dt>
+                        <dt><a href="">2013年</a></dt>
+                        <dt><a href="">2012年</a></dt>
+                        <dt><a href="">2011年</a></dt>
+                        <dt><a href="">2010年</a></dt>
+                    </dl>
+                </li>
+            </ul>
+            <div class="clear"></div>
+                                                                                         
+            <ul>
+                <li class="fixed"><strong>地区：</strong></li>
+                <li>
+                    <dl>
+                        <dt class="hover"><a href="">全部</a></dt>
+                        <dt><a href="">不限</a></dt>
+                        <dt><a href="">北京</a></dt>
+                        <dt><a href="">上海</a></dt>
+                        <dt><a href="">天津</a></dt>
+                        <dt><a href="">重庆</a></dt>
+                        <dt><a href="">安徽</a></dt>
+                        <dt><a href="">甘肃</a></dt>
+                        <dt><a href="">广东</a></dt>
+                        <dt><a href="">广西</a></dt>
+                        <dt><a href="">贵州</a></dt>
+                        <dt><a href="">福建</a></dt>
+                        <dt><a href="">更多</a></dt>
+                        
+                    </dl>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        
+        <div id="quick_order">
+            <ul>
+                <li><a href="">排序：</a></li>
+                <li><a href="">最新<img src="__PUBLIC__/images/ico_down.gif" width="7" height="8"></a></li>
+                <li><a href="">难度<img src="__PUBLIC__/images/ico_down.gif" width="7" height="8"></a></li>
+                <li><a href="">使用频率<img src="__PUBLIC__/images/ico_down.gif" width="7" height="8"></a></li>
+                <li><a href="">好评<img src="__PUBLIC__/images/ico_down.gif" width="7" height="8"></a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        
+        <!--题库列表-->
+        <div class="clear"></div>
+        <ul class="tk_ul">
+        	<li>
+            	<div class="pic"><a href=""><img src="__PUBLIC__/images/tk.gif" /></a></div>
+        		<div class="text">
+                	<p><a href="" class="t_d">2015年高考真题——语文（山东卷）</a></p>
+                    <p>2015年高考真题——语文（山东卷）</p>
+                    <p class="f14 c9 mt10">贡献者：109138518&nbsp;&nbsp;
+                    上传时间：2015/6/19&nbsp;&nbsp;14：22：55&nbsp;&nbsp;下载38次</p>
+               </div>
+               <div class="pf">
+               		<div class="left mr10">评分：</div>
+                    <div class="left score5 dis mr10"></div>
+                    <div class="left">4.6分</div>
+               </div>
+           </li>
+           
+           <li>
+            	<div class="pic"><a href=""><img src="images/tk.gif" /></a></div>
+        		<div class="text">
+                	<p><a href="" class="t_d">2015年高考真题——语文（山东卷）</a></p>
+                    <p>2015年高考真题——语文（山东卷）</p>
+                    <p class="f14 c9 mt10">贡献者：109138518&nbsp;&nbsp;
+                    上传时间：2015/6/19&nbsp;&nbsp;14：22：55&nbsp;&nbsp;下载38次</p>
+               </div>
+               <div class="pf">
+               		<div class="left mr10">评分：</div>
+                    <div class="left score5 dis mr10"></div>
+                    <div class="left">4.6分</div>
+               </div>
+           </li>
+           
+           <li>
+            	<div class="pic"><a href=""><img src="images/tk.gif" /></a></div>
+        		<div class="text">
+                	<p><a href="" class="t_d">2015年高考真题——语文（山东卷）</a></p>
+                    <p>2015年高考真题——语文（山东卷）</p>
+                    <p class="f14 c9 mt10">贡献者：109138518&nbsp;&nbsp;
+                    上传时间：2015/6/19&nbsp;&nbsp;14：22：55&nbsp;&nbsp;下载38次</p>
+               </div>
+               <div class="pf">
+               		<div class="left mr10">评分：</div>
+                    <div class="left score5 dis mr10"></div>
+                    <div class="left">4.6分</div>
+               </div>
+           </li>
+           
+           <li>
+            	<div class="pic"><a href=""><img src="images/tk.gif" /></a></div>
+        		<div class="text">
+                	<p><a href="" class="t_d">2015年高考真题——语文（山东卷）</a></p>
+                    <p>2015年高考真题——语文（山东卷）</p>
+                    <p class="f14 c9 mt10">贡献者：109138518&nbsp;&nbsp;
+                    上传时间：2015/6/19&nbsp;&nbsp;14：22：55&nbsp;&nbsp;下载38次</p>
+               </div>
+               <div class="pf">
+               		<div class="left mr10">评分：</div>
+                    <div class="left score5 dis mr10"></div>
+                    <div class="left">4.6分</div>
+               </div>
+           </li>
+        </ul>
+        <div class="page">
+			<a href="##">上一页</a>
+			<a class="check" href="##">1</a>
+			<a href="##">2</a>
+			<a href="##">3</a>
+			<a href="##">4</a>
+			<a href="##">下一页</a>
+		</div>     
+    </div>
+</div>
+
+<!--footer-->
+<include file="common:footer" />
