@@ -333,7 +333,7 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 					$pattern_2 = "/\d{4}/";
 					$pattern_3 = "/高一|高二|高三/";
 					$pattern_4 = "/文科|理科/";
-					$pattern_5 = "/期中|期末|月考|模拟|高考真题/";
+					$pattern_5 = "/期中|期末|月考|模拟|单元|高考真题/";
 					$province_id = 0;
 					preg_match($pattern_1, $source_name,$m_1);
 					if($m_1){
@@ -368,8 +368,8 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 						}
 					}
 					$source_data['wen_li'] = $wen_li;
-					//试卷类型，1表示高考真题，2表示名校模拟，3表示月考试卷，4表示期中试卷，5表示期末试卷
-					$source_type_id = 0;
+					//试卷类型，1表示高考真题，2表示名校模拟，3表示月考试卷，4表示期中试卷，5表示期末试卷,6表示单元测试（默认）
+					$source_type_id = 6;
 					preg_match($pattern_5, $source_name,$m_5);
 					if($m_5){
 						if($m_5[0]=='期中') $source_type_id=4;
@@ -377,6 +377,7 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 						if($m_5[0]=='月考') $source_type_id=3;
 						if($m_5[0]=='模拟') $source_type_id=2;
 						if($m_5[0]=='高考真题') $source_type_id=1;
+						if($m_5[0]=='单元') $source_type_id=6;
 					}
 					$source_data['source_type_id'] = $source_type_id;
 					$source_data['source_name'] = $source_name;

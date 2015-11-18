@@ -66,25 +66,6 @@
 	    window.location.href = loc;
 	}
 	/* 选择试卷类型 **/
-	function select_feature_type(c,id){
-	    var href = window.location.href;
-	    var reg = /tiku\/(\w*)r(\d+)(\w*)(\/)/g;
-		
-		if(href.search(/\?p=\d+/)!=-1){
-			href = href.replace(/\?p=\d+/,'');
-		}
-	    if(href.search(reg)!=-1){
-	    	if(id==0){
-	    		var loc = href.replace(/r\d+/g,'');
-	    	}else{
-	        	var loc = href.replace(/r\d+/g,c+id);
-	       }
-	    }else{
-	        var loc = href.replace(/tiku\/(\w*)(\/)/g,'tiku/$1'+c+id+'/');
-	    }
-	    window.location.href = loc;
-	}
-	/* 选择试卷类型 **/
 	function select_wenli(c,id){
 	    var href = window.location.href;
 	    var reg = /tiku\/(\w*)w(\d+)(\w*)(\/)/g;
@@ -198,12 +179,12 @@
             <div class="clear"></div>
             
             <ul>
-                <li class="fixed"><strong>题目特点：</strong></li>
+                <li class="fixed"><strong>试卷类型：</strong></li>
                 <li>
                     <dl>                              
                         <dt <eq name="feature_id" value="">class="hover"</eq>><a href="javascript:select_feature('f',0)">全部</a></dt>
-                        <volist name='tiku_feature' id='vo'>
-                        <dt <eq name="feature_id" value="$vo.id">class="hover"</eq>><a href="javascript:select_feature('f',{$vo.id})">{$vo.feature_name}</a></dt>
+                        <volist name='source_type' id='vo'>
+                        <dt <eq name="feature_id" value="$vo.id">class="hover"</eq>><a href="javascript:select_feature('f',{$vo.id})">{$vo.type_name}</a></dt>
                         </volist>
                     </dl>
                 </li>
@@ -223,7 +204,7 @@
             </ul>
             <div class="clear"></div>
            </notempty>  
-            <notempty name="tiku_feature_type">
+<!--             <notempty name="tiku_feature_type">
             <ul>
                 <li class="fixed"><strong>试卷类型：</strong></li>
                 <li>
@@ -236,7 +217,7 @@
                 </li>
             </ul>
             <div class="clear"></div>
-           </notempty>                                                                              
+           </notempty>         -->                                                                      
             <notempty name="province_data">
             <ul>
                 <li class="fixed"><strong>地区：</strong></li>
@@ -447,67 +428,10 @@
 			});
 		}
 	);
-	function add_tiku(id,obj){
-		$.getJSON(
-			'/tiku/ajaxAddTiku',
-			{id:id},
-			function(data){
-				if(data.status=='success'){
-					var tips = '';
-					$.each(data.type_data,function(index,dom){
-						//alert(dom.id);
-						tips += '<li>'+dom.type_name+'(<span>'+dom.num+'</span>/'+dom.num+')</li>';
-					}
-						
-					);
-					
-				}
-				obj.html('移出试卷');
-				$('#wo_de_shi_juan').html(tips);
-			}
-		);
-	}
+
 </script>
 
 <!-- 右侧 试卷选项-->
-<div class="rightNav">
-	<div class="Nav_title">
-		<a href="" class="add1">再加点题</a><a href="" class="add2">再加点题</a>
-	</div>
-	<div class="txt">
-		<div class="fl" style="height:265px">
-			<div>
-				<a href="javascript:;" id="lock" rel="nofollow">点击收起</a>
-			</div>
-			<p>
-				我的试卷
-			</p>
-			<div style="color:#1887E3;cursor:pointer;position:absolute;left:7px;bottom:46px" class="sdfr2">
-				清空
-			</div>
-			<a style="" href="javascript:;" id="backTop">回顶</a>
-		</div>
-		<div class="fr" style="padding:15px 15px 46px">
-			<div style="min-height:215px;margin-bottom:20px;margin-left:3px">
-				<ul id="wo_de_shi_juan">
-					<volist name="tiku_cart" id="vo">
-					<li>{$vo.type_name}(<span>{$vo.num}</span>/{$vo.num})</li>
-					</volist>
-				</ul>
-				<div>
-					<a href="/shijuan/" class="btn btn3" id="mbsaveQues" rel="nofollow">生成试卷</a>
-					<div style="clear:both">
-					</div>
-				</div>
-			</div>
-			<div style="color:#333;font-size:12px;margin:0 auto;text-align:center;width:96px">
-				暂不支持迅雷下载
-			</div>
-			<div class="suggestion">
-				<a href="" target="_blank">问题反馈</a>
-			</div>
-		</div>
-	</div>
-</div>
+<include file="common:right" />
 
 <include file="common:footer" />

@@ -1,4 +1,93 @@
 <include file="common:header" />
+<script>
+	/* 选择题型   **/
+	function select_grade(c,id){
+	    var href = window.location.href;
+	    var reg = /jingpin\/(\w*)g(\d+)(\w*)(\/)/g;
+		
+		if(href.search(/\?p=\d+/)!=-1){
+			href = href.replace(/\?p=\d+/,'');
+		}
+	    if(href.search(reg)!=-1){
+	    	if(id==0){
+	    		var loc = href.replace(/g\d+/g,'');
+	    	}else{
+	        	var loc = href.replace(/g\d+/g,c+id);
+	       }
+	    }else{
+	        var loc = href.replace(/jingpin\/(\w*)(\/)/g,'jingpin/$1'+c+id+'/');
+	    }
+	    window.location.href = loc;
+	}
+
+	/* 选择题目特点 **/
+	function select_feature(c,id){
+	    var href = window.location.href;
+	    var reg = /jingpin\/(\w*)f(\d+)(\w*)(\/)/g;
+		
+		if(href.search(/\?p=\d+/)!=-1){
+			href = href.replace(/\?p=\d+/,'');
+		}
+		if(href.search(/r\d{1}/)!=-1){
+			href = href.replace(/r\d{1}/,'');
+		}
+		if(id==0){
+			href = href.replace(/a\d{1}/,'');
+			href = href.replace(/w\d{1}/,'');
+			href = href.replace(/y\d{4}/,'');
+		}
+	    if(href.search(reg)!=-1){
+	    	if(id==0){
+	    		var loc = href.replace(/f\d+/g,'');
+	    	}else{
+	        	var loc = href.replace(/f\d+/g,c+id);
+	       }
+	    }else{
+	        var loc = href.replace(/jingpin\/(\w*)(\/)/g,'jingpin/$1'+c+id+'/');
+	    }
+	    window.location.href = loc;
+	}
+
+	/* 选择试卷类型 **/
+	function select_year(c,id){
+	    var href = window.location.href;
+	    var reg = /jingpin\/(\w*)y(\d+)(\w*)(\/)/g;
+		
+		if(href.search(/\?p=\d+/)!=-1){
+			href = href.replace(/\?p=\d+/,'');
+		}
+	    if(href.search(reg)!=-1){
+	    	if(id==0){
+	    		var loc = href.replace(/y\d+/g,'');
+	    	}else{
+	        	var loc = href.replace(/y\d+/g,c+id);
+	       }
+	    }else{
+	        var loc = href.replace(/jingpin\/(\w*)(\/)/g,'jingpin/$1'+c+id+'/');
+	    }
+	    window.location.href = loc;
+	}
+	/* 选择地区 **/
+	function select_province(c,id){
+	    var href = window.location.href;
+	    var reg = /jingpin\/(\w*)a(\d+)(\w*)(\/)/g;
+		
+		if(href.search(/\?p=\d+/)!=-1){
+			href = href.replace(/\?p=\d+/,'');
+		}
+	    if(href.search(reg)!=-1){
+	    	if(id==0){
+	    		var loc = href.replace(/a\d+/g,'');
+	    	}else{
+	        	var loc = href.replace(/a\d+/g,c+id);
+	       }
+	    }else{
+	        var loc = href.replace(/jingpin\/(\w*)(\/)/g,'jingpin/$1'+c+id+'/');
+	    }
+	    window.location.href = loc;
+	}
+	
+</script>
 <!--main-->
 <div class="width">
 	<div class="tk_bg">
@@ -29,10 +118,10 @@
                 <li class="fixed"><strong>年级：</strong></li>
                 <li>
                     <dl>
-                        <dt class="hover"><a href="">全部</a></dt>
-                        <dt><a href="">高一</a></dt>
-                        <dt><a href="">高二</a></dt>
-                        <dt><a href="">高三</a></dt>
+                       <dt <eq name="grade" value="">class="hover"</eq>><a href="javascript:select_grade('g',0)">全部</a></dt>
+                        <volist name='grade_data' id='vo'>
+                        <dt <eq name="grade" value="$vo.id">class="hover"</eq>><a href="javascript:select_grade('g',{$vo.id})">{$vo.name}</a></dt>
+                        </volist>
                		 </dl>
                 </li>
             </ul>
@@ -42,9 +131,9 @@
                 <li class="fixed"><strong>类型：</strong></li>
                 <li>
                     <dl>
-                        <dt <eq name="feature_type_id" value="">class="hover"</eq>><a href="javascript:select_feature_type('r',0)">全部</a></dt>
-                        <volist name='tiku_feature_type' id='vo'>
-                        <dt <eq name="feature_type_id" value="$vo.id">class="hover"</eq>><a href="javascript:select_feature_type('r',{$vo.id})">{$vo.type_name}</a></dt>
+                        <dt <eq name="feature_id" value="">class="hover"</eq>><a href="javascript:select_feature('f',0)">全部</a></dt>
+                        <volist name='source_type' id='vo'>
+                        <dt <eq name="feature_id" value="$vo.id">class="hover"</eq>><a href="javascript:select_feature('f',{$vo.id})">{$vo.type_name}</a></dt>
                         </volist>
                     </dl>
                 </li>
@@ -55,14 +144,11 @@
                 <li class="fixed"><strong>年份：</strong></li>
                 <li>
                     <dl>
-                        <dt class="hover"><a href="">全部</a></dt>
-                        <dt><a href="">2015年</a></dt>
-                        <dt><a href="">2014年</a></dt>
-                        <dt><a href="">2013年</a></dt>
-                        <dt><a href="">2012年</a></dt>
-                        <dt><a href="">2011年</a></dt>
-                        <dt><a href="">2010年</a></dt>
-                    </dl>
+                       <dt <eq name="year" value="">class="hover"</eq>><a href="javascript:select_year('y',0)">全部</a></dt>
+                        <volist name='year_data' id='vo'>
+                        <dt <eq name="year" value="$vo.year">class="hover"</eq>><a href="javascript:select_year('y',{$vo.year})">{$vo.year}</a></dt>
+                        </volist>
+               		 </dl>
                 </li>
             </ul>
             <div class="clear"></div>
@@ -71,20 +157,10 @@
                 <li class="fixed"><strong>地区：</strong></li>
                 <li>
                     <dl>
-                        <dt class="hover"><a href="">全部</a></dt>
-                        <dt><a href="">不限</a></dt>
-                        <dt><a href="">北京</a></dt>
-                        <dt><a href="">上海</a></dt>
-                        <dt><a href="">天津</a></dt>
-                        <dt><a href="">重庆</a></dt>
-                        <dt><a href="">安徽</a></dt>
-                        <dt><a href="">甘肃</a></dt>
-                        <dt><a href="">广东</a></dt>
-                        <dt><a href="">广西</a></dt>
-                        <dt><a href="">贵州</a></dt>
-                        <dt><a href="">福建</a></dt>
-                        <dt><a href="">更多</a></dt>
-                        
+                        <dt <eq name="province_id" value="">class="hover"</eq>><a href="javascript:select_province('a',0)">全部</a></dt>
+                        <volist name='province_data' id='vo'>
+                        <dt <eq name="province_id" value="$vo.id">class="hover"</eq>><a href="javascript:select_province('a',{$vo.id})">{$vo.province_name}</a></dt>
+                        </volist>
                     </dl>
                 </li>
             </ul>
@@ -105,28 +181,15 @@
         <!--题库列表-->
         <div class="clear"></div>
         <ul class="tk_ul">
-        	<li>
-            	<div class="pic"><a href=""><img src="__PUBLIC__/images/tk.gif" /></a></div>
-        		<div class="text">
-                	<p><a href="" class="t_d">2015年高考真题——语文（山东卷）</a></p>
-                    <p>2015年高考真题——语文（山东卷）</p>
-                    <p class="f14 c9 mt10">贡献者：109138518&nbsp;&nbsp;
-                    上传时间：2015/6/19&nbsp;&nbsp;14：22：55&nbsp;&nbsp;下载38次</p>
-               </div>
-               <div class="pf">
-               		<div class="left mr10">评分：</div>
-                    <div class="left score5 dis mr10"></div>
-                    <div class="left">4.6分</div>
-               </div>
-           </li>
-           
+        <notempty name="source_data">
+           <volist name="source_data" id="vo">
            <li>
-            	<div class="pic"><a href=""><img src="images/tk.gif" /></a></div>
+            	<div class="pic"><a href="/jingpin/detail/{$vo.id}.html" target="_blank"><img src="__PUBLIC__/images/tk.gif" /></a></div>
         		<div class="text">
-                	<p><a href="" class="t_d">2015年高考真题——语文（山东卷）</a></p>
-                    <p>2015年高考真题——语文（山东卷）</p>
+                	<p><a href="/jingpin/detail/{$vo.id}.html" target="_blank" class="t_d">{$vo.source_name}</a></p>
+					<p></p>
                     <p class="f14 c9 mt10">贡献者：109138518&nbsp;&nbsp;
-                    上传时间：2015/6/19&nbsp;&nbsp;14：22：55&nbsp;&nbsp;下载38次</p>
+                    上传时间：{$vo.update_time|date='Y-m-d',###}&nbsp;&nbsp;14：22：55&nbsp;&nbsp;浏览{$vo.clicks}次</p>
                </div>
                <div class="pf">
                		<div class="left mr10">评分：</div>
@@ -134,47 +197,33 @@
                     <div class="left">4.6分</div>
                </div>
            </li>
-           
-           <li>
-            	<div class="pic"><a href=""><img src="images/tk.gif" /></a></div>
-        		<div class="text">
-                	<p><a href="" class="t_d">2015年高考真题——语文（山东卷）</a></p>
-                    <p>2015年高考真题——语文（山东卷）</p>
-                    <p class="f14 c9 mt10">贡献者：109138518&nbsp;&nbsp;
-                    上传时间：2015/6/19&nbsp;&nbsp;14：22：55&nbsp;&nbsp;下载38次</p>
-               </div>
-               <div class="pf">
-               		<div class="left mr10">评分：</div>
-                    <div class="left score5 dis mr10"></div>
-                    <div class="left">4.6分</div>
-               </div>
-           </li>
-           
-           <li>
-            	<div class="pic"><a href=""><img src="images/tk.gif" /></a></div>
-        		<div class="text">
-                	<p><a href="" class="t_d">2015年高考真题——语文（山东卷）</a></p>
-                    <p>2015年高考真题——语文（山东卷）</p>
-                    <p class="f14 c9 mt10">贡献者：109138518&nbsp;&nbsp;
-                    上传时间：2015/6/19&nbsp;&nbsp;14：22：55&nbsp;&nbsp;下载38次</p>
-               </div>
-               <div class="pf">
-               		<div class="left mr10">评分：</div>
-                    <div class="left score5 dis mr10"></div>
-                    <div class="left">4.6分</div>
-               </div>
-           </li>
+           </volist>
+        <else />
+        	<li style="background:#fff;">
+                    <div style="padding:30px 0px;">
+						<div class="jc_null">	
+						</div>
+					    <div class="jc_n_text">
+							<p>抱歉，暂时没有符合条件的试卷，我们将会尽快补充内容。请更换筛选条件。</p>
+						</div>
+					</div>					
+				</li>
+        </notempty>
         </ul>
+        <style>
+       	.current{
+       		background: #f43c5e none repeat scroll 0 0;
+		    border: 1px solid #f28700;
+		    color: #fff;
+		    font-weight: bold;
+		    padding: 6px 10px;
+       	}
+       </style>
         <div class="page">
-			<a href="##">上一页</a>
-			<a class="check" href="##">1</a>
-			<a href="##">2</a>
-			<a href="##">3</a>
-			<a href="##">4</a>
-			<a href="##">下一页</a>
+			{$page_show}
 		</div>     
     </div>
 </div>
-
+<include file="common:right" />
 <!--footer-->
 <include file="common:footer" />
