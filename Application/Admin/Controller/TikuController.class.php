@@ -91,6 +91,7 @@ class TikuController extends GlobalController {
 			$data['course_id'] = $_POST['course_id'];
 			$data['type_id'] = $_POST['type_id'];
 			$data['update_time'] = time();
+			$data['options'] = json_encode($_POST['options']);
 			$Model = M('tiku');
 			$result = $Model->save($data);
 			//echo $Model->getLastSql();exit;
@@ -107,7 +108,7 @@ class TikuController extends GlobalController {
 		}else{
 			$tiku_id = $_GET['id'];
 			$Model = M('tiku');
-			$tiku_data = $Model->field(" tiku.`id`,tiku.difficulty_id,tiku.type_id,tiku_to_point.point_id,province.province_name,tiku.`content`,tiku.`clicks`,tiku.`status`,tiku.`answer`,tiku.`analysis`,tiku.`create_time`,tiku_source.course_id,tiku_source.source_name,tiku_source.course_id,year,tiku_source.grade,tiku_source.source_type_id,tiku_source.id as sid,tiku_source.wen_li")
+			$tiku_data = $Model->field(" tiku.`id`,tiku.difficulty_id,tiku.options,tiku.content_old,tiku.type_id,tiku_to_point.point_id,province.province_name,tiku.`content`,tiku.`clicks`,tiku.`status`,tiku.`answer`,tiku.`analysis`,tiku.`create_time`,tiku_source.course_id,tiku_source.source_name,tiku_source.course_id,year,tiku_source.grade,tiku_source.source_type_id,tiku_source.id as sid,tiku_source.wen_li")
 			->join("tiku_source on tiku.`source_id`=tiku_source.id")
 			->join("province on tiku_source.province_id=province.id")
 			->join("tiku_to_point on tiku_to_point.tiku_id=tiku.id")
@@ -121,8 +122,15 @@ class TikuController extends GlobalController {
 		$this->assign('type_data',$type_data);
 		$difficulty_data = $this->getTikuDifficulty();
 		$this->assign('difficulty_data',$difficulty_data);
-		
+		$source_type_data = $this->getSourceType($tiku_data['course_id']);
+		//var_dump($source_type_data);
+		$this->assign('source_type_data',$source_type_data);
 		$this->display();
+	}
+	public function getSourceType($course_id){
+		$Model = M('source_type');
+		$data = $Model->field("source_type.*")->join("tiku_course on tiku_course.course_type=source_type.course_type")->where("tiku_course.id=$course_id")->select();
+		return $data;
 	}
 	public function getTypeByTikuId($course_id){
 		$data = S('tiku_type_'.$course_id);

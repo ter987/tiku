@@ -87,7 +87,9 @@ class TikusourceController extends GlobalController {
 		}
 		$province_data = $this->getProvinces();
 		$this->assign('province_data',$province_data);
-		
+		$source_type_data = $this->getSourceType($tiku_data['course_id']);
+		//var_dump($source_type_data);
+		$this->assign('source_type_data',$source_type_data);
 		$this->display();
 	}
 	public function add(){
@@ -98,6 +100,11 @@ class TikusourceController extends GlobalController {
 			$this->assign('province_data',$province_data);
 			$this->display();
 		}
+	}
+	public function getSourceType($course_id){
+		$Model = M('source_type');
+		$data = $Model->field("source_type.*")->join("tiku_course on tiku_course.course_type=source_type.course_type")->where("tiku_course.id=$course_id")->select();
+		return $data;
 	}
 	/**
 	 * 获取地区

@@ -14,7 +14,7 @@ class AddtikuController extends Controller {
 		$this->dir_path = 'Public/tikupics/';
 		$this->date = date('Ymd');
 		$this->course_id = 3;//数学
-		$this->cookies = 'jsessionid=98A185A77CA53DDD9D1D61F1EB6D4A66';
+		$this->cookies = 'jsessionid=023E341D6424A51A95E7907DD2BF85A4';
 	}
     public function addtiku(){
         $content = $_POST['content'];
@@ -398,6 +398,9 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 						$answer = str_replace($vl,$new_file,$answer);
 					}
 				}
+				if($is_xuanzheti){
+					$answer = trim(strip_tags($answer));
+				}
 				//$answer = $val['answerHtmlText'];
 				//过滤题目
 				$content = $val['bodyHtmlText'];
@@ -426,18 +429,18 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 			
 					if(!$result){ if(preg_match('/A(．|\.){1}[\s|\S]+\n/U',$str,$match)){}else{preg_match('/（A）[\s|\S]+（B）/U',$str,$match);$match[0] = preg_replace('/（A）|（B）/','',$match[0]);}}
 					//var_dump($match);exit;
-					$a = preg_replace('/A．|A\.|B．|B\.|&nbsp;/','',$match[0]);
+					$a = trim(preg_replace('/A．|A\.|B．|B\.|&nbsp;/','',$match[0]));
 					//echo $a;exit;
 					$result = preg_match('/B(．|\.){1}[^\n]+C(．|\.)/',$str,$match);
 					if(!$result){ if(preg_match('/B(．|\.){1}[\s|\S]+\n/U',$str,$match)){}else{preg_match('/（B）[\s|\S]+（C）/U',$str,$match);$match[0] = preg_replace('/（B）|（C）/','',$match[0]);}}
 					//var_dump($match);exit;
-					$b = preg_replace('/B．|B\.|C．|C\.|&nbsp;/i','',$match[0]);
+					$b = trim(preg_replace('/B．|B\.|C．|C\.|&nbsp;/i','',$match[0]));
 					$result = preg_match('/C(．|\.){1}[^\n]+D(．|\.)/',$str,$match);
 					if(!$result){ if(preg_match('/C(．|\.){1}[\s|\S]+\n/U',$str,$match)){}else{preg_match('/（C）[\s|\S]+（D）/U',$str,$match);$match[0] = preg_replace('/（C）|（D）/','',$match[0]);}}
-					$c = preg_replace('/C．|C\.|D．|D\.|&nbsp;/i','',$match[0]);
+					$c = trim(preg_replace('/C．|C\.|D．|D\.|&nbsp;/i','',$match[0]));
 					$result = preg_match('/&nbsp;\s*D(．|\.){1}[\s|\S]+/i',$str,$match);
 					if(!$result){ if(preg_match('/D(．|\.){1}[\s|\S]+/i',$str,$match)){}else{preg_match('/（D）[\s|\S]+/',$str,$match);$match[0] = preg_replace('/（D）/','',$match[0]);}}
-					$d = preg_replace('/D．|D\.|&nbsp;/i','',$match[0]);
+					$d = trim(preg_replace('/D．|D\.|&nbsp;/i','',$match[0]));
 					$option_arr = array(0=>$a,1=>$b,2=>$c,3=>$d);
 					if(!empty($a) || !empty($b) || !empty($c) || !empty($d)){
 						$tiku['options'] = json_encode($option_arr);
@@ -489,7 +492,8 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 						$analysis = str_replace($vl,$new_file,$analysis);
 					}
 				}
-				$tiku['spider_id'] = $val['questionId'];
+				
+				$tiku['spider_code'] = $val['questionId'];
 				$tiku['answer'] = trim(htmlspecialchars($answer));
 				$tiku['content'] = htmlspecialchars($content);
 				$tiku['analysis'] = htmlspecialchars($analysis);
@@ -506,7 +510,23 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 			}
 			$page++;
 		}
-		echo $page_num.' Pages,'.$total.' Totals Spider Success!';
+		echo $page_num.' Pages,'.$total.' Totals Spider Success!Then Check The Chapter Id!';
+		$this->checkChapter();
+	}
+	public function checkChapter(){
+		$tikuModel = M('tiku');
+		$matchingModel = M('matching');
+		$count = $tikuModel->where("chapter_id=''")->count();
+		for($i=0;$i<$count;$i++){
+			$result = $tikuModel->where("chapter=''")->find();
+			$_result = $matchingModel->where("spider_code=".$result['spider_code'])->find();
+			if($_result){
+				$data['chapter_id'] = $_result['chapter_id'];
+				$tikuModel->data()->where("id=".$result['id'])->save();
+			}
+			
+		}
+		echo 'Check Chapter Success!';
 	}
 	/**
 	 * 采集知识点
@@ -611,7 +631,7 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 				$ch = curl_init();
 				curl_setopt($ch, CURLOPT_HTTPHEADER, array("Cookie:$this->cookies"));
 				curl_setopt($ch, CURLOPT_URL, "http://www.jtyhjy.com/sts/question_findQuestionPage.action");
-				curl_setopt($ch, CURLOPT_POSTFIELDS, array('difficults'=>'1,2,3,4,5','disciplineCode'=>'2','disciplineId'=>'21','disciplineType'=>'2','flag'=>'2','paragradphIds'=>$v['spider_id'],'page'=>1,'queTypeIds'=>'13646,13647,13648','rows'=>'10'));
+				curl_setopt($ch, CURLOPT_POSTFIELDS, array('difficults'=>'1,2,3,4,5','disciplineCode'=>'2','disciplineId'=>'21','disciplineType'=>'2','flag'=>'2','paragradphIds'=>$v['spider_id'],'page'=>$page,'queTypeIds'=>'13646,13647,13648','rows'=>'10'));
 				curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 				$data = curl_exec($ch);
 				$data = json_decode($data,true);

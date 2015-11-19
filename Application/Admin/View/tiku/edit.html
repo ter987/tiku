@@ -32,6 +32,36 @@
 				<script id="editor" name="content" type="text/plain"> {$tiku_data.content|htmlspecialchars_decode}</script> 
 			</div>
 		</div>
+
+					<php>
+                    		if($tiku_data['options']){
+                    			$options = json_decode($tiku_data['options']);
+                    			$options_index = array(0=>'A',1=>'B',2=>'C',3=>'D',4=>'E');
+                    	</php>
+                    	<div class="row cl">
+						<label class="form-label col-2"><span class="c-red">*</span>选项：</label>
+						<div class="formControls col-10">
+							<table>
+                    		<php>
+                    			$k = 0;
+                    			foreach($options as $k=>$val){
+                    		</php>
+                    			<tr><td width="10%"><php>echo $options_index[$k]</php></td><td width="70%" onkeyup="$(this).next().html($(this).children().val());"><textarea cols="100" name="options[]"> <php>echo $val</php> </textarea></td><td width="20%"><php>echo $val</php></td></tr>
+                    		<php>
+                    			}
+                    		</php>
+			                    	</table>
+							</div>
+						</div>
+                    	<php>
+                    	}
+                    	</php>
+        <div class="row cl">
+			<label class="form-label col-2">源题目：</label>
+			<div class="formControls col-10">
+				<script id="content_old" name="content_old" type="text/plain"> {$tiku_data.content_old|htmlspecialchars_decode}</script> 
+			</div>
+		</div>           	
 		<div class="row cl">
 			<label class="form-label col-2">答案：</label>
 			<div class="formControls col-10">
@@ -98,7 +128,12 @@
 			</div>
 			<label class="form-label col-2">试卷类型：</label>
 			<div class="formControls col-1">
-				<input type="text" class="input-text" disabled="" value="<if condition="$tiku_data.source_type_id eq 1">高考真题<elseif condition="$tiku_data.grade eq 2"/>名校模拟<elseif condition="3"/>月考试卷<elseif condition="4"/>期中试卷<elseif condition="5"/>期末试卷</if>" placeholder="" id="" name="">
+				<select name="source_type_id" class="select" disabled="">
+					<volist name="source_type_data" id="vo">
+					<option value="1" <eq name="tiku_data.source_type_id" value="$vo.id">selected=""</eq>>{$vo.type_name}</option>
+					</volist>
+				</select>
+				
 			</div>
 			<label class="form-label col-2">文理：</label>
 			<div class="formControls col-1">
@@ -253,6 +288,7 @@ $(function(){
 	var ue = UE.getEditor('editor');
 	var ue = UE.getEditor('answer');
 	var ue = UE.getEditor('analysis');
+	var ue = UE.getEditor('content_old');
 	
 });
 
