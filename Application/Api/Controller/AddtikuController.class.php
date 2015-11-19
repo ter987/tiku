@@ -14,7 +14,7 @@ class AddtikuController extends Controller {
 		$this->dir_path = 'Public/tikupics/';
 		$this->date = date('Ymd');
 		$this->course_id = 3;//数学
-		$this->cookies = 'jsessionid=FAF53BBAC65313CDAB38F821FC46BCEB';
+		$this->cookies = 'jsessionid=98A185A77CA53DDD9D1D61F1EB6D4A66';
 	}
     public function addtiku(){
         $content = $_POST['content'];
@@ -194,10 +194,6 @@ class AddtikuController extends Controller {
 		}
 		
 		//var_dump($result);
-	}
-	public function addPoint(){
-		$type_id = $_POST['point_data'];
-		
 	}
 	public function test(){
 		
@@ -591,6 +587,118 @@ style='font-size:11.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;color:black
 			}
 		}
 		echo 'Spider Success!';
+	}
+	/**
+	 * 根据章节id采集题目编号
+	 */
+	public function spider_code(){
+		$chapterModel = M('chapter');
+		$matchingModel = M('matching');
+		$chapter_data = $chapterModel->field("chapter.*")->join("books ON chapter.`book_id`=books.`id`")->join("version ON version.`id`=books.`version_id`")->where("version.`course_id`=$this->course_id AND chapter.`parent_id`<>0")->select();
+		//var_dump($chapter_data);exit;
+		foreach($chapter_data as $v){
+			$ch = curl_init();
+			curl_setopt($ch, CURLOPT_HTTPHEADER, array("Cookie:$this->cookies"));
+			curl_setopt($ch, CURLOPT_URL, "http://www.jtyhjy.com/sts/question_findQuestionPage.action");
+			curl_setopt($ch, CURLOPT_POSTFIELDS, array('difficults'=>'1,2,3,4,5','disciplineCode'=>'2','disciplineId'=>'21','disciplineType'=>'2','flag'=>'2','paragradphIds'=>$v['spider_id'],'page'=>1,'queTypeIds'=>'13646,13647,13648','rows'=>'10'));
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+			$data = curl_exec($ch);
+			$data = json_decode($data,true);
+			$total = $data['data']['questionList']['total'];
+			$page_num = ceil($total/10);
+			$page=1;
+			while($page<=$page_num){
+				$ch = curl_init();
+				curl_setopt($ch, CURLOPT_HTTPHEADER, array("Cookie:$this->cookies"));
+				curl_setopt($ch, CURLOPT_URL, "http://www.jtyhjy.com/sts/question_findQuestionPage.action");
+				curl_setopt($ch, CURLOPT_POSTFIELDS, array('difficults'=>'1,2,3,4,5','disciplineCode'=>'2','disciplineId'=>'21','disciplineType'=>'2','flag'=>'2','paragradphIds'=>$v['spider_id'],'page'=>1,'queTypeIds'=>'13646,13647,13648','rows'=>'10'));
+				curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+				$data = curl_exec($ch);
+				$data = json_decode($data,true);
+				$tikus = $data['data']['questionList']['rows'];
+				foreach($tikus  as $val){
+					$result = $matchingModel->where("spider_code=".$val['questionId'])->find();
+					if(!$result){
+						$matching_data['spider_code'] = $val['questionId'];
+						$matching_data['chapter_id'] = $v['id'];
+						$matchingModel->data($matching_data)->add();
+					}
+				}
+				$page++;
+			}
+		}
+		echo 'Spider Sucess!';
+	}
+	/**
+	 * 采集章节
+	 * 采集源：http://www.jtyhjy.com/sts/
+	 */
+	public function spider_chapter(){
+		$versionModel = M('version');
+		$version_data = $versionModel->where("course_id=".$this->course_id)->select();
+		foreach($version_data as $ver){
+			$ch = curl_init();
+			curl_setopt($ch, CURLOPT_HTTPHEADER, array("Cookie:$this->cookies"));
+			curl_setopt($ch, CURLOPT_URL, "http://www.jtyhjy.com/sts/version_changeVersionForChapter.action");
+			curl_setopt($ch, CURLOPT_POSTFIELDS, array('disciplineCode'=>'2','disciplineId'=>'21','disciplineType'=>'2','versionId'=>$ver['spider_id']));
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+			$data = curl_exec($ch);
+			$data = json_decode($data,true);
+			$book_arr = $data['data']['bookList'];
+			//var_dump($book_arr);exit;
+			$bookModel = M('books');
+			$chapterModel = M('chapter');
+			foreach($book_arr as $val){
+				$book_data['book_name'] = trim($val['bookName']);
+				$book_data['spider_id'] = trim($val['bookId']);
+				$book_data['version_id'] = $ver['id'];
+				$result = $bookModel->where("spider_id=".$val['bookId'])->find();
+				if(!$result){
+					$book_id = $bookModel->add($book_data);
+					$book_spider_id = $val['bookId'];
+				}else{
+					$book_id = $result['book_id'];
+					$book_spider_id = $result['spider_id'];
+				}
+				//通过书本ID获取章节
+				$ch = curl_init();
+				curl_setopt($ch, CURLOPT_HTTPHEADER, array("Cookie:$this->cookies"));
+				curl_setopt($ch, CURLOPT_URL, "http://www.jtyhjy.com/sts/book_changeBookForChapter.action");
+				curl_setopt($ch, CURLOPT_POSTFIELDS, array('disciplineCode'=>'2','disciplineId'=>'21','disciplineType'=>'2','bookId'=>$book_spider_id));
+				curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+				$data = curl_exec($ch);
+				$data = json_decode($data,true);
+				$chapter_arr = $data['data']['chapterList'];
+				$chapter_data = array();
+				foreach($chapter_arr as $v){
+					$chapter_data['chapter_name'] = $v['chapterName'];
+					$chapter_data['parent_id'] = 0;
+					$chapter_data['spider_id'] = $v['chapterId'];
+					$chapter_data['book_id'] = $book_id;
+					$_result = $chapterModel->where("spider_id=".$v['chapterId'])->find();
+					if(!$_result){
+						$chapter_id = $chapterModel->add($chapter_data);
+					}else{
+						$chapter_id = $_result['id'];
+					}
+					if(!empty($v['paragraphVoList'])){
+						foreach($v['paragraphVoList'] as $vv){
+							$_chapter_data['chapter_name'] = $vv['paragraphName'];
+							$_chapter_data['parent_id'] = $chapter_id;
+							$_chapter_data['spider_id'] = $vv['paragraphId'];
+							$_chapter_data['book_id'] = $book_id;
+							$_result_2 = $chapterModel->where("spider_id=".$vv['paragraphId'])->find();
+							if(!$_result_2){
+								$_chapter_id = $chapterModel->add($_chapter_data);
+							}else{
+								$_chapter_id = $_result_2['id'];
+							}
+						}
+					}
+				}
+			}
+		}
+		echo 'Spider Sucess!';
 	}
 	public function downFile($file_path)
 	{	
